@@ -5,7 +5,7 @@
     "excompressum:compressed_gravel": false,
     "excompressum:compressed_sand": false,
     "excompressum:compressed_netherrack": false,
-    "excompressum:compressed_end_stone": true,
+    "excompressum:compressed_end_stone": false,
     "ExtraUtils2:CompressedCobblestone": true,
     "ExtraUtils2:CompressedGravel": true,
     "ExtraUtils2:CompressedSand": true,
@@ -15,50 +15,11 @@
     "__comment": "You can define additional blocks to be hammered by Compressed Hammers here. Use * as a wildcard for metadata. Use prefix ore: in name to query the Ore Dictionary.",
     "entries": [
       {
-        "name": "extrautils2:compressedcobblestone",
-        "metadata": "0",
+        "name": "",
+        "metadata": "*",
         "rewards": [
           {
-            "name": "extrautils2:compresseddirt",
-            "count": 1,
-            "metadata": "0",
-            "chance": 1.0,
-            "luck": 0.0
-          }
-        ]
-      },
-      {
-        "name": "extrautils2:compresseddirt",
-        "metadata": "0",
-        "rewards": [
-          {
-            "name": "extrautils2:compressedgravel",
-            "count": 1,
-            "metadata": "0",
-            "chance": 1.0,
-            "luck": 0.0
-          }
-        ]
-      },
-      {
-        "name": "extrautils2:compressedgravel",
-        "metadata": "0",
-        "rewards": [
-          {
-            "name": "extrautils2:compressedsand",
-            "count": 1,
-            "metadata": "0",
-            "chance": 1.0,
-            "luck": 0.0
-          }
-        ]
-      },
-      {
-        "name": "extrautils2:compressedsand",
-        "metadata": "0",
-        "rewards": [
-          {
-            "name": "excompressum:compressed_block",
+            "name": "",
             "count": 1,
             "metadata": "0",
             "chance": 1.0,

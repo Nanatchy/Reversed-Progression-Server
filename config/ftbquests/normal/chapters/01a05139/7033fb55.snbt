@@ -5,20 +5,15 @@
 		"a4f1b7eb"
 	],
 	tasks: [{
-		uid: "f5607ee5",
+		uid: "3ee63633",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "ceramics:clay_bucket",
-			tag: {
-				fluids: {
-					FluidName: "water",
-					Amount: 1000
-				}
-			}
+			id: "minecraft:water_bucket"
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

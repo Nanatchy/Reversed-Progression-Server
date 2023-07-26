@@ -97,9 +97,6 @@ vivid_alloy                                       (enderio:block_fluid_vivid_all
 fierymetal                                        (twilightforest:molten_fierymetal)                                               = Molten Fiery
 knightmetal                                       (twilightforest:molten_knightmetal)                                              = Molten Knightmetal
 fiery_essence                                     (twilightforest:fiery_essence)                                                   = Fiery Essence
-xu_evil_metal                                     ([no block])                                                                     = Evil Infused Iron
-xu_enchanted_metal                                ([no block])                                                                     = Enchanted Metal
-xu_demonic_metal                                  ([no block])                                                                     = Molten Demon Metal
 molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = Molten Blood Infused Iron
 molten_porcelainclay                              (contenttweaker:molten_porcelainclay)                                            = Molten Porcelain Clay
 molten_driedbrick                                 (contenttweaker:molten_driedbrick)                                               = Molten Dried Brick
@@ -130,6 +127,9 @@ gas_dwarf                                         ([no block])                  
 dawnstone                                         (embers:dawnstone)                                                               = Molten Dawnstone
 alchemical_redstone                               (embers:alchemical_redstone)                                                     = Alchemical Slurry
 witchwater                                        (exnihilocreatio:witchwater)                                                     = Witchwater
+xu_evil_metal                                     ([no block])                                                                     = Evil Infused Iron
+xu_enchanted_metal                                ([no block])                                                                     = Enchanted Metal
+xu_demonic_metal                                  ([no block])                                                                     = Molten Demon Metal
 plantoil                                          (immersiveengineering:fluidplantoil)                                             = Plant Oil
 ethanol                                           (immersiveengineering:fluidethanol)                                              = Ethanol
 biodiesel                                         (immersiveengineering:fluidbiodiesel)                                            = Biodiesel
@@ -176,6 +176,7 @@ xpjuice                                           ([no block])                  
 liquid_sunshine                                   (enderio:block_fluid_liquid_sunshine)                                            = Liquid Sunshine
 cloud_seed                                        (enderio:block_fluid_cloud_seed)                                                 = Cloud Seed
 cloud_seed_concentrated                           (enderio:block_fluid_cloud_seed_concentrated)                                    = Concentrated Cloud Seed
+lifeessence                                       (bloodmagic:life_essence)                                                        = Life Essence
 stone                                             (tconstruct:molten_stone)                                                        = Seared Stone
 obsidian                                          (tconstruct:molten_obsidian)                                                     = Molten Obsidian
 clay                                              (tconstruct:molten_clay)                                                         = Molten Clay
@@ -185,6 +186,5 @@ glass                                             (tconstruct:molten_glass)     
 blood                                             (tconstruct:blood)                                                               = Blood
 blueslime                                         (tconstruct:blueslime)                                                           = Liquid Blue Slime
 purpleslime                                       (tconstruct:purpleslime)                                                         = Liquid Purple Slime
-lifeessence                                       (bloodmagic:life_essence)                                                        = Life Essence
 refined_life_essence                              (bloodarsenal:refined_life_essence)                                              = Refined Life Essence
 astralsorcery.liquidstarlight                     (astralsorcery:fluidblockliquidstarlight)                                        = Liquid Starlight

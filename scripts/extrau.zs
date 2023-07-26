@@ -58,3 +58,26 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:passivegenerator:8
 	[<ore:netherStar>, <mysticalagradditions:dragon_egg_essence>, <mysticalagradditions:dragon_egg_essence>, <mysticalagradditions:dragon_egg_essence>, <ore:netherStar>], 
 	[<extrautils2:passivegenerator:5>, <ore:netherStar>, <ore:eyeofredstone>, <ore:netherStar>, <extrautils2:passivegenerator:4>]
 ]);
+
+//Machine block
+recipes.remove(<extrautils2:machine>);
+recipes.addShaped(<extrautils2:machine>, [
+    [<pneumaticcraft:ingot_iron_compressed>, <enderio:item_alloy_ingot:3>, <pneumaticcraft:ingot_iron_compressed>],
+    [<enderio:item_alloy_ingot:3>, <actuallyadditions:block_giant_chest_large>, <enderio:item_alloy_ingot:3>],
+    [<pneumaticcraft:ingot_iron_compressed>, <enderio:item_alloy_ingot:3>, <pneumaticcraft:ingot_iron_compressed>]
+]);
+
+//Resonator
+recipes.remove(<extrautils2:resonator>);
+recipes.addShaped(<extrautils2:resonator>, [
+    [<immersiveengineering:wirecoil:5>, <mysticalagriculture:coal_block>, <immersiveengineering:wirecoil:5>],
+    [<minecraft:iron_ingot>, <extrautils2:ingredients>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
+
+/* Angel Ring */
+recipes.remove(<extrautils2:angelring:5>);
+recipes.remove(<extrautils2:angelring:4>);
+recipes.remove(<extrautils2:angelring:3>);
+recipes.remove(<extrautils2:angelring:2>);
+recipes.remove(<extrautils2:angelring:1>);

@@ -235,3 +235,10 @@ recipes.addShaped(<rebornstorage:storagepart:7>, [
     [<rebornstorage:storagepart:6>, <botania:openbucket>, <rebornstorage:storagepart:6>],
     [advProc, <rebornstorage:storagepart:6>, advProc]
 ]);
+
+//Enriched Iron
+recipes.remove(qeiIngot);
+recipes.addShaped(qeiIngot * 4, [
+    [<extrautils2:ingredients:17>, <extrautils2:ingredients:17>],
+    [<extrautils2:ingredients:17>, <actuallyadditions:item_misc:5>]
+]);

@@ -54,7 +54,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockinputbus 1 4"
-		}]
+		}],
+		count: 2L
 	},
 	{
 		uid: "9fdad17c",

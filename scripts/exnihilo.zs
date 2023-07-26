@@ -1,7 +1,7 @@
 import mods.exnihilocreatio.Sieve.addStringMeshRecipe as mesh;
-import mods.exnihilocreatio.Sieve.addDiamondMeshRecipe as diamondMesh;
 import mods.exnihilocreatio.Sieve.addFlintMeshRecipe as flintMesh;
 import mods.exnihilocreatio.Sieve.addIronMeshRecipe as ironMesh;
+import mods.exnihilocreatio.Sieve.addDiamondMeshRecipe as diamondMesh;
 import mods.exnihilocreatio.Hammer.addRecipe as hammer;
 import mods.exnihilocreatio.Heat.addRecipe as heat;
 
@@ -18,10 +18,10 @@ hammer(<ore:stoneGranite>, <exnihilocreatio:block_granite_crushed>, 0, 1, 0); //
 hammer(<ore:stoneDiorite>, <exnihilocreatio:block_diorite_crushed>, 0, 1, 0); //Diorite to Crushed
 
 //Compressed
-/*hammer(<extrautils2:compressedcobblestone>, <extrautils2:compresseddirt>, 0, 1, 0); //Cobble to Dirt
-hammer(<extrautils2:compresseddirt>, <extrautils2:compressedgravel>, 0, 1, 0); //Dirt to Gravel
-hammer(<extrautils2:compressedgravel>, <extrautils2:compressedsand>, 0, 1, 0); //Gravel to Sand
-hammer(<extrautils2:compressedsand>, <exnihilocreatio:block_dust> * 9, 0, 1, 0); //Sand to Dust*/
+// hammer(<extrautils2:compressedcobblestone>, <extrautils2:compresseddirt>, 0, 1, 0); //Cobble to Dirt
+// hammer(<extrautils2:compresseddirt>, <extrautils2:compressedgravel>, 0, 1, 0); //Dirt to Gravel
+// hammer(<extrautils2:compressedgravel>, <extrautils2:compressedsand>, 0, 1, 0); //Gravel to Sand
+// hammer(<extrautils2:compressedsand>, <exnihilocreatio:block_dust> * 9, 0, 1, 0); //Sand to Dust
 
 /* Removing ExCompressum Items */
 //Cobblestone
@@ -71,7 +71,7 @@ diamondMesh(<exnihilocreatio:block_dust>, <minecraft:blaze_powder>, 0.075);
 
 //Lapis
 ironMesh(<minecraft:gravel>, <minecraft:dye:4>, 0.075);
-diamondMesh(<minecraft:gravel>, <minecraft:dye:4>, 0.01);
+diamondMesh(<minecraft:gravel>, <minecraft:dye:4>, 0.1);
 
 //Cocoa Beans
 flintMesh(<minecraft:sand>, <minecraft:dye:3>, 0.06);
@@ -79,7 +79,8 @@ ironMesh(<minecraft:sand>, <minecraft:dye:3>, 0.09);
 diamondMesh(<minecraft:sand>, <minecraft:dye:3>, 0.12);
 
 //Lead chunk
-//diamondMesh(<minecraft:gravel>, <exnihilocreatio:item_ore_lead>, 0.02);
+diamondMesh(<minecraft:gravel>, <exnihilocreatio:item_ore_lead>, 0.02);
+diamondMesh(<exnihilocreatio:block_diorite_crushed>, <exnihilocreatio:item_ore_lead>, 0.5);
 
 /* Meshs */
 //String

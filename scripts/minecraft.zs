@@ -69,7 +69,7 @@ recipes.addShaped(<minecraft:chest>, [
 recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [
     [<ore:plateIron>, null, <ore:plateIron>],
-    [<ore:plateIron>, <tconstruct:wooden_hopper>, <ore:plateIron>],
+    [<ore:plateIron>, <ore:chestWood>, <ore:plateIron>],
     [null, <ore:plateIron>, null]
 ]);
 
@@ -104,4 +104,51 @@ recipes.addShaped(<astralsorcery:blockmarble> * 8, [
     [<ore:blockQuartz>, <astralsorcery:itemcraftingcomponent>, <ore:blockQuartz>],
     [<astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>],
     [<ore:blockQuartz>, <astralsorcery:itemcraftingcomponent>, <ore:blockQuartz>]
+]);
+
+//Clay ball
+recipes.removeByRecipeName('ceramics:uncrafting/clay_block');
+
+//Bucket
+recipes.remove(<minecraft:bucket>);
+recipes.addShaped(<minecraft:bucket>, [
+    [null, null, null],
+    [<ore:plateIron>, null, <ore:plateIron>],
+    [null, <ore:plateIron>, null]
+]);
+
+//Aroma Mining Multitool
+recipes.remove(<aroma1997sdimension:miningmultitool>);
+mods.extendedcrafting.TableCrafting.addShaped(2, <aroma1997sdimension:miningmultitool>, [
+	[null, null, <randomthings:ingredient:3>, null, null], 
+	[<bloodmagic:ritual_stone>, <randomthings:ingredient:3>, null, <randomthings:ingredient:3>, <bloodmagic:ritual_stone>], 
+	[null, <bloodmagic:ritual_stone>, <bloodmagic:ritual_stone>, <bloodmagic:ritual_stone>, null], 
+	[null, null, <botania:shimmerwoodplanks>, null, null], 
+	[null, null, <botania:shimmerwoodplanks>, null, null]
+]);
+
+//Aroma Mining Portal
+recipes.remove(<aroma1997sdimension:portalframe>);
+recipes.addShaped(<aroma1997sdimension:portalframe>, [
+    [<aroma1997sdimension:miningmultitool:*>, <botania:shimmerrock>]
+]);
+
+//Deep Dark Portal
+recipes.remove(<extrautils2:teleporter:1>);
+mods.extendedcrafting.TableCrafting.addShaped(1, <extrautils2:teleporter:1>, [
+	[<ore:compressed1xCobblestone>, <ore:compressed2xCobblestone>, <ore:compressed3xCobblestone>], 
+	[<ore:compressed8xCobblestone>, null, <ore:compressed4xCobblestone>], 
+	[<ore:compressed7xCobblestone>, <ore:compressed6xCobblestone>, <ore:compressed5xCobblestone>]
+]);
+
+/* Snad */
+//Red snad
+recipes.remove(<snad:snad:1>);
+
+//Snad
+recipes.remove(<snad:snad>);
+recipes.addShaped(<snad:snad>, [
+    [null, <extrautils2:compressedsand:1>, null],
+    [null, <randomthings:timeinabottle>.withTag({}), null],
+    [null, <extrautils2:compressedsand:1>, null]
 ]);

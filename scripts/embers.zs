@@ -39,7 +39,7 @@ recipes.removeByRecipeName("embers:plate_tin");
 
 /* Mixing recipes */
 //Redstone alloy
-mixer(<liquid:redstone_alloy>*1000, [<liquid:redstone>*500, <liquid:iron>*500]);
+mixer(<liquid:redstone_alloy>*288, [<liquid:redstone>*144, <liquid:iron>*144]);
 
 /* Melting recipes */
 //Molten redstone

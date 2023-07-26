@@ -9,6 +9,8 @@ import mods.pneumaticcraft.pressurechamber.addRecipe as chamber;
 import mods.thermalexpansion.InductionSmelter.addRecipe as smelter;
 import mods.immersiveengineering.MetalPress.addRecipe as press;
 import mods.inworldcrafting.FluidToItem.transform as fluid2item;
+import mods.thermalexpansion.Sawmill.addRecipe as sawmillMachine;
+import mods.thermalexpansion.Pulverizer.addRecipe as pulverizerMachine;
 
 
 /* Vars */
@@ -903,3 +905,10 @@ fill(<mysticalagradditions:insanium:2>, <mysticalagriculture:crafting:37>, <liqu
 
 //Clear Glass
 fill(<tconstruct:clear_glass>, <minecraft:sand>, <liquid:glass> * 1000, 500);
+
+//Resonating Crystal
+recipes.remove(<extrautils2:endershard>);
+sawmillMachine(<extrautils2:endershard> * 4, <botania:manaresource:1>, 4000);
+
+//Sand to Dust
+pulverizerMachine(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);

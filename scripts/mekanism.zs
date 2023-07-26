@@ -36,7 +36,7 @@ mods.mekanism.infuser.addRecipe("OBSIDIAN", 10, <mysticalagradditions:insanium:2
 
 //Basic Control Circuit
 mods.mekanism.infuser.removeRecipe(<mekanism:controlcircuit>, <ore:ingotOsmium>, "REDSTONE");
-mods.mekanism.infuser.addRecipe("REDSTONE", 10, <mekanism:clump:2>, <mekanism:controlcircuit>);
+mods.mekanism.infuser.addRecipe("REDSTONE", 10, <mysticalagriculture:osmium_essence> * 10, <mekanism:controlcircuit>);
 
 /* Machines */
 //Enrichment Chamber
@@ -89,4 +89,12 @@ recipes.addShaped(<mekanism:basicblock2> * 4, [
 
 /* Fusion Crafting Core - Draconic Evolution */
 recipes.remove(<draconicevolution:fusion_crafting_core>);
-mods.mekanism.reaction.addRecipe(<extendedcrafting:table_ultimate>, <liquid:liquidhydrogenchloride> * 5000, <gas:fusionfuel> * 5000, <draconicevolution:fusion_crafting_core>, <gas:sulfuricacid> * 1000, 50000, 6000);
+mods.mekanism.reaction.addRecipe(<astralsorcery:blockaltar:3>, <liquid:liquidhydrogenchloride> * 5000, <gas:fusionfuel> * 5000, <draconicevolution:fusion_crafting_core>, <gas:sulfuricacid> * 1000, 50000, 6000);
+
+//Metallurgic Infuser
+recipes.remove(<mekanism:machineblock:8>);
+recipes.addShaped(<mekanism:machineblock:8>, [
+    [<enderio:item_alloy_ingot:4>, <minecraft:furnace>, <enderio:item_alloy_ingot:4>],
+    [<tp:redstone_ingot>, <mekanism:basicblock:8>, <tp:redstone_ingot>],
+    [<enderio:item_alloy_ingot:4>, <minecraft:furnace>, <enderio:item_alloy_ingot:4>]
+]);

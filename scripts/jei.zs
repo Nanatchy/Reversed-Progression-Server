@@ -1,6 +1,37 @@
-mods.jei.JEI.removeAndHide(<ore:drawerBasic>); //Basic drawers
+/* Drawers */
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers>.withTag({material: "dark_oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers>.withTag({material: "birch"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers>.withTag({material: "jungle"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers>.withTag({material: "spruce"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers>.withTag({material: "acacia"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:1>.withTag({material: "oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:1>.withTag({material: "dark_oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:1>.withTag({material: "birch"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:1>.withTag({material: "jungle"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:1>.withTag({material: "spruce"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:1>.withTag({material: "acacia"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:2>.withTag({material: "oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:2>.withTag({material: "dark_oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:2>.withTag({material: "birch"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:2>.withTag({material: "jungle"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:2>.withTag({material: "spruce"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:2>.withTag({material: "acacia"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:3>.withTag({material: "oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:3>.withTag({material: "dark_oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:3>.withTag({material: "birch"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:3>.withTag({material: "jungle"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:3>.withTag({material: "spruce"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:3>.withTag({material: "acacia"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:4>.withTag({material: "oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:4>.withTag({material: "dark_oak"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:4>.withTag({material: "birch"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:4>.withTag({material: "jungle"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:4>.withTag({material: "spruce"}));
+mods.jei.JEI.removeAndHide(<storagedrawers:basicdrawers:4>.withTag({material: "acacia"}));
+
+// mods.jei.JEI.removeAndHide(<ore:drawerBasic>); //Basic drawers
 mods.jei.JEI.removeAndHide(<storagedrawers:compdrawers>); //Compacting drawer
-mods.jei.JEI.removeAndHide(<storagedrawers:controller>); //Drawer controller
+// mods.jei.JEI.removeAndHide(<storagedrawers:controller>); //Drawer controller
 mods.jei.JEI.removeAndHide(<storagedrawers:controllerslave>); //Controller slave
 mods.jei.JEI.removeAndHide(<ore:drawerTrim>); //Drawer trim
 mods.jei.JEI.removeAndHide(<storagedrawers:customdrawers>); //Framed drawer

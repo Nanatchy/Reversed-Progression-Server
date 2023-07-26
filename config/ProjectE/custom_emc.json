@@ -103,6 +103,10 @@
     {
       "item": "thermalfoundation:storage_alloy|7",
       "emc": 18426
+    },
+    {
+      "item": "projecte:condenser_mk2|0",
+      "emc": 1500000000
     }
   ]
 }

@@ -36,10 +36,10 @@ lead                                              (tconstruct:molten_lead)      
 silver                                            (tconstruct:molten_silver)                                                       = Molten Silver
 electrum                                          (tconstruct:molten_electrum)                                                     = Molten Electrum
 steel                                             (tconstruct:molten_steel)                                                        = Molten Steel
+molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = Molten Blood Infused Iron
 xu_evil_metal                                     ([no block])                                                                     = Evil Infused Iron
 xu_enchanted_metal                                ([no block])                                                                     = Enchanted Metal
 xu_demonic_metal                                  ([no block])                                                                     = Molten Demon Metal
-molten_blood_infused_iron                         (bloodarsenal:bloodarsenal.molten_blood_infused_iron)                            = Molten Blood Infused Iron
 constantan                                        (immersiveengineering:molten_constantan)                                         = Molten Constantan
 soulium                                           (mysticalagradditions:molten_soulium)                                            = Molten Soulium
 base_essence                                      (mysticalagradditions:molten_base_essence)                                       = Molten Base Essence

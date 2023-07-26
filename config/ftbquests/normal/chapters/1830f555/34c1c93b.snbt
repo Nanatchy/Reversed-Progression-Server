@@ -1,4 +1,5 @@
 {
+	title: "Conduits Assembler",
 	x: 8.0d,
 	y: 0.0d,
 	tasks: [{
@@ -50,14 +51,6 @@
 		}]
 	},
 	{
-		uid: "922de4ea",
-		type: "item",
-		items: [{
-			item: "modularmachinery:blockinputbus 1 4"
-		}],
-		count: 2L
-	},
-	{
 		uid: "9fdad17c",
 		type: "item",
 		items: [{
@@ -70,5 +63,13 @@
 		items: [{
 			item: "modularmachinery:blockenergyinputhatch 1 3"
 		}]
+	},
+	{
+		uid: "e8a7edb4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}],
+		count: 2L
 	}]
 }

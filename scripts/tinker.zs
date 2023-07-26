@@ -2,7 +2,7 @@
 recipes.remove(<tconstruct:wooden_hopper>);
 recipes.addShaped(<tconstruct:wooden_hopper>, [
     [<ore:plankTreatedWood>, null, <ore:plankTreatedWood>],
-    [<ore:plankTreatedWood>, <minecraft:chest>, <ore:plankTreatedWood>],
+    [<ore:plankTreatedWood>, <ore:chestWood>, <ore:plankTreatedWood>],
     [null, <ore:plankTreatedWood>, null]
 ]);
 
@@ -60,3 +60,7 @@ mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:292>, <liq
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:293>, <liquid:signalum>); //Signalum
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:294>, <liquid:lumium>); //Lumium
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:295>, <liquid:enderium>); //Enderium
+
+//Molten Iron Alloy
+//mods.tconstruct.Alloy.addRecipe(ILiquidStack output, ILiquidStack[] inputs);
+mods.tconstruct.Alloy.addRecipe(<liquid:construction_alloy>*432, [<liquid:silver>*144, <liquid:iron>*144, <liquid:lead>*144]);

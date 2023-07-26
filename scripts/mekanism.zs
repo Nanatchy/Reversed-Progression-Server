@@ -24,7 +24,7 @@ recipes.addShaped(<mekanism:energytablet>, [
 //Metallurgic Infuser - Recipes
 //Enriched Alloy
 mods.mekanism.infuser.removeRecipe(<mekanism:enrichedalloy>, <minecraft:iron_ingot>, "REDSTONE");
-mods.mekanism.infuser.addRecipe("REDSTONE", 10, <deepmoblearning:glitch_infused_ingot>, <mekanism:enrichedalloy>);
+mods.mekanism.infuser.addRecipe("REDSTONE", 10, <enderio:item_basic_capacitor:2>, <mekanism:enrichedalloy>);
 
 //Reinforced Alloy
 mods.mekanism.infuser.removeRecipe(<mekanism:reinforcedalloy>, <mekanism:enrichedalloy>, "DIAMOND");

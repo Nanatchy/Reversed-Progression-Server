@@ -100,6 +100,14 @@ recipes.addShaped(<industrialforegoing:black_hole_unit>, [
     [<actuallyadditions:block_giant_chest_large>, case, <actuallyadditions:block_giant_chest_large>]
 ]);
 
+//Black Hole Tank
+recipes.remove(<industrialforegoing:black_hole_tank>);
+recipes.addShaped(<industrialforegoing:black_hole_tank>, [
+    [plastic, plastic, plastic],
+    [<mob_grinding_utils:tank>, <botania:manaresource:1>, <mob_grinding_utils:tank>],
+    [<actuallyadditions:block_giant_chest_large>, case, <actuallyadditions:block_giant_chest_large>]
+]);
+
 //Water Condensator
 recipes.removeByRecipeName("industrialforegoing:water_condensator_thermal");
 recipes.removeByRecipeName("industrialforegoing:water_condensator_mekanism");

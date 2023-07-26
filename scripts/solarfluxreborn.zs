@@ -53,7 +53,7 @@ recipes.addShaped(cell3, [
 //Cell 4
 recipes.remove(cell4);
 recipes.addShaped(cell4, [
-    [<botania:quartz:2>, <deepmoblearning:pristine_matter_blaze>, <botania:quartz:2>],
+    [<botania:quartz:2>, <mysticalagriculture:blaze_essence>, <botania:quartz:2>],
     [<enderio:item_material:76>, <avaritia:resource>, <enderio:item_material:76>],
     [<botania:quartztypeelf>, cell3, <botania:quartztypeelf>]
 ]);

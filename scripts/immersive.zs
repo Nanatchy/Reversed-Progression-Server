@@ -2,6 +2,7 @@
 import mods.immersiveengineering.MetalPress.addRecipe as press;
 //mods.immersiveengineering.MetalPress.addRecipe(Output, Input, Mold, Energy, InputSize);
 import mods.immersiveengineering.BlastFurnace.addRecipe as blast;
+import mods.immersiveengineering.AlloySmelter.addRecipe as kiln;
 
 /* Var */
 var moldPack = <immersiveengineering:mold:5>;
@@ -151,3 +152,7 @@ recipes.addShaped(<immersiveengineering:connector:5> * 4, [
 
 //Steel Ingot
 blast(<thermalfoundation:material:160>, <minecraft:iron_ingot>, 600);
+
+//Electrum
+kiln(<thermalfoundation:material:161> * 2, <minecraft:gold_ingot>, <thermalfoundation:material:130>, 600);
+kiln(<thermalfoundation:material:97>, <ore:dustGold>, <thermalfoundation:material:66>, 300);

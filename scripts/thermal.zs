@@ -912,3 +912,7 @@ sawmillMachine(<extrautils2:endershard> * 4, <botania:manaresource:1>, 4000);
 
 //Sand to Dust
 pulverizerMachine(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);
+
+//Steel Ingot
+mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:768>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:768>);

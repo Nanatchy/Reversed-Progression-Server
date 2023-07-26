@@ -43,3 +43,30 @@ compression(<botania:manaresource:5> * 2, <mysticalagradditions:stuff:69>, 10, <
 //Mana String
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:16>);
 pool(<botania:manaresource:16>, <mysticalagriculture:crafting:23>, 250);
+
+//Mana powder
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:23>);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:1>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:2>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:3>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:4>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:5>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:6>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:7>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:8>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:9>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:10>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:11>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:12>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:13>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:14>, 200);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <botania:dye:15>, 200);
+
+//Manasteel ingot
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <thermalfoundation:material:160>, 600);
+
+//Manasteel block
+mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
+mods.botania.ManaInfusion.addInfusion(<botania:storage>, <thermalfoundation:storage_alloy>, 5400);

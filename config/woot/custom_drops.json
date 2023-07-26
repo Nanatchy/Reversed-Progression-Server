@@ -96,6 +96,26 @@
       ]
     },
     {
+      "mobName": "botania:doppleganger",
+      "drops": [
+        {
+          "drop": {
+            "item": "botania:manaresource",
+            "data": 5
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 100, 100, 100, 100]
+        },
+        {
+          "drop": {
+            "item": "botania:dice"
+          },
+          "sizes": [ 1, 1, 1, 1 ],
+          "chances": [ 10, 10, 10, 10]
+        }
+      ]
+    },
+    {
       "mobName": "erebus:erebus.tarantula_mini_boss",
       "drops": [
         {

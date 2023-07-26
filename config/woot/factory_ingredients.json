@@ -35,6 +35,17 @@
         }
       ],
       "fluids": [ ]
+    },
+    {
+      "mobName": "botania:doppleganger",
+      "items": [
+        {
+          "item": "botania:manaresource",
+          "data": 18,
+          "count": 2
+        }
+      ],
+      "fluids": []
     }
   ]
 }

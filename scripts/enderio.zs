@@ -264,3 +264,98 @@ alloy(<enderio:item_material:68> * 16, [<enderio:item_material:2>*16, <enderio:i
 //End Steel Chassis
 recipes.remove(<enderio:item_material:66>);
 alloy(<enderio:item_material:66>, [<enderio:item_alloy_ingot:8> * 4, <enderio:item_material:1>, <enderio:block_end_iron_bars> * 4], 2500);
+
+//Enchanter
+recipes.remove(<enderio:block_enchanter>);
+recipes.addShaped(<enderio:block_enchanter>, [
+    [<avaritia:resource>, <minecraft:book>, <avaritia:resource>],
+    [<enderio:item_alloy_ingot:6>, <enderio:item_material:54>, <enderio:item_alloy_ingot:6>],
+    [null, <enderio:block_alloy:6>, null]
+]);
+
+/* Capacitors */
+//Grainy
+recipes.remove(<enderio:item_capacitor_grainy>);
+recipes.addShaped(<enderio:item_capacitor_grainy>, [
+    [<moreplates:conductive_iron_plate>, <enderio:block_infinity>, <moreplates:conductive_iron_plate>]
+]);
+
+//Basic
+recipes.remove(<enderio:item_basic_capacitor>);
+recipes.addShaped(<enderio:item_basic_capacitor>, [
+    [null, <thermalfoundation:material:225>, <enderio:item_capacitor_grainy>],
+    [<thermalfoundation:material:225>, <ore:plateCopper>, null],
+    [<enderio:item_capacitor_grainy>, <thermalfoundation:material:225>, <thermalfoundation:material:225>]
+]);
+
+//Double-layer
+recipes.remove(<enderio:item_basic_capacitor:1>);
+recipes.addShaped(<enderio:item_basic_capacitor:1>, [
+    [null, <enderio:item_alloy_nugget:1>, <enderio:item_basic_capacitor>],
+    [<enderio:item_alloy_nugget:1>, <moreplates:coal_plate>, <enderio:item_alloy_nugget:1>],
+    [<enderio:item_basic_capacitor>, <enderio:item_alloy_nugget:1>, null]
+]);
+
+//Octadic
+recipes.remove(<enderio:item_basic_capacitor:2>);
+recipes.addShaped(<enderio:item_basic_capacitor:2>, [
+    [null, <enderio:item_alloy_nugget:2>, <enderio:item_basic_capacitor:1>],
+    [<enderio:item_alloy_nugget:2>, <moreplates:glowstone_plate>, <enderio:item_alloy_nugget:2>],
+    [<enderio:item_basic_capacitor:1>, <enderio:item_alloy_nugget:2>, null]
+]);
+
+//Silver
+recipes.remove(<enderio:item_capacitor_silver>);
+recipes.addShaped(<enderio:item_capacitor_silver>, [
+    [null, <thermalfoundation:material:194>, <enderio:item_basic_capacitor:2>],
+    [<thermalfoundation:material:194>, <ore:plateLead>, <thermalfoundation:material:194>],
+    [<enderio:item_basic_capacitor:2>, <thermalfoundation:material:194>, null]
+]);
+
+//Endergetic silver
+recipes.remove(<enderio:item_capacitor_energetic_silver>);
+recipes.addShaped(<enderio:item_capacitor_energetic_silver>, [
+    [null, <enderio:item_alloy_endergy_nugget:5>, <enderio:item_capacitor_silver>],
+    [<enderio:item_alloy_endergy_nugget:5>, <moreplates:coal_plate>, <enderio:item_alloy_endergy_nugget:5>],
+    [<enderio:item_capacitor_silver>, <enderio:item_alloy_endergy_nugget:5>, null]
+]);
+
+//Endergised
+recipes.remove(<enderio:item_capacitor_vivid>);
+recipes.addShaped(<enderio:item_capacitor_vivid>, [
+    [null, <enderio:item_alloy_endergy_nugget:6>, <enderio:item_capacitor_energetic_silver>],
+    [<enderio:item_alloy_endergy_nugget:6>, <moreplates:glowstone_plate>, <enderio:item_alloy_endergy_nugget:6>],
+    [<enderio:item_capacitor_energetic_silver>, <enderio:item_alloy_endergy_nugget:6>, null]
+]);
+
+//Crystalline
+recipes.remove(<enderio:item_capacitor_crystalline>);
+recipes.addShaped(<enderio:item_capacitor_crystalline>, [
+    [null, <enderio:item_alloy_endergy_nugget:1>, <enderio:item_capacitor_vivid>],
+    [<enderio:item_alloy_endergy_nugget:1>, <minecraft:prismarine>, <enderio:item_alloy_endergy_nugget:1>],
+    [<enderio:item_capacitor_vivid>, <enderio:item_alloy_endergy_nugget:1>, null]
+]);
+
+//Melodic
+recipes.remove(<enderio:item_capacitor_melodic>);
+recipes.addShaped(<enderio:item_capacitor_melodic>, [
+    [null, <enderio:item_alloy_endergy_nugget:2>, <enderio:item_capacitor_crystalline>],
+    [<enderio:item_alloy_endergy_nugget:2>, <moreplates:end_steel_plate>, <enderio:item_alloy_endergy_nugget:2>],
+    [<enderio:item_capacitor_crystalline>, <enderio:item_alloy_endergy_nugget:2>, null]
+]);
+
+//Totemic
+recipes.remove(<enderio:item_capacitor_totemic>);
+recipes.addShaped(<enderio:item_capacitor_totemic>, [
+    [null, <enderio:item_alloy_nugget:8>, <enderio:item_capacitor_melodic>],
+    [<enderio:item_alloy_nugget:8>, <minecraft:totem_of_undying>, <enderio:item_alloy_nugget:8>],
+    [<enderio:item_capacitor_melodic>, <enderio:item_alloy_nugget:8>, null]
+]);
+
+//Stellar
+recipes.remove(<enderio:item_capacitor_stellar>);
+recipes.addShaped(<enderio:item_capacitor_stellar>, [
+    [null, <enderio:item_alloy_endergy_nugget:3>, <enderio:item_capacitor_totemic>],
+    [<enderio:item_alloy_endergy_nugget:3>, <deepmoblearning:pristine_matter_shulker>, <enderio:item_alloy_endergy_nugget:3>],
+    [<enderio:item_capacitor_totemic>, <enderio:item_alloy_endergy_nugget:3>, null]
+]);

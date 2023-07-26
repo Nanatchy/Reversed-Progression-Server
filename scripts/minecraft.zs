@@ -69,7 +69,7 @@ recipes.addShaped(<minecraft:chest>, [
 recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [
     [<ore:plateIron>, null, <ore:plateIron>],
-    [<ore:plateIron>, <ore:chestWood>, <ore:plateIron>],
+    [<ore:plateIron>, <tconstruct:wooden_hopper>, <ore:plateIron>],
     [null, <ore:plateIron>, null]
 ]);
 
@@ -96,6 +96,14 @@ recipes.addShaped(<minecraft:stick> * 4, [
     [<ore:plankWood>]
 ]);
 
+//Totem of Undying
+recipes.addShaped(<minecraft:totem_of_undying>, [
+    [<actuallyadditions:block_crystal_empowered>, <actuallyadditions:block_crystal_empowered:1>, <actuallyadditions:block_crystal_empowered:2>],
+    [null, <projecte:item.pe_repair_talisman>, null],
+    [<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal_empowered:5>]
+]);
+
+/* RANDOM */
 //Ceramics
 recipes.remove(<ceramics:unfired_clay:4>);
 
@@ -119,12 +127,10 @@ recipes.addShaped(<minecraft:bucket>, [
 
 //Aroma Mining Multitool
 recipes.remove(<aroma1997sdimension:miningmultitool>);
-mods.extendedcrafting.TableCrafting.addShaped(2, <aroma1997sdimension:miningmultitool>, [
-	[null, null, <randomthings:ingredient:3>, null, null], 
-	[<bloodmagic:ritual_stone>, <randomthings:ingredient:3>, null, <randomthings:ingredient:3>, <bloodmagic:ritual_stone>], 
-	[null, <bloodmagic:ritual_stone>, <bloodmagic:ritual_stone>, <bloodmagic:ritual_stone>, null], 
-	[null, null, <botania:shimmerwoodplanks>, null, null], 
-	[null, null, <botania:shimmerwoodplanks>, null, null]
+recipes.addShaped(<aroma1997sdimension:miningmultitool>, [
+    [<bloodmagic:ritual_stone>, <randomthings:ingredient:3>, <bloodmagic:ritual_stone>],
+    [<bloodmagic:ritual_stone>, <botania:dreamwood>, <bloodmagic:ritual_stone>],
+    [null, <botania:dreamwood>, null]
 ]);
 
 //Aroma Mining Portal
@@ -151,4 +157,28 @@ recipes.addShaped(<snad:snad>, [
     [null, <extrautils2:compressedsand:1>, null],
     [null, <randomthings:timeinabottle>.withTag({}), null],
     [null, <extrautils2:compressedsand:1>, null]
+]);
+
+//Singularity tank
+recipes.remove(<mob_grinding_utils:tank>);
+recipes.addShaped(<mob_grinding_utils:tank>, [
+    [<minecraft:iron_block>, <extrautils2:decorativeglass>, <minecraft:iron_block>],
+    [<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>],
+    [<minecraft:iron_ingot>, <extrautils2:decorativeglass>, <minecraft:iron_ingot>]
+]);
+
+//Time in a bottle
+recipes.remove(<randomthings:timeinabottle>);
+recipes.addShaped(<randomthings:timeinabottle>, [
+    [<thermalfoundation:material:161>, <thermalfoundation:material:161>, <thermalfoundation:material:161>],
+    [<avaritia:resource>, <embers:clockwork_attenuator>, <avaritia:resource>],
+    [<minecraft:lapis_block>, <minecraft:glass_bottle>, <minecraft:lapis_block>]
+]);
+
+//Portal to the Void
+recipes.remove(<simplevoidworld:portal>);
+recipes.addShaped(<simplevoidworld:portal>, [
+    [<mekanism:basicblock:2>, <extrautils2:ingredients:2>, <mekanism:basicblock:2>],
+    [<extrautils2:ingredients:2>, <bloodarsenal:blood_diamond:2>, <extrautils2:ingredients:2>],
+    [<mekanism:basicblock:2>, <extrautils2:ingredients:2>, <mekanism:basicblock:2>]
 ]);

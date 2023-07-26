@@ -204,7 +204,7 @@
     }
   ],
   "entitymodblacklist": [
-    "botania"
+    
   ],
   "entityblacklist": [
     "twilightforest:naga",
@@ -217,6 +217,7 @@
     "twilightforest:armored_giant"
   ],
   "entitywhitelist": [
+    "botania:doppleganger"
   ],
   "itemmodblacklist": [
   ],

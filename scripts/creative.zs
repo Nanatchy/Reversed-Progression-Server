@@ -273,7 +273,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creativ
 ]);
 
 //Drawer
-mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:basicdrawers>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:basicdrawers>.withTag({material: "oak"}), [
 	[<storagedrawers:upgrade_creative:1>, <storagedrawers:upgrade_creative:1>, <avaritia:resource:5>, <ore:blockInfinity>, <ore:blockCosmicNeutronium>, <ore:blockInfinity>, <avaritia:resource:5>, <storagedrawers:upgrade_creative:1>, <storagedrawers:upgrade_creative:1>], 
 	[<storagedrawers:upgrade_creative:1>, <ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>, <ore:dreamwood>, <storagedrawers:upgrade_creative:1>], 
 	[<avaritia:resource:5>, <ore:dreamwood>, <extrautils2:creativechest>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <mysticalagradditions:stuff:69>, <extrautils2:creativechest>, <ore:dreamwood>, <avaritia:resource:5>], 

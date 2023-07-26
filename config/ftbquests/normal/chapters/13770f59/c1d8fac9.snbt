@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "1e97ff34",
+		type: "item",
+		items: [{
+			item: "teslacorelib:base_addon"
+		}]
+	}]
+}

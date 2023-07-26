@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	dependencies: [
+		"88b37816"
+	],
+	tasks: [{
+		uid: "6b8e1ae5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:energetic_alloy_seeds"
+		}]
+	}]
+}

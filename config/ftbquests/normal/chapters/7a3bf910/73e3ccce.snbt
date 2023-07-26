@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"2e6901ce"
+	],
+	tasks: [{
+		uid: "76b3849b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000,
+				creative: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

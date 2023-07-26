@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -2.5d,
+	dependencies: [
+		"3f9b9d60"
+	],
+	tasks: [{
+		uid: "2955bc6b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_energy_core"
+		}]
+	}]
+}

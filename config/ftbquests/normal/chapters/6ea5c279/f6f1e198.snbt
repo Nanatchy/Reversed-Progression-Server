@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"34eca482"
+	],
+	tasks: [{
+		uid: "e29d1281",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:terrasteel_seeds"
+		}]
+	}]
+}

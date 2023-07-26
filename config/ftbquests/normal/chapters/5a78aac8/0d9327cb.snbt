@@ -1,0 +1,44 @@
+{
+	title: "Draconic Armor",
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"520ed954"
+	],
+	tasks: [{
+		uid: "8d551758",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f4fbdab",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a855819b",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "be4c89c8",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

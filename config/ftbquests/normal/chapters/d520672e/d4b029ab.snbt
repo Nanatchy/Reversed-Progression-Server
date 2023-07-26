@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	dependencies: [
+		"68fdf343"
+	],
+	tasks: [{
+		uid: "cc71c4ad",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 6"
+		}]
+	},
+	{
+		uid: "94496b76",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 5"
+		}]
+	}]
+}

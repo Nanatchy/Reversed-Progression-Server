@@ -1,0 +1,13 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "circle",
+	tasks: [{
+		uid: "dd9d924f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting"
+		}],
+		count: 64L
+	}]
+}

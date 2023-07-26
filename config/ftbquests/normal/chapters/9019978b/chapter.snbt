@@ -1,0 +1,7 @@
+{
+	title: "Chapter XIII - Extended Crafting",
+	icon: "extendedcrafting:material",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

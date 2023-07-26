@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	dependencies: [
+		"2e6901ce"
+	],
+	tasks: [{
+		uid: "9b297a2d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:creative_exchanger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

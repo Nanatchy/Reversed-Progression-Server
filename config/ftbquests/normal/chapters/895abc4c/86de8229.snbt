@@ -1,0 +1,11 @@
+{
+	x: 6.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "ef9418fe",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}]
+}

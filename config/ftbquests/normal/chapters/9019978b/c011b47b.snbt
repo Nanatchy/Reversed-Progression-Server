@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 2.5d,
+	dependencies: [
+		"e0cfcb7a"
+	],
+	tasks: [{
+		uid: "caec2460",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity 1 16"
+		}]
+	}]
+}

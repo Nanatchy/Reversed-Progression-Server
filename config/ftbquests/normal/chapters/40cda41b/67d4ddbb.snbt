@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -0.5d,
+	dependencies: [
+		"fe4b2ebb"
+	],
+	tasks: [{
+		uid: "11ce27a5",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:silicon_seeds"
+		}]
+	}]
+}

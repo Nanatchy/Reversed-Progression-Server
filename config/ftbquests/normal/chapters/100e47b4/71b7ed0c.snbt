@@ -1,0 +1,56 @@
+{
+	title: "Superium Armor",
+	x: 4.5d,
+	y: 4.5d,
+	dependencies: [
+		"1f45745a"
+	],
+	tasks: [{
+		uid: "60db85b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:superium_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8b63ed79",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:superium_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3988ee8c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:superium_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "af88b8aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mysticalagriculture:superium_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

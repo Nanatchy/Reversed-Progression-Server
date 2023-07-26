@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"93c1d768"
+	],
+	tasks: [{
+		uid: "890550a3",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	}]
+}

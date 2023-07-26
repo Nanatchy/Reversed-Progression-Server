@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -1.0d,
+	dependencies: [
+		"0b83b5f6"
+	],
+	tasks: [{
+		uid: "44c19c6d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:creeper_seeds"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 1.0d,
+	dependencies: [
+		"88b37816"
+	],
+	tasks: [{
+		uid: "84c504b7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:osmium_seeds"
+		}]
+	}]
+}

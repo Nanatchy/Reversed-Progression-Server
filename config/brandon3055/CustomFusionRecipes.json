@@ -1,0 +1,439 @@
+[
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:insanium,1,1",
+        "catalyst" : "mysticalagriculture:crafting,1,21",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:tier6_inferium_seeds",
+        "catalyst" : "mysticalagriculture:tier5_inferium_seeds",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:storage",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:nether_star_seeds",
+        "catalyst" : "mysticalagradditions:insanium,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "extendedcrafting:storage,1,2",
+            "extendedcrafting:storage,1,2",
+            "extendedcrafting:storage,1,2",
+            "extendedcrafting:storage,1,2",
+            "extendedcrafting:storage,1,2",
+            "extendedcrafting:storage,1,2",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:dragon_egg_seeds",
+        "catalyst" : "mysticalagradditions:insanium,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "minecraft:dragon_egg",
+            "minecraft:dragon_egg",
+            "minecraft:dragon_egg",
+            "minecraft:dragon_egg",
+            "minecraft:dragon_egg",
+            "minecraft:dragon_egg",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:awakened_draconium_seeds",
+        "catalyst" : "mysticalagradditions:insanium,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:neutronium_seeds",
+        "catalyst" : "mysticalagradditions:insanium,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "avaritia:block_resource",
+            "avaritia:block_resource",
+            "avaritia:block_resource",
+            "avaritia:block_resource",
+            "avaritia:block_resource",
+            "avaritia:block_resource",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
+
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:special",
+        "catalyst" : "mysticalagradditions:storage,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "minecraft:nether_star",
+            "minecraft:nether_star",
+            "mysticalagradditions:stuff,1,1",
+            "mysticalagradditions:stuff,1,1",
+            "ore:blockDiamond"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:special,1,1",
+        "catalyst" : "mysticalagradditions:storage,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagradditions:stuff,1,3",
+            "mysticalagradditions:stuff,1,3",
+            "mysticalagradditions:stuff,1,3",
+            "mysticalagradditions:stuff,1,3",
+            "ore:blockDiamond"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:special,1,4",
+        "catalyst" : "mysticalagradditions:storage,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:dragon_heart",
+            "draconicevolution:draconic_block",
+            "ore:blockDiamond"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalagradditions:special,1,5",
+        "catalyst" : "mysticalagradditions:storage,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "mysticalagriculture:crafting,1,4",
+            "avaritia:resource,1,4",
+            "avaritia:resource,1,4",
+            "avaritia:resource,1,4",
+            "avaritia:resource,1,4",
+            "ore:blockDiamond"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "agricraft:crop_sticks,4",
+        "catalyst" : "randomthings:spectrelog,1",
+        "energy" : 2000,
+        "tier" : 2,
+        "ingredients" : [
+            "enderio:item_material,1,71",
+            "bloodarsenal:base_item,1,1",
+            "enderio:item_material,1,8",
+            "immersiveengineering:material,1",
+            "mysticalagriculture:crafting,1,22",
+            "mekanism:polyethene,1,3"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "extendedcrafting:table_basic",
+        "catalyst" : "avaritia:double_compressed_crafting_table,1",
+        "energy" : 500000,
+        "tier" : 3,
+        "ingredients" : [
+            "extendedcrafting:material,1,14",
+            "extendedcrafting:material,1,14",
+            "extendedcrafting:material,1,14",
+            "extendedcrafting:material,1,14",
+            "extendedcrafting:material,1,8",
+            "refinedstorage:storage",
+            "refinedstorage:storage",
+            "minecraft:iron_block,1",
+            "extendedcrafting:material,1,2"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "extendedcrafting:table_advanced",
+        "catalyst" : "avaritia:double_compressed_crafting_table,1",
+        "energy" : 500000,
+        "tier" : 3,
+        "ingredients" : [
+            "extendedcrafting:material,1,15",
+            "extendedcrafting:material,1,15",
+            "extendedcrafting:material,1,15",
+            "extendedcrafting:material,1,15",
+            "extendedcrafting:material,1,9",
+            "refinedstorage:storage,1,1",
+            "refinedstorage:storage,1,1",
+            "minecraft:gold_block,1",
+            "extendedcrafting:material,1,2",
+            "extendedcrafting:table_basic",
+            "extendedcrafting:table_basic"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "extendedcrafting:table_elite",
+        "catalyst" : "avaritia:double_compressed_crafting_table,1",
+        "energy" : 500000,
+        "tier" : 3,
+        "ingredients" : [
+            "extendedcrafting:material,1,16",
+            "extendedcrafting:material,1,16",
+            "extendedcrafting:material,1,16",
+            "extendedcrafting:material,1,16",
+            "extendedcrafting:material,1,10",
+            "refinedstorage:storage,1,2",
+            "refinedstorage:storage,1,2",
+            "minecraft:diamond_block,1",
+            "extendedcrafting:material,1,2",
+            "extendedcrafting:table_advanced",
+            "extendedcrafting:table_advanced"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "extendedcrafting:table_ultimate",
+        "catalyst" : "avaritia:double_compressed_crafting_table,1",
+        "energy" : 500000,
+        "tier" : 3,
+        "ingredients" : [
+            "extendedcrafting:material,1,17",
+            "extendedcrafting:material,1,17",
+            "extendedcrafting:material,1,17",
+            "extendedcrafting:material,1,17",
+            "extendedcrafting:material,1,11",
+            "refinedstorage:storage,1,3",
+            "refinedstorage:storage,1,3",
+            "minecraft:emerald_block,1",
+            "extendedcrafting:material,1,2",
+            "extendedcrafting:table_elite",
+            "extendedcrafting:table_elite"
+        ]
+    },
+
+
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_helm",
+        "catalyst": "draconicevolution:wyvern_helm"
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "draconicevolution:draconic_helm",
+        "catalyst" : "draconicevolution:wyvern_helm",
+        "energy" : 1000000,
+        "tier" : 2,
+        "ingredients" : [
+            "tp:dragon_helmet",
+            "tp:wither_helmet",
+            "deepmoblearning:glitch_infused_helmet",
+            "botania:manasteelhelm",
+            "botania:terrasteelhelm",
+            "botania:elementiumhelm",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_energy_core"
+        ]
+    },
+
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest"
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "draconicevolution:draconic_chest",
+        "catalyst" : "draconicevolution:wyvern_chest",
+        "energy" : 1000000,
+        "tier" : 2,
+        "ingredients" : [
+            "tp:dragon_chestplate",
+            "tp:wither_chestplate",
+            "deepmoblearning:glitch_infused_chestplate",
+            "botania:manasteelchest",
+            "botania:terrasteelchest",
+            "botania:elementiumchest",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_energy_core"
+        ]
+    },
+
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_legs",
+        "catalyst": "draconicevolution:wyvern_legs"
+    },
+
+
+    {
+        "mode" : "ADD",
+        "result" : "draconicevolution:draconic_legs",
+        "catalyst" : "draconicevolution:wyvern_legs",
+        "energy" : 1000000,
+        "tier" : 2,
+        "ingredients" : [
+            "tp:dragon_leggings",
+            "tp:wither_leggings",
+            "deepmoblearning:glitch_infused_leggings",
+            "botania:manasteellegs",
+            "botania:terrasteellegs",
+            "botania:elementiumlegs",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_energy_core"
+        ]
+    },
+
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_boots",
+        "catalyst": "draconicevolution:wyvern_boots"
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "draconicevolution:draconic_boots",
+        "catalyst" : "draconicevolution:wyvern_boots",
+        "energy" : 1000000,
+        "tier" : 2,
+        "ingredients" : [
+            "tp:dragon_boots",
+            "tp:wither_boots",
+            "deepmoblearning:glitch_infused_boots",
+            "botania:manasteelboots",
+            "botania:terrasteelboots",
+            "botania:elementiumboots",
+            "draconicevolution:draconic_block",
+            "draconicevolution:draconic_block",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_energy_core"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "projectex:relay,1,15",
+        "catalyst" : "projectex:relay",
+        "energy" : 10000000,
+        "tier" : 3,
+        "ingredients" : [
+            "projectex:relay,1,1",
+            "projectex:relay,1,2",
+            "projectex:relay,1,3",
+            "projectex:relay,1,4",
+            "projectex:relay,1,5",
+            "projectex:relay,1,6",
+            "projectex:relay,1,7",
+            "projectex:relay,1,8",
+            "projectex:relay,1,9",
+            "projectex:relay,1,10",
+            "projectex:relay,1,11",
+            "projectex:relay,1,12",
+            "projectex:relay,1,13",
+            "projectex:relay,1,14"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "projectex:collector,1,15",
+        "catalyst" : "projectex:collector",
+        "energy" : 10000000,
+        "tier" : 3,
+        "ingredients" : [
+            "projectex:collector,1,1",
+            "projectex:collector,1,2",
+            "projectex:collector,1,3",
+            "projectex:collector,1,4",
+            "projectex:collector,1,5",
+            "projectex:collector,1,6",
+            "projectex:collector,1,7",
+            "projectex:collector,1,8",
+            "projectex:collector,1,9",
+            "projectex:collector,1,10",
+            "projectex:collector,1,11",
+            "projectex:collector,1,12",
+            "projectex:collector,1,13",
+            "projectex:collector,1,14"
+        ]
+    }
+]

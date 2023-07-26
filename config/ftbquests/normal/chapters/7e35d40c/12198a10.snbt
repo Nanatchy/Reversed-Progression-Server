@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"1309653f"
+	],
+	tasks: [{
+		uid: "126a5b6a",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "01c175bf",
+		type: "item",
+		items: [{
+			item: "avaritia:cosmic_meatballs"
+		}]
+	}]
+}

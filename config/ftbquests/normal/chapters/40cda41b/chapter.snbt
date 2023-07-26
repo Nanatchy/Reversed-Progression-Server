@@ -1,0 +1,7 @@
+{
+	title: "Seeds - Tier II",
+	icon: "mysticalagriculture:crafting 1 18",
+	always_invisible: false,
+	group: 269371316,
+	default_quest_shape: ""
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	dependencies: [
+		"fe4b2ebb"
+	],
+	tasks: [{
+		uid: "8c523e89",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sheep_seeds"
+		}]
+	}]
+}

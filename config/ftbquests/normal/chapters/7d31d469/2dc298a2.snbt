@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: -1.0d,
+	dependencies: [
+		"0b83b5f6"
+	],
+	tasks: [{
+		uid: "c828e4ee",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:knightslime_seeds"
+		}]
+	}]
+}

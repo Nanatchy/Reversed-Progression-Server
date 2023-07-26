@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	dependencies: [
+		"0b83b5f6"
+	],
+	tasks: [{
+		uid: "a2d2d2e4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:basalz_seeds"
+		}]
+	}]
+}

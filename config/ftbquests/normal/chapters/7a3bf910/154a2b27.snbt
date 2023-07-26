@@ -1,0 +1,19 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	dependencies: [
+		"2e6901ce"
+	],
+	tasks: [{
+		uid: "9fe80add",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorageaddons:wireless_crafting_grid",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

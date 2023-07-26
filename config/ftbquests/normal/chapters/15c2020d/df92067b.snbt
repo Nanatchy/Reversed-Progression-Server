@@ -1,0 +1,49 @@
+{
+	title: "Metal Press",
+	x: 4.5d,
+	y: 1.5d,
+	dependencies: [
+		"fc13b7dd",
+		"9242f029"
+	],
+	tasks: [{
+		uid: "3ae67813",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "6878ed55",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "38e331d6",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "851d012f",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}],
+		count: 2L
+	},
+	{
+		uid: "a2d4ca1c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}]
+	}]
+}

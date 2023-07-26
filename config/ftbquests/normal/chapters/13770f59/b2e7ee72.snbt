@@ -1,0 +1,150 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"90c50199"
+	],
+	tasks: [{
+		uid: "3f5ea295",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74274765",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2bf050be",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cf57580b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e3646636",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c869515f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 5s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "db9361e6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 6s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e21c543",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 7s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4926442",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3b308357",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 9s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b11db0e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 10s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37e6b3b5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "industrialforegoing:range_addon",
+			Damage: 11s
+		}],
+		ignore_nbt: 1b
+	}]
+}

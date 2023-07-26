@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "9e338fb0",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:inferium_furnace"
+		}]
+	}]
+}

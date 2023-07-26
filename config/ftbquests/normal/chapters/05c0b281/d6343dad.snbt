@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -1.0d,
+	dependencies: [
+		"88b37816"
+	],
+	tasks: [{
+		uid: "8f6c290c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:gold_seeds"
+		}]
+	}]
+}

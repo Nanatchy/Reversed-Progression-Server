@@ -1,0 +1,12 @@
+{
+	title: "Chapter VII - Botania",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "puredaisy"
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

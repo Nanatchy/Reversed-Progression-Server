@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"0e3796d8"
+	],
+	tasks: [{
+		uid: "ff089480",
+		type: "item",
+		items: [{
+			item: "rftools:coalgenerator"
+		}]
+	}]
+}

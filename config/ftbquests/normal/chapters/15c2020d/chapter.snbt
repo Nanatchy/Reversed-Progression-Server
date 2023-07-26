@@ -1,0 +1,13 @@
+{
+	title: "Chapter III - Immersive Engineering",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "immersiveengineering:tool",
+		Damage: 3s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

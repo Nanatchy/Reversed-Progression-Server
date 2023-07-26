@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 11.0d,
+	dependencies: [
+		"86de8229"
+	],
+	tasks: [{
+		uid: "737fdeb4",
+		type: "item",
+		items: [{
+			item: "botanicadds:rune_tp"
+		}]
+	}]
+}

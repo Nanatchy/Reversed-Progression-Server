@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"88b37816"
+	],
+	tasks: [{
+		uid: "3db63e1f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:hop_graphite_seeds"
+		}]
+	}]
+}

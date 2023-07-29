@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: -0.5d,
+	dependencies: [
+		"fe4b2ebb"
+	],
+	tasks: [{
+		uid: "e74b917f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aluminum_seeds"
+		}]
+	}]
+}

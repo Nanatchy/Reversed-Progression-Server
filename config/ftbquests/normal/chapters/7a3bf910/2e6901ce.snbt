@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"072bcab5"
+	],
+	tasks: [{
+		uid: "ba1b9c5b",
+		type: "checkmark",
+		title: "Creative Collection!"
+	}]
+}

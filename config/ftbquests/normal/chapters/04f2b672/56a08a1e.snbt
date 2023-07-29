@@ -1,0 +1,45 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	dependencies: [
+		"1e12f3d8"
+	],
+	tasks: [{
+		uid: "c1a3b74a",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c6a54f42",
+		type: "item",
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "flint"
+			}
+		}
+	},
+	{
+		uid: "dbda8d1a",
+		type: "item",
+		item: {
+			id: "tconstruct:binding",
+			tag: {
+				Material: "wood"
+			}
+		}
+	},
+	{
+		uid: "9dfe2b10",
+		type: "item",
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "wood"
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	dependencies: [
+		"88b37816"
+	],
+	tasks: [{
+		uid: "cb0e6485",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:glowstone_ingot_seeds"
+		}]
+	}]
+}

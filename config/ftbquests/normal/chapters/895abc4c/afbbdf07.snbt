@@ -1,0 +1,30 @@
+{
+	x: 13.5d,
+	y: 1.5d,
+	dependencies: [
+		"dd1d95be"
+	],
+	tasks: [{
+		uid: "0dfd17c6",
+		type: "item",
+		items: [{
+			item: "botanicadds:gaia_plate"
+		}]
+	},
+	{
+		uid: "ac706528",
+		type: "item",
+		items: [{
+			item: "botanicadds:dreamrock"
+		}],
+		count: 5L
+	},
+	{
+		uid: "ba210a12",
+		type: "item",
+		items: [{
+			item: "botanicadds:elven_lapis_block"
+		}],
+		count: 4L
+	}]
+}

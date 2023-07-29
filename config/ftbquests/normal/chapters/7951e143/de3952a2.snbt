@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"0e3796d8"
+	],
+	tasks: [{
+		uid: "68b97b76",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}]
+	}]
+}

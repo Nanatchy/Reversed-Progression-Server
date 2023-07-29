@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	dependencies: [
+		"ccd0e342"
+	],
+	tasks: [{
+		uid: "38f66fb1",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}],
+		count: 16L
+	}]
+}

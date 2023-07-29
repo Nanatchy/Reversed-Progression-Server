@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	dependencies: [
+		"3f596f6a"
+	],
+	tasks: [{
+		uid: "83d0a598",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:dragon_egg_seeds"
+		}]
+	},
+	{
+		uid: "450aa274",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:special 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"0b83b5f6"
+	],
+	tasks: [{
+		uid: "4c0031e9",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iron_seeds"
+		}]
+	}]
+}

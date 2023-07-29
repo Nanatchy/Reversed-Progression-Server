@@ -1,0 +1,55 @@
+{
+	x: 4.5d,
+	y: -3.0d,
+	dependencies: [
+		"217031c4"
+	],
+	tasks: [{
+		uid: "4018dbb4",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}],
+		count: 8L
+	},
+	{
+		uid: "346141cc",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "bc415b8f",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "45b11050",
+		type: "item",
+		items: [{
+			item: "botanicadds:mana_lapis"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1e3fca4b",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}],
+		count: 8L
+	},
+	{
+		uid: "68ee0379",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 16"
+		}],
+		count: 8L
+	}]
+}

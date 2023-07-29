@@ -1,0 +1,22 @@
+{
+	title: "Speed Upgrade",
+	x: 2.5d,
+	y: -3.0d,
+	dependencies: [
+		"c1d8fac9"
+	],
+	tasks: [{
+		uid: "790b6929",
+		type: "item",
+		items: [{
+			item: "teslacorelib:speed_tier1"
+		}]
+	},
+	{
+		uid: "0ed92f29",
+		type: "item",
+		items: [{
+			item: "teslacorelib:speed_tier2"
+		}]
+	}]
+}

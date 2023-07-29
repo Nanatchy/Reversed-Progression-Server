@@ -1,0 +1,18 @@
+{
+	title: "Mob_grinding_utils",
+	x: 1.0d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "9fab0a8a",
+		type: "item",
+		items: [{
+			item: "mob_grinding_utils:saw"
+		}]
+	}]
+}

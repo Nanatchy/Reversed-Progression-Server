@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"695d195a",
+		"cfe7a60f",
+		"d7977b9f",
+		"3a119cfd",
+		"b3d3237f",
+		"47c0456e",
+		"244550aa",
+		"58a67277",
+		"c0a7b895",
+		"273a4689",
+		"3eb506ac",
+		"a30c0477",
+		"282f57d1"
+	],
+	tasks: [{
+		uid: "5d6f55b5",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 5"
+		}]
+	}]
+}

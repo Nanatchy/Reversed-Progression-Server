@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	dependencies: [
+		"072bcab5"
+	],
+	tasks: [{
+		uid: "17dec9a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

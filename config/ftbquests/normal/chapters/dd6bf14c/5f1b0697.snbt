@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	dependencies: [
+		"3f596f6a"
+	],
+	tasks: [{
+		uid: "1a2c8009",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:nether_star_seeds"
+		}]
+	},
+	{
+		uid: "dbf816d4",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:special"
+		}]
+	}]
+}

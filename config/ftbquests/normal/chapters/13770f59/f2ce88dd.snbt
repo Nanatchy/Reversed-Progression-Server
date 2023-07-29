@@ -1,0 +1,22 @@
+{
+	title: "Energy Upgrade",
+	x: 0.5d,
+	y: -3.0d,
+	dependencies: [
+		"c1d8fac9"
+	],
+	tasks: [{
+		uid: "b3506e5b",
+		type: "item",
+		items: [{
+			item: "teslacorelib:energy_tier1"
+		}]
+	},
+	{
+		uid: "7724b5e9",
+		type: "item",
+		items: [{
+			item: "teslacorelib:energy_tier2"
+		}]
+	}]
+}

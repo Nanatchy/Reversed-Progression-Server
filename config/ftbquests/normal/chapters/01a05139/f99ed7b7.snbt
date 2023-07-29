@@ -1,0 +1,12 @@
+{
+	x: 4.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "a95869b5",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt 1 1"
+		}],
+		count: 16L
+	}]
+}

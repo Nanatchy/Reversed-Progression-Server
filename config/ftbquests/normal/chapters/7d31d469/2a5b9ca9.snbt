@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	dependencies: [
+		"0b83b5f6"
+	],
+	tasks: [{
+		uid: "06e7603a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_seeds"
+		}]
+	}]
+}

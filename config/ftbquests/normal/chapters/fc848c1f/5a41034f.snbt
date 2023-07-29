@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"f6facdb6"
+	],
+	tasks: [{
+		uid: "ff210f2d",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot"
+		}]
+	},
+	{
+		uid: "35e8ced7",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot 1 3"
+		}]
+	}]
+}

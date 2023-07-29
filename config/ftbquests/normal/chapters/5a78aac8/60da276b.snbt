@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	dependencies: [
+		"f7ad2393"
+	],
+	tasks: [{
+		uid: "2d25b252",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_energy_core"
+		}]
+	}]
+}

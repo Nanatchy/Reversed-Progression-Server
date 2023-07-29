@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"2e6901ce"
+	],
+	tasks: [{
+		uid: "2250931f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

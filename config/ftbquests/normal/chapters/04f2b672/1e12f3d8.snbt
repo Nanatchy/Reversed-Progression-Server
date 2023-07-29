@@ -1,0 +1,49 @@
+{
+	title: "Blank Pattern Assembler",
+	x: 1.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "d2c7cd0e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "295c4537",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "3825bc7d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "1cd4c00c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		}]
+	},
+	{
+		uid: "b7f4fd0a",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		}],
+		count: 12L
+	},
+	{
+		uid: "3df2a34d",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}],
+		count: 10L
+	}]
+}

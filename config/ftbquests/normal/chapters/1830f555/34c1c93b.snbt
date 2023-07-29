@@ -1,0 +1,75 @@
+{
+	title: "Conduits Assembler",
+	x: 8.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "e27c568a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "1024fadc",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 6"
+		}],
+		count: 27L
+	},
+	{
+		uid: "00ec5a58",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativeglass"
+		}],
+		count: 44L
+	},
+	{
+		uid: "1283fd96",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "1008a6c4",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		}],
+		count: 7L
+	},
+	{
+		uid: "6789de4a",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}]
+	},
+	{
+		uid: "9fdad17c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 3"
+		}]
+	},
+	{
+		uid: "2d8f7e6a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 3"
+		}]
+	},
+	{
+		uid: "e8a7edb4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}],
+		count: 2L
+	}]
+}

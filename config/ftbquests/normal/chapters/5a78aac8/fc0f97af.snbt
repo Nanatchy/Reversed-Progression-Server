@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"69ce0146",
+		"1fe70bf0"
+	],
+	tasks: [{
+		uid: "4862c24a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:fusion_crafting_core"
+		}]
+	},
+	{
+		uid: "d8aa5d25",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 9L
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	x: 0.0d,
+	y: -7.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a1f84a98",
+		"1def98ad",
+		"f990ef32",
+		"8bf2c5b4",
+		"0ea4f5c3",
+		"69f06699",
+		"36b7c0fd",
+		"154a2b27",
+		"73e3ccce",
+		"632356f2",
+		"7ba88bbb",
+		"f9894cfa",
+		"2e0833bc",
+		"41859670",
+		"9d6de598",
+		"2b53e864",
+		"4776fc6e",
+		"2e25bc7f",
+		"59ad7516",
+		"5bdc60e0",
+		"74b095ee"
+	],
+	tasks: [{
+		uid: "3578777c",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}]
+}

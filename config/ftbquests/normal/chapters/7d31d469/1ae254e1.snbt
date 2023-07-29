@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"0b83b5f6"
+	],
+	tasks: [{
+		uid: "0f6a1c7d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ardite_seeds"
+		}]
+	}]
+}

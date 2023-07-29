@@ -1,0 +1,18 @@
+{
+	title: "Bonsai Pot",
+	x: -2.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "4b33e175",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}]
+}

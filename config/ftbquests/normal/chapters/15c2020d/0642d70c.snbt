@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"72d47f23"
+	],
+	tasks: [{
+		uid: "679fbf70",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}]
+	}]
+}

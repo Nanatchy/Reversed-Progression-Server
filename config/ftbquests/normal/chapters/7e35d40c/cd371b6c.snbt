@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "4ee3243f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:ashen_cloak_head"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

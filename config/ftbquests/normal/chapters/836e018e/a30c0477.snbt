@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "c4a01404",
+		type: "item",
+		items: [{
+			item: "avaritia:block_resource 1 2"
+		}]
+	}]
+}

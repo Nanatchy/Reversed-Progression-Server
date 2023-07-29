@@ -1,0 +1,18 @@
+{
+	title: "XNet",
+	x: 1.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "16bf6549",
+		type: "item",
+		items: [{
+			item: "xnet:controller"
+		}]
+	}]
+}

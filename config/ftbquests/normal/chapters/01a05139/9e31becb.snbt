@@ -1,0 +1,30 @@
+{
+	x: 6.0d,
+	y: 7.5d,
+	dependencies: [
+		"7033fb55",
+		"e723e1c4"
+	],
+	tasks: [{
+		uid: "203cfe95",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel0"
+		}]
+	},
+	{
+		uid: "c906cd06",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_barrel1"
+		}]
+	},
+	{
+		uid: "c3474d23",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}],
+		count: 8L
+	}]
+}

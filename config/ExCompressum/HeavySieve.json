@@ -26,11 +26,11 @@
         "rewards": [
           {
             "name": "",
-            "metadata": 0,
+            "metadata": 1,
             "count": 1,
-            "rolls": 1,
+            "rolls": 3,
             "chance": 1.0,
-            "meshLevel": 1
+            "meshLevel": 4
           }
         ]
       },

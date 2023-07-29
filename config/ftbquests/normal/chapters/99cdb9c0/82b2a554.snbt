@@ -1,0 +1,12 @@
+{
+	title: "Other mods",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Here is a list of the other mods available in the pack."
+	],
+	tasks: [{
+		uid: "49d4d8b9",
+		type: "checkmark"
+	}]
+}

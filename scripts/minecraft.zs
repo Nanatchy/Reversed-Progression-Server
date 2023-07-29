@@ -65,6 +65,14 @@ recipes.addShaped(<minecraft:chest>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
 ]);
 
+//Chest
+recipes.remove(<minecraft:chest>);
+recipes.addShaped(<minecraft:chest> * 4, [
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+    [<ore:logWood>, null, <ore:logWood>],
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>]
+]);
+
 //Hopper
 recipes.remove(<minecraft:hopper>);
 recipes.addShaped(<minecraft:hopper>, [
@@ -128,8 +136,8 @@ recipes.addShaped(<minecraft:bucket>, [
 //Aroma Mining Multitool
 recipes.remove(<aroma1997sdimension:miningmultitool>);
 recipes.addShaped(<aroma1997sdimension:miningmultitool>, [
-    [<bloodmagic:ritual_stone>, <randomthings:ingredient:3>, <bloodmagic:ritual_stone>],
-    [<bloodmagic:ritual_stone>, <botania:dreamwood>, <bloodmagic:ritual_stone>],
+    [null, <randomthings:ingredient:3>, null],
+    [<botania:storage:4>, <botania:dreamwood>, <botania:storage:4>],
     [null, <botania:dreamwood>, null]
 ]);
 
@@ -181,4 +189,11 @@ recipes.addShaped(<simplevoidworld:portal>, [
     [<mekanism:basicblock:2>, <extrautils2:ingredients:2>, <mekanism:basicblock:2>],
     [<extrautils2:ingredients:2>, <bloodarsenal:blood_diamond:2>, <extrautils2:ingredients:2>],
     [<mekanism:basicblock:2>, <extrautils2:ingredients:2>, <mekanism:basicblock:2>]
+]);
+
+//Peace Candle
+recipes.addShaped(<randomthings:peacecandle>, [
+    [null, null, null],
+    [<embers:ashen_stone>, <harvestcraft:candledeco1>, <embers:ashen_stone>],
+    [<embers:ashen_stone>, <embers:ashen_stone>, <embers:ashen_stone>]
 ]);

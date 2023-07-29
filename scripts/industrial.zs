@@ -158,17 +158,17 @@ recipes.addShaped(<industrialforegoing:block_placer>, [
 //Tree Fluid Extractor
 recipes.remove(<industrialforegoing:tree_fluid_extractor>);
 recipes.addShaped(<industrialforegoing:tree_fluid_extractor>, [
-    [<bloodmagic:ritual_stone>, <enderio:item_alloy_ingot:3>, <bloodmagic:ritual_stone>],
-    [<bloodmagic:ritual_stone>, <thermalexpansion:machine>, <bloodmagic:ritual_stone>],
-    [<bloodmagic:ritual_stone>, <moreplates:quartz_enriched_iron_gear>, <bloodmagic:ritual_stone>]
+    [<botania:manaresource:8>, <enderio:item_alloy_ingot:3>, <botania:manaresource:8>],
+    [<botania:shimmerrock>, <thermalexpansion:machine>, <botania:shimmerrock>],
+    [<botania:shimmerrock>, <moreplates:quartz_enriched_iron_gear>, <botania:shimmerrock>]
 ]);
 
 //Latex Processing Unit
 recipes.remove(<industrialforegoing:latex_processing_unit>);
 recipes.addShaped(<industrialforegoing:latex_processing_unit>, [
-    [<bloodarsenal:base_item:4>, <enderio:item_alloy_ingot:3>, <bloodarsenal:base_item:4>],
+    [<extendedcrafting:material>, <enderio:item_alloy_ingot:3>, <extendedcrafting:material>],
     [<thermalexpansion:machine>, case, <thermalexpansion:machine>],
-    [<bloodarsenal:base_item:4>, <moreplates:quartz_enriched_iron_gear>, <bloodarsenal:base_item:4>]
+    [<extendedcrafting:material>, <moreplates:quartz_enriched_iron_gear>, <extendedcrafting:material>]
 ]);
 
 //Sewage Composter
@@ -190,9 +190,9 @@ recipes.addShaped(<industrialforegoing:animal_byproduct_recolector>, [
 //Sludge Refiner
 recipes.remove(<industrialforegoing:sludge_refiner>);
 recipes.addShaped(<industrialforegoing:sludge_refiner>, [
-    [plastic, <minecraft:bucket>, plastic],
+    [<pneumaticcraft:plastic>, <minecraft:bucket>, <pneumaticcraft:plastic>],
     [<thermalexpansion:machine>, case, <thermalexpansion:machine>],
-    [<moreplates:quartz_enriched_iron_gear>, <thermalfoundation:material:25>, <moreplates:quartz_enriched_iron_gear>]
+    [<moreplates:quartz_enriched_iron_gear>, <thermalfoundation:material:295>, <moreplates:quartz_enriched_iron_gear>]
 ]);
 
 //Mob Detector

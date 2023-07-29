@@ -201,6 +201,15 @@
           "value": 2
         }
       ]
+    },
+    {
+      "mobName": "botania:doppleganger",
+      "configs": [
+        {
+          "tag": "factory_tier",
+          "value": 4
+        }
+      ]
     }
   ],
   "entitymodblacklist": [
@@ -217,7 +226,20 @@
     "twilightforest:armored_giant"
   ],
   "entitywhitelist": [
-    "botania:doppleganger"
+    "botania:doppleganger",
+    "minecraft:villager",
+    "minecraft:wither_skeleton",
+    "minecraft:magma_cube",
+    "minecraft:enderman",
+    "minecraft:ender_dragon",
+    "draconicevolution:chaosguardian",
+    "minecraft:wither",
+    "minecraft:villager_golem",
+    "minecraft:guardian",
+    "minecraft:blaze",
+    "minecraft:witch",
+    "minecraft:ghast",
+    "minecraft:zombie_pigman"
   ],
   "itemmodblacklist": [
   ],

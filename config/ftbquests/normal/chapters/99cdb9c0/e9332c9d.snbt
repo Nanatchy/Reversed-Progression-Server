@@ -1,0 +1,19 @@
+{
+	title: "Woot",
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "41478bcb",
+		type: "item",
+		items: [{
+			item: "woot:stygianironingot"
+		}],
+		count: 64L
+	}]
+}

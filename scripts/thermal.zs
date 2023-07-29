@@ -916,3 +916,9 @@ pulverizerMachine(<exnihilocreatio:block_dust>, <minecraft:sand>, 4000);
 //Steel Ingot
 mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:iron_ingot>, <thermalfoundation:material:768>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material>, <thermalfoundation:material:768>);
+
+//Seared stone
+mods.thermalexpansion.Crucible.addRecipe(<liquid:stone> * 72, <tconstruct:soil>, 500);
+
+//Molten Glass
+mods.thermalexpansion.Crucible.addRecipe(<liquid:glass> * 1000, <minecraft:glass>, 500);

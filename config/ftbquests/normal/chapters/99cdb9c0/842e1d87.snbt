@@ -1,0 +1,18 @@
+{
+	title: "Pam's Harvestcraft",
+	x: 2.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "14dd8bbd",
+		type: "item",
+		items: [{
+			item: "harvestcraft:market"
+		}]
+	}]
+}

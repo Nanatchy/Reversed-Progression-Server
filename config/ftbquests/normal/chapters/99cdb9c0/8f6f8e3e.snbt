@@ -1,0 +1,22 @@
+{
+	title: "ExtraUtilities 2",
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "eaf91f5f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "extrautils2:angelring"
+		}],
+		ignore_nbt: 1b
+	}]
+}

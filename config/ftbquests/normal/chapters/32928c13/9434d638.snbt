@@ -15,5 +15,53 @@
 			Damage: 3s
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "9ec4dfbb",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "7554b032",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 1"
+		}],
+		count: 68L
+	},
+	{
+		uid: "f9f55312",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockblackmarble"
+		}],
+		count: 49L
+	},
+	{
+		uid: "8965e188",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble"
+		}],
+		count: 12L
+	},
+	{
+		uid: "3927dcdd",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 2"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1a76405b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmarble 1 4"
+		}],
+		count: 4L
 	}]
 }

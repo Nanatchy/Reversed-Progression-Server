@@ -1,0 +1,14 @@
+{
+	x: 12.5d,
+	y: -6.5d,
+	dependencies: [
+		"f305cae2"
+	],
+	tasks: [{
+		uid: "f17627ee",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_energetic_silver"
+		}]
+	}]
+}

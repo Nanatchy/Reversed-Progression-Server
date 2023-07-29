@@ -144,3 +144,100 @@ recipes.addShaped(<rftools:spawner>, [
     [<woot:structure:3>, frame, <woot:structure:2>],
     [<tp:redstone_ingot>, <woot:structure:1>, <tp:redstone_ingot>]
 ]);
+
+//Environmental Controller
+recipes.remove(<rftools:environmental_controller>);
+recipes.addShaped(<rftools:environmental_controller>, [
+    [<botania:manaresource:8>, <actuallyadditions:block_crystal_empowered:2>, <botania:manaresource:8>],
+    [<actuallyadditions:block_crystal_empowered>, frame, <actuallyadditions:block_crystal_empowered:5>],
+    [<botania:manaresource:8>, <actuallyadditions:block_crystal_empowered:4>, <botania:manaresource:8>]
+]);
+
+/* Environmental modules */
+//Regen
+recipes.remove(<rftools:regeneration_module>);
+recipes.addShaped(<rftools:regeneration_module>, [
+    [null, <rftools:syringe>.withTag({mobName: "Iron Golem", level: 10, mobId: "minecraft:villager_golem"}), null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Speed
+recipes.remove(<rftools:speed_module>);
+recipes.addShaped(<rftools:speed_module>, [
+    [null, <rftools:syringe>.withTag({mobName: "Horse", level: 10, mobId: "minecraft:horse"}), null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Haste
+recipes.remove(<rftools:haste_module>);
+recipes.addShaped(<rftools:haste_module>, [
+    [null, <minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 3 as short, id: 32 as short}]}), null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Saturation
+recipes.remove(<rftools:saturation_module>);
+recipes.addShaped(<rftools:saturation_module>, [
+    [null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "minecraft:zombie"}), null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Feather falling
+recipes.remove(<rftools:featherfalling_module>);
+recipes.addShaped(<rftools:featherfalling_module>, [
+    [null, <rftools:syringe>.withTag({mobName: "Chicken", level: 10, mobId: "minecraft:chicken"}), null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Peaceful
+recipes.remove(<rftools:peaceful_module>);
+recipes.addShaped(<rftools:peaceful_module>, [
+    [null, <rftools:peace_essence>, null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Water breathing
+recipes.remove(<rftools:waterbreathing_module>);
+recipes.addShaped(<rftools:waterbreathing_module>, [
+    [null, <rftools:syringe>.withTag({mobName: "Guardian", level: 10, mobId: "minecraft:guardian"}), null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Night vision
+recipes.remove(<rftools:nightvision_module>);
+recipes.addShaped(<rftools:nightvision_module>, [
+    [null, <rftools:syringe>.withTag({mobName: "Cave Spider", level: 10, mobId: "minecraft:cave_spider"}), null],
+    [<embers:ingot_dawnstone>, <extrautils2:ingredients:9>, <embers:ingot_dawnstone>],
+    [null, <botanicadds:elven_lapis>, null]
+]);
+
+//Flight
+recipes.remove(<rftools:flight_module>);
+
+//Blindness
+recipes.remove(<rftools:blindness_module>);
+
+//Weakness
+recipes.remove(<rftools:weakness_module>);
+
+//Poison
+recipes.remove(<rftools:poison_module>);
+
+//Slowness
+recipes.remove(<rftools:slowness_module>);
+
+//Glowing
+recipes.remove(<rftools:glowing_module>);
+
+//Luck
+recipes.remove(<rftools:luck_module>);
+
+//No Teleport
+recipes.remove(<rftools:noteleport_module>);

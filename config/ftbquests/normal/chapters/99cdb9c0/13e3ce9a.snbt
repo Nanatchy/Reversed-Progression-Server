@@ -1,0 +1,19 @@
+{
+	title: "Agricraft",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "c9eb0733",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}],
+		count: 64L
+	}]
+}

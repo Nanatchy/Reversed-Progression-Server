@@ -1,0 +1,18 @@
+{
+	title: "Solar Flux Reborn",
+	x: 3.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "45c386fc",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_1"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Flux Network",
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "a62fe8f6",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}],
+		count: 64L
+	}]
+}

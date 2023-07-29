@@ -1,0 +1,19 @@
+{
+	title: "Deep Mob Learning",
+	x: -1.0d,
+	y: -3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"82b2a554"
+	],
+	tasks: [{
+		uid: "5b475cb4",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:glitch_infused_ingot"
+		}],
+		count: 64L
+	}]
+}

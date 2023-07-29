@@ -22,11 +22,9 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:extraction_cha
 ]);
 
 //Glitch heart
-chamber([<deepmoblearning:pristine_matter_zombie>, <deepmoblearning:pristine_matter_skeleton>, <deepmoblearning:pristine_matter_creeper>, <deepmoblearning:pristine_matter_spider>,
-		<deepmoblearning:pristine_matter_slime>, <deepmoblearning:pristine_matter_witch>, <deepmoblearning:pristine_matter_blaze>, <deepmoblearning:pristine_matter_ghast>,
-		<deepmoblearning:pristine_matter_enderman>, <deepmoblearning:pristine_matter_wither>, <deepmoblearning:pristine_matter_dragon>, <deepmoblearning:pristine_matter_shulker>,
-		<deepmoblearning:pristine_matter_guardian>, <deepmoblearning:pristine_matter_thermal_elemental>, <deepmoblearning:pristine_matter_tinker_slime>, <deepmoblearning:pristine_matter_wither_skeleton>
-		], 5.0, [<deepmoblearning:glitch_heart> * 3]);
+chamber([<deepmoblearning:pristine_matter_witch>, <deepmoblearning:pristine_matter_blaze>, <deepmoblearning:pristine_matter_ghast>,
+		<deepmoblearning:pristine_matter_wither_skeleton>, <deepmoblearning:pristine_matter_wither>, <deepmoblearning:pristine_matter_dragon>,
+		], 3.0, [<deepmoblearning:glitch_heart> * 3]);
 
 //Helmet
 recipes.remove(<deepmoblearning:glitch_infused_helmet>);
@@ -37,24 +35,24 @@ recipes.addShaped(<deepmoblearning:glitch_infused_helmet>, [
 ]);
 
 //Chestplate
-recipes.remove(<deepmoblearning:glitch_infused_helmet>);
-recipes.addShaped(<deepmoblearning:glitch_infused_helmet>, [
+recipes.remove(<deepmoblearning:glitch_infused_chestplate>);
+recipes.addShaped(<deepmoblearning:glitch_infused_chestplate>, [
 	[<deepmoblearning:glitch_infused_ingot>, null, <deepmoblearning:glitch_infused_ingot>],
 	[<deepmoblearning:glitch_infused_ingot>, <botania:manasteelchest>, <deepmoblearning:glitch_infused_ingot>],
 	[<deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>, <deepmoblearning:glitch_infused_ingot>]
 ]);
 
 //Leggings
-recipes.remove(<deepmoblearning:glitch_infused_helmet>);
-recipes.addShaped(<deepmoblearning:glitch_infused_helmet>, [
+recipes.remove(<deepmoblearning:glitch_infused_leggings>);
+recipes.addShaped(<deepmoblearning:glitch_infused_leggings>, [
 	[<deepmoblearning:glitch_infused_ingot>, <botania:manasteellegs>, <deepmoblearning:glitch_infused_ingot>],
 	[<deepmoblearning:glitch_infused_ingot>, null, <deepmoblearning:glitch_infused_ingot>],
 	[<deepmoblearning:glitch_infused_ingot>, null, <deepmoblearning:glitch_infused_ingot>]
 ]);
 
 //Boots
-recipes.remove(<deepmoblearning:glitch_infused_helmet>);
-recipes.addShaped(<deepmoblearning:glitch_infused_helmet>, [
+recipes.remove(<deepmoblearning:glitch_infused_boots>);
+recipes.addShaped(<deepmoblearning:glitch_infused_boots>, [
 	[null, null, null],
 	[<deepmoblearning:glitch_infused_ingot>, null, <deepmoblearning:glitch_infused_ingot>],
 	[<deepmoblearning:glitch_infused_ingot>, null, <botania:manasteelboots>]

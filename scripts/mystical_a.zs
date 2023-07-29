@@ -240,7 +240,7 @@ botania(<mysticalagriculture:mystical_flower_seeds>, [<mysticalagriculture:craft
 
 //Crafting seed
 recipes.remove(t3CraftSeed);
-astral("reversedprogression:shaped/internal/altar/machinecase", t3CraftSeed, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", t3CraftSeed, 500, 500, [
     interEssence, interEssence, interEssence,
     interEssence, t2CraftSeed, interEssence,
     interEssence, interEssence, interEssence,
@@ -250,7 +250,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", t3CraftSeed, 500
 
 //Inferium seed
 recipes.remove(<mysticalagriculture:tier3_inferium_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:tier3_inferium_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:tier3_inferium_seeds>, 500, 500, [
     interEssenceBlock, interEssenceBlock, interEssenceBlock,
     interEssenceBlock, <mysticalagriculture:tier2_inferium_seeds>, interEssenceBlock,
     interEssenceBlock, interEssenceBlock, interEssenceBlock,
@@ -260,7 +260,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Iron seed
 recipes.remove(<mysticalagriculture:iron_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:iron_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:iron_seeds>, 500, 500, [
     <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>,
     <minecraft:iron_ingot>, t3CraftSeed, <minecraft:iron_ingot>,
     <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>,
@@ -270,7 +270,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Nether quartz seed
 recipes.remove(<mysticalagriculture:nether_quartz_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:nether_quartz_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:nether_quartz_seeds>, 500, 500, [
     <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>,
     <ore:blockQuartz>, t3CraftSeed, <ore:blockQuartz>,
     <ore:blockQuartz>, <ore:blockQuartz>, <ore:blockQuartz>,
@@ -280,7 +280,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Glowstone seed
 recipes.remove(<mysticalagriculture:glowstone_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:glowstone_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:glowstone_seeds>, 500, 500, [
     <minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>,
     <minecraft:glowstone>, t3CraftSeed, <minecraft:glowstone>,
     <minecraft:glowstone>, <minecraft:glowstone>, <minecraft:glowstone>,
@@ -290,7 +290,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Redstone seed
 recipes.remove(<mysticalagriculture:redstone_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:redstone_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:redstone_seeds>, 500, 500, [
     <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>,
     <ore:blockRedstone>, t3CraftSeed, <ore:blockRedstone>,
     <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>,
@@ -300,7 +300,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Obsidian seed
 recipes.remove(<mysticalagriculture:obsidian_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:obsidian_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:obsidian_seeds>, 500, 500, [
     <ore:obsidian>, <ore:obsidian>, <ore:obsidian>,
     <ore:obsidian>, t3CraftSeed, <ore:obsidian>,
     <ore:obsidian>, <ore:obsidian>, <ore:obsidian>,
@@ -310,7 +310,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Skeleton seed
 recipes.remove(<mysticalagriculture:skeleton_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:skeleton_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:skeleton_seeds>, 500, 500, [
     <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>,
     <mysticalagriculture:chunk:12>, t3CraftSeed, <mysticalagriculture:chunk:12>,
     <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>, <mysticalagriculture:chunk:12>,
@@ -320,7 +320,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Creeper seed
 recipes.remove(<mysticalagriculture:creeper_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:creeper_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:creeper_seeds>, 500, 500, [
     <mysticalagriculture:chunk:13>, <mysticalagriculture:chunk:13>, <mysticalagriculture:chunk:13>,
     <mysticalagriculture:chunk:13>, t3CraftSeed, <mysticalagriculture:chunk:13>,
     <mysticalagriculture:chunk:13>, <mysticalagriculture:chunk:13>, <mysticalagriculture:chunk:13>,
@@ -330,7 +330,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Spider seed
 recipes.remove(<mysticalagriculture:spider_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:spider_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:spider_seeds>, 500, 500, [
     <mysticalagriculture:chunk:14>, <mysticalagriculture:chunk:14>, <mysticalagriculture:chunk:14>,
     <mysticalagriculture:chunk:14>, t3CraftSeed, <mysticalagriculture:chunk:14>,
     <mysticalagriculture:chunk:14>, <mysticalagriculture:chunk:14>, <mysticalagriculture:chunk:14>,
@@ -340,7 +340,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Rabbit seed
 recipes.remove(<mysticalagriculture:rabbit_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:rabbit_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:rabbit_seeds>, 500, 500, [
     <mysticalagriculture:chunk:15>, <mysticalagriculture:chunk:15>, <mysticalagriculture:chunk:15>,
     <mysticalagriculture:chunk:15>, t3CraftSeed, <mysticalagriculture:chunk:15>,
     <mysticalagriculture:chunk:15>, <mysticalagriculture:chunk:15>, <mysticalagriculture:chunk:15>,
@@ -350,7 +350,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Guardian seed
 recipes.remove(<mysticalagriculture:guardian_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:guardian_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:guardian_seeds>, 500, 500, [
     <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>,
     <mysticalagriculture:chunk:16>, t3CraftSeed, <mysticalagriculture:chunk:16>,
     <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>, <mysticalagriculture:chunk:16>,
@@ -360,7 +360,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Saltpeter seed
 recipes.remove(<mysticalagriculture:saltpeter_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:saltpeter_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:saltpeter_seeds>, 500, 500, [
     <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>,
     <ore:dustSaltpeter>, t3CraftSeed, <ore:dustSaltpeter>,
     <ore:dustSaltpeter>, <ore:dustSaltpeter>, <ore:dustSaltpeter>,
@@ -370,7 +370,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Tin seed
 recipes.remove(<mysticalagriculture:tin_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:tin_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:tin_seeds>, 500, 500, [
     <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>,
     <ore:ingotTin>, t3CraftSeed, <ore:ingotTin>,
     <ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>,
@@ -380,7 +380,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Bronze seed
 recipes.remove(<mysticalagriculture:bronze_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:bronze_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:bronze_seeds>, 500, 500, [
     <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>,
     <ore:ingotBronze>, t3CraftSeed, <ore:ingotBronze>,
     <ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>,
@@ -390,7 +390,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Silver seed
 recipes.remove(<mysticalagriculture:silver_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:silver_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:silver_seeds>, 500, 500, [
     <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>,
     <ore:ingotSilver>, t3CraftSeed, <ore:ingotSilver>,
     <ore:ingotSilver>, <ore:ingotSilver>, <ore:ingotSilver>,
@@ -400,7 +400,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Lead seed
 recipes.remove(<mysticalagriculture:lead_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:lead_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:lead_seeds>, 500, 500, [
     <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>,
     <ore:ingotLead>, t3CraftSeed, <ore:ingotLead>,
     <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>,
@@ -410,7 +410,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Blizz seed
 recipes.remove(<mysticalagriculture:blizz_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:blizz_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:blizz_seeds>, 500, 500, [
     <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>,
     <mysticalagriculture:chunk:21>, t3CraftSeed, <mysticalagriculture:chunk:21>,
     <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>, <mysticalagriculture:chunk:21>,
@@ -420,7 +420,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Blitz seed
 recipes.remove(<mysticalagriculture:blitz_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:blitz_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:blitz_seeds>, 500, 500, [
     <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>,
     <mysticalagriculture:chunk:22>, t3CraftSeed, <mysticalagriculture:chunk:22>,
     <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>, <mysticalagriculture:chunk:22>,
@@ -430,7 +430,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Basalz seed
 recipes.remove(<mysticalagriculture:basalz_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:basalz_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:basalz_seeds>, 500, 500, [
     <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>,
     <mysticalagriculture:chunk:23>, t3CraftSeed, <mysticalagriculture:chunk:23>,
     <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>, <mysticalagriculture:chunk:23>,
@@ -440,7 +440,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Knightslime seed
 recipes.remove(<mysticalagriculture:knightslime_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:knightslime_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:knightslime_seeds>, 500, 500, [
     <tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>,
     <tconstruct:ingots:3>, t3CraftSeed, <tconstruct:ingots:3>,
     <tconstruct:ingots:3>, <tconstruct:ingots:3>, <tconstruct:ingots:3>,
@@ -450,7 +450,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Ardite seed
 recipes.remove(<mysticalagriculture:ardite_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:ardite_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:ardite_seeds>, 500, 500, [
     <tconstruct:ingots:1>, <tconstruct:ingots:1>, <tconstruct:ingots:1>,
     <tconstruct:ingots:1>, t3CraftSeed, <tconstruct:ingots:1>,
     <tconstruct:ingots:1>, <tconstruct:ingots:1>, <tconstruct:ingots:1>,
@@ -460,7 +460,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Electrical steel seed
 recipes.remove(<mysticalagriculture:electrical_steel_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:electrical_steel_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:electrical_steel_seeds>, 500, 500, [
     <enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>,
     <enderio:item_alloy_ingot>, t3CraftSeed, <enderio:item_alloy_ingot>,
     <enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>,
@@ -470,7 +470,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Redstone alloy seed
 recipes.remove(<mysticalagriculture:redstone_alloy_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:redstone_alloy_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:redstone_alloy_seeds>, 500, 500, [
     <enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:3>,
     <enderio:item_alloy_ingot:3>, t3CraftSeed, <enderio:item_alloy_ingot:3>,
     <enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:3>,
@@ -480,7 +480,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Conductive iron seed
 recipes.remove(<mysticalagriculture:conductive_iron_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:conductive_iron_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:conductive_iron_seeds>, 500, 500, [
     <enderio:item_alloy_ingot:4>, <enderio:item_alloy_ingot:4>, <enderio:item_alloy_ingot:4>,
     <enderio:item_alloy_ingot:4>, t3CraftSeed, <enderio:item_alloy_ingot:4>,
     <enderio:item_alloy_ingot:4>, <enderio:item_alloy_ingot:4>, <enderio:item_alloy_ingot:4>,
@@ -490,7 +490,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Manasteel seed
 recipes.remove(<mysticalagriculture:manasteel_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:manasteel_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:manasteel_seeds>, 500, 500, [
     manaIngot, manaIngot, manaIngot,
     manaIngot, t3CraftSeed, manaIngot,
     manaIngot, manaIngot, manaIngot,
@@ -500,7 +500,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Steeleaf seed
 recipes.remove(<mysticalagriculture:steeleaf_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:steeleaf_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:steeleaf_seeds>, 500, 500, [
     <twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>,
     <twilightforest:steeleaf_ingot>, t3CraftSeed, <twilightforest:steeleaf_ingot>,
     <twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>, <twilightforest:steeleaf_ingot>,
@@ -510,7 +510,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Ironwood seed
 recipes.remove(<mysticalagriculture:ironwood_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:ironwood_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:ironwood_seeds>, 500, 500, [
     <twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>,
     <twilightforest:ironwood_ingot>, t3CraftSeed, <twilightforest:ironwood_ingot>,
     <twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>, <twilightforest:ironwood_ingot>,
@@ -520,7 +520,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Black quartz seed
 recipes.remove(<mysticalagriculture:black_quartz_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:black_quartz_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:black_quartz_seeds>, 500, 500, [
     <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>,
     <actuallyadditions:item_misc:5>, t3CraftSeed, <actuallyadditions:item_misc:5>,
     <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>,
@@ -530,7 +530,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Aquamarine seed
 recipes.remove(<mysticalagriculture:aquamarine_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:aquamarine_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:aquamarine_seeds>, 500, 500, [
     <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>,
     <astralsorcery:itemcraftingcomponent>, t3CraftSeed, <astralsorcery:itemcraftingcomponent>,
     <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>, <astralsorcery:itemcraftingcomponent>,
@@ -540,7 +540,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Ender biotite seed
 recipes.remove(<mysticalagriculture:ender_biotite_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:ender_biotite_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:ender_biotite_seeds>, 500, 500, [
     <quark:biotite>, <quark:biotite>, <quark:biotite>,
     <quark:biotite>, t3CraftSeed, <quark:biotite>,
     <quark:biotite>, <quark:biotite>, <quark:biotite>,
@@ -550,7 +550,7 @@ astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagricul
 
 //Quartz enriched iron seed
 recipes.remove(<mysticalagriculture:quartz_enriched_iron_seeds>);
-astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:quartz_enriched_iron_seeds>, 5000, 500, [
+astral("reversedprogression:shaped/internal/altar/machinecase", <mysticalagriculture:quartz_enriched_iron_seeds>, 500, 500, [
     <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,
     <refinedstorage:quartz_enriched_iron>, t3CraftSeed, <refinedstorage:quartz_enriched_iron>,
     <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>, <refinedstorage:quartz_enriched_iron>,
@@ -692,8 +692,7 @@ extended(t5CraftSeed, 10000, 1000, t4CraftSeed, [
     supremEssenceBlock, supremEssenceBlock,     
     supremEssenceBlock, supremIngot, supremIngot, supremIngot, supremEssenceBlock,
     supremIngot, supremIngot,     
-    supremEssenceBlock, supremIngot, supremIngot, supremIngot, supremEssenceBlock,
-    supremEssenceBlock, supremEssenceBlock]);
+    supremEssenceBlock, supremIngot, supremEssenceBlock]);
 
 //Inferium seed
 recipes.remove(<mysticalagriculture:tier5_inferium_seeds>);

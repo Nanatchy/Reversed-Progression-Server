@@ -1,7 +1,0 @@
-{
-	title: "Seeds - Tier V",
-	icon: "mysticalagriculture:crafting 1 21",
-	always_invisible: false,
-	group: 269371316,
-	default_quest_shape: ""
-}

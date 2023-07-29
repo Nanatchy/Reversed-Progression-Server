@@ -1,7 +1,0 @@
-{
-	title: "Chapter X - Industrial Foregoing",
-	icon: "teslacorelib:machine_case",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

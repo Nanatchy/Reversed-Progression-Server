@@ -1,7 +1,0 @@
-{
-	title: "Chapter II - Tinkers' Construct",
-	icon: "tconstruct:materials",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

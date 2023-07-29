@@ -1,7 +1,0 @@
-{
-	title: "Chapter VIII - EnderIo",
-	icon: "enderio:item_material",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

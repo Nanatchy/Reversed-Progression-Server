@@ -1,7 +1,0 @@
-{
-	title: "Extra mods",
-	icon: "deepmoblearning:glitch_heart",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

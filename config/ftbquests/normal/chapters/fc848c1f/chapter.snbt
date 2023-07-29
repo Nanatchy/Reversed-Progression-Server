@@ -1,7 +1,0 @@
-{
-	title: "Chapter XII - Mekanism",
-	icon: "mekanism:basicblock 1 8",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

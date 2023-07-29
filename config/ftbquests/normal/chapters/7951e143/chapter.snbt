@@ -1,7 +1,0 @@
-{
-	title: "Chapter V - RFTools",
-	icon: "rftools:machine_frame",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

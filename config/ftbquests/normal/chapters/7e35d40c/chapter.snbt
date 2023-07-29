@@ -1,7 +1,0 @@
-{
-	title: "Chapter IV - Embers Rekindled",
-	icon: "embers:ingot_dawnstone",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

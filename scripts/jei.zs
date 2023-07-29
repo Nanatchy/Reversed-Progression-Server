@@ -148,3 +148,14 @@ mods.jei.JEI.removeAndHide(<tp:netherstar_block>); //TP Nether Star Block
 mods.jei.JEI.removeAndHide(<mysticaladaptations:netherstar_block>); //TP Nether Star Block
 mods.jei.JEI.removeAndHide(<avaritia:extreme_crafting_table>); //Avaritia Extreme Table
 mods.jei.JEI.removeAndHide(<avaritia:neutronium_compressor>); //Avaritia Neutronium Compressor
+mods.jei.JEI.removeAndHide(<excompressum:iron_mesh>); //ExCompressum Iron Mesh
+mods.jei.JEI.removeAndHide(<twilightforest:twilight_oak_door>); //TwilightForest
+mods.jei.JEI.removeAndHide(<twilightforest:canopy_door>); //TwilightForest
+mods.jei.JEI.removeAndHide(<twilightforest:mangrove_door>); //TwilightForest
+mods.jei.JEI.removeAndHide(<twilightforest:dark_door>); //TwilightForest
+
+//Terrasteel
+mods.jei.JEI.addDescription(<botania:manaresource:4>,"Crafted on Terrestrial Agglomeration Plate, with Manasteel Ingot, Mana Diamond and Mana Pearl.");
+
+//Gaiasteel
+mods.jei.JEI.addDescription(<botanicadds:gaiasteel_ingot>,"Crafted on Gaia Agglomeration Plate, with Pixie Dust, Dragonstone and Gaia Spirit Ingot.");

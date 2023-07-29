@@ -248,3 +248,9 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <solarflux:solar_panel_infinity
 	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null]
 ]);
 
+//Crystal Matrix
+recipes.remove(<avaritia:resource:1>);
+recipes.addShaped(<avaritia:resource:1> * 2, [
+	[<actuallyadditions:block_crystal_empowered:2>, <woot:shard:3>, <actuallyadditions:block_crystal_empowered:2>],
+	[<actuallyadditions:block_crystal_empowered:2>, <woot:shard:3>, <actuallyadditions:block_crystal_empowered:2>]
+]);

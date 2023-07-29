@@ -156,3 +156,11 @@ blast(<thermalfoundation:material:160>, <minecraft:iron_ingot>, 600);
 //Electrum
 kiln(<thermalfoundation:material:161> * 2, <minecraft:gold_ingot>, <thermalfoundation:material:130>, 600);
 kiln(<thermalfoundation:material:97>, <ore:dustGold>, <thermalfoundation:material:66>, 300);
+
+//Garden Cloche
+recipes.remove(<immersiveengineering:metal_device1:13>);
+recipes.addShaped(<immersiveengineering:metal_device1:13>, [
+    [<botania:elfglass>, <immersiveengineering:toolupgrade:10>, <botania:elfglass>],
+    [<botania:elfglass>, null, <botania:elfglass>],
+    [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]
+]);

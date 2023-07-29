@@ -32,7 +32,7 @@ mods.mekanism.infuser.addRecipe("DIAMOND", 10, <tconstruct:materials:14>, <mekan
 
 //Atomic Alloy
 mods.mekanism.infuser.removeRecipe(<mekanism:atomicalloy>, <mekanism:reinforcedalloy>, "OBSIDIAN");
-mods.mekanism.infuser.addRecipe("OBSIDIAN", 10, <mysticalagradditions:insanium:2>, <mekanism:atomicalloy>);
+mods.mekanism.infuser.addRecipe("OBSIDIAN", 10, <pneumaticcraft:advanced_pcb>, <mekanism:atomicalloy>);
 
 //Basic Control Circuit
 mods.mekanism.infuser.removeRecipe(<mekanism:controlcircuit>, <ore:ingotOsmium>, "REDSTONE");
@@ -97,4 +97,12 @@ recipes.addShaped(<mekanism:machineblock:8>, [
     [<enderio:item_alloy_ingot:4>, <minecraft:furnace>, <enderio:item_alloy_ingot:4>],
     [<tp:redstone_ingot>, <mekanism:basicblock:8>, <tp:redstone_ingot>],
     [<enderio:item_alloy_ingot:4>, <minecraft:furnace>, <enderio:item_alloy_ingot:4>]
+]);
+
+//Basic Fluid Tank
+recipes.remove(<mekanism:machineblock2:11>.withTag({tier: 0}));
+recipes.addShaped(<mekanism:machineblock2:11>.withTag({tier: 0}), [
+    [<tp:redstone_ingot>, <enderio:item_alloy_ingot:9>, <tp:redstone_ingot>],
+    [<enderio:item_alloy_ingot:9>, <extrautils2:decorativeglass>, <enderio:item_alloy_ingot:9>],
+    [<tp:redstone_ingot>, <enderio:item_alloy_ingot:9>, <tp:redstone_ingot>]
 ]);

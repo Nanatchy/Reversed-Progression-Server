@@ -72,6 +72,7 @@ recipes.addShaped(<extrautils2:passivegenerator:5>, [
 ]);
 
 //Dragon Egg
+recipes.remove(<extrautils2:passivegenerator:8>);
 mods.extendedcrafting.TableCrafting.addShaped(2, <extrautils2:passivegenerator:8>, [
 	[<extrautils2:passivegenerator:2>, <ore:netherStar>, <ore:pearlEnderEye>, <ore:netherStar>, <extrautils2:passivegenerator:3>], 
 	[<ore:netherStar>, <mysticalagradditions:dragon_egg_essence>, <mysticalagradditions:dragon_egg_essence>, <mysticalagradditions:dragon_egg_essence>, <ore:netherStar>], 
@@ -159,9 +160,9 @@ recipes.addShaped(culinary, [
 
 //Magmatic
 recipes.addShaped(magmatic, [
-    [<ore:stone>, <mekanism:machineblock2:11>.withTag({tier: 0, mekData: {security: 0, ownerUUID: "68f81f12-d6fa-4b52-ab29-71bf6c859fed", fluidTank: {FluidName: "lava", Amount: 14000}, Items: []}}), <ore:stone>],
+    [<ore:stone>, <actuallyadditions:block_lava_factory_controller>, <ore:stone>],
     [<ore:stone>, survival, <ore:stone>],
-    [<ore:stone>, <mekanism:machineblock2:11>.withTag({tier: 0, mekData: {security: 0, ownerUUID: "68f81f12-d6fa-4b52-ab29-71bf6c859fed", fluidTank: {FluidName: "lava", Amount: 14000}, Items: []}}), <ore:stone>]
+    [<ore:stone>, <actuallyadditions:block_lava_factory_controller>, <ore:stone>]
 ]);
 
 //Frosty

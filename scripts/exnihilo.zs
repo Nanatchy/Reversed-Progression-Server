@@ -39,6 +39,9 @@ furnace.addRecipe(<mekanism:ingot:1>, <exnihilocreatio:item_ore_osmium:1>);
 /* Sieves */
 Sieve.removeAll();
 
+//Coarse Dirt
+mesh(<minecraft:dirt:1>, <immersiveengineering:seed>, 0.1);
+
 //Gravel
 mesh(<minecraft:gravel>, <minecraft:flint>, 0.25);
 flintMesh(<minecraft:gravel>, <minecraft:flint>, 0.25);
@@ -84,11 +87,13 @@ ironMesh(<minecraft:sand>, <minecraft:dye:3>, 0.09);
 ironMesh(<minecraft:sand>, <exnihilocreatio:item_ore_aluminium>, 0.075);
 ironMesh(<minecraft:sand>, <exnihilocreatio:item_ore_tin>, 0.075);
 ironMesh(<minecraft:sand>, <actuallyadditions:item_misc:5>, 0.02);
+ironMesh(<minecraft:sand>, <exnihilocreatio:item_ore_silver>, 0.15);
 diamondMesh(<minecraft:sand>, <minecraft:dye:3>, 0.12);
 diamondMesh(<minecraft:sand>, <exnihilocreatio:item_ore_aluminium>, 0.25);
 diamondMesh(<minecraft:sand>, <exnihilocreatio:item_ore_tin>, 0.25);
 diamondMesh(<minecraft:sand>, <actuallyadditions:item_misc:5>, 0.05);
 diamondMesh(<minecraft:sand>, <minecraft:prismarine_shard>, 0.02);
+diamondMesh(<minecraft:sand>, <exnihilocreatio:item_ore_silver>, 0.25);
 
 //Dust
 mesh(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.2);
@@ -106,6 +111,7 @@ diamondMesh(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.25);
 diamondMesh(<exnihilocreatio:block_dust>, <minecraft:glowstone_dust>, 0.125);
 diamondMesh(<exnihilocreatio:block_dust>, <minecraft:blaze_powder>, 0.075);
 diamondMesh(<exnihilocreatio:block_dust>, <enderio:item_material:20>, 0.018);
+diamondMesh(<exnihilocreatio:block_dust>, <mysticalagriculture:crafting:5>, 0.01);
 
 //Crushed Netherrack
 flintMesh(<exnihilocreatio:block_netherrack_crushed>, <exnihilocreatio:item_ore_gold>, 0.25);

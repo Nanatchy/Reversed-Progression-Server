@@ -284,8 +284,8 @@ recipes.addShaped(<enderio:item_capacitor_grainy>, [
 recipes.remove(<enderio:item_basic_capacitor>);
 recipes.addShaped(<enderio:item_basic_capacitor>, [
     [null, <thermalfoundation:material:225>, <enderio:item_capacitor_grainy>],
-    [<thermalfoundation:material:225>, <ore:plateCopper>, null],
-    [<enderio:item_capacitor_grainy>, <thermalfoundation:material:225>, <thermalfoundation:material:225>]
+    [<thermalfoundation:material:225>, <ore:plateCopper>, <thermalfoundation:material:225>],
+    [<enderio:item_capacitor_grainy>, <thermalfoundation:material:225>, null]
 ]);
 
 //Double-layer
@@ -307,9 +307,9 @@ recipes.addShaped(<enderio:item_basic_capacitor:2>, [
 //Silver
 recipes.remove(<enderio:item_capacitor_silver>);
 recipes.addShaped(<enderio:item_capacitor_silver>, [
-    [null, <thermalfoundation:material:194>, <enderio:item_basic_capacitor:2>],
+    [null, <thermalfoundation:material:194>, <enderio:item_capacitor_grainy>],
     [<thermalfoundation:material:194>, <ore:plateLead>, <thermalfoundation:material:194>],
-    [<enderio:item_basic_capacitor:2>, <thermalfoundation:material:194>, null]
+    [<enderio:item_capacitor_grainy>, <thermalfoundation:material:194>, null]
 ]);
 
 //Endergetic silver
@@ -333,7 +333,7 @@ recipes.remove(<enderio:item_capacitor_crystalline>);
 recipes.addShaped(<enderio:item_capacitor_crystalline>, [
     [null, <enderio:item_alloy_endergy_nugget:1>, <enderio:item_capacitor_vivid>],
     [<enderio:item_alloy_endergy_nugget:1>, <minecraft:prismarine>, <enderio:item_alloy_endergy_nugget:1>],
-    [<enderio:item_capacitor_vivid>, <enderio:item_alloy_endergy_nugget:1>, null]
+    [<enderio:item_basic_capacitor:2>, <enderio:item_alloy_endergy_nugget:1>, null]
 ]);
 
 //Melodic

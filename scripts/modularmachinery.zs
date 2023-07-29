@@ -58,7 +58,7 @@ var redstoneConduit = RecipeBuilder.newBuilder("redstoneconduit", "conduit_assem
 /* Machines Crafts */
 //Thermal Machine Frame
 recipes.remove(<thermalexpansion:frame>);
-machineframe.addEnergyPerTickInput(15);
+machineframe.addEnergyPerTickInput(500);
 machineframe.addItemInput(<rftools:machine_frame>);
 machineframe.addItemInput(<tconstruct:clear_glass> * 2);
 machineframe.addItemInput(<ore:plateIron>, 2);
@@ -67,7 +67,7 @@ machineframe.build();
 
 //Thermal Device Frame
 recipes.remove(<thermalexpansion:frame:64>);
-deviceframe.addEnergyPerTickInput(15);
+deviceframe.addEnergyPerTickInput(500);
 deviceframe.addItemInput(<rftools:machine_frame>);
 deviceframe.addItemInput(<tconstruct:clear_glass> * 2);
 deviceframe.addItemInput(<ore:plateTin>, 2);
@@ -83,7 +83,7 @@ blankPattern.build();
 
 //Refined Storage Machine Casing
 recipes.remove(<refinedstorage:machine_casing>);
-machineCasing.addEnergyPerTickInput(15);
+machineCasing.addEnergyPerTickInput(500);
 machineCasing.addItemInput(<rftools:machine_frame>);
 machineCasing.addItemInput(<refinedstorage:quartz_enriched_iron> * 8);
 machineCasing.addItemOutput(<refinedstorage:machine_casing>);
@@ -109,7 +109,7 @@ fluidConduit.build();
 //Pressurized Fluid Conduit
 recipes.remove(<enderio:item_liquid_conduit:1>);
 pressurizedConduit.addEnergyPerTickInput(50);
-pressurizedConduit.addItemInput(<enderio:item_liquid_conduit>);
+pressurizedConduit.addItemInput(<enderio:item_liquid_conduit> * 8);
 pressurizedConduit.addItemInput(<enderio:item_alloy_ingot:1> * 2);
 pressurizedConduit.addItemInput(<enderio:item_material:4> * 6);
 pressurizedConduit.addItemOutput(<enderio:item_liquid_conduit:1> * 8);
@@ -118,7 +118,7 @@ pressurizedConduit.build();
 //Ender Conduit
 recipes.remove(<enderio:item_liquid_conduit:2>);
 enderConduit.addEnergyPerTickInput(50);
-enderConduit.addItemInput(<enderio:item_liquid_conduit:1>);
+enderConduit.addItemInput(<enderio:item_liquid_conduit:1> * 8);
 enderConduit.addItemInput(<enderio:item_alloy_ingot:2> * 2);
 enderConduit.addItemInput(<enderio:item_material:4> * 6);
 enderConduit.addItemOutput(<enderio:item_liquid_conduit:2> * 8);
@@ -136,7 +136,7 @@ crudeConduit.build();
 //Iron
 recipes.remove(<enderio:item_endergy_conduit:1>);
 ironConduit.addEnergyPerTickInput(50);
-ironConduit.addItemInput(<enderio:item_endergy_conduit>);
+ironConduit.addItemInput(<enderio:item_endergy_conduit> * 8);
 ironConduit.addItemInput(<enderio:item_material:4> * 6);
 ironConduit.addItemInput(<enderio:item_material:75>);
 ironConduit.addItemInput(<ore:ingotIron>, 2);
@@ -146,7 +146,7 @@ ironConduit.build();
 //Aluminium
 recipes.remove(<enderio:item_endergy_conduit:2>);
 aluminiumConduit.addEnergyPerTickInput(50);
-aluminiumConduit.addItemInput(<enderio:item_endergy_conduit:1>);
+aluminiumConduit.addItemInput(<enderio:item_endergy_conduit:1> * 8);
 aluminiumConduit.addItemInput(<enderio:item_material:4> * 6);
 aluminiumConduit.addItemInput(<enderio:item_material:75>);
 aluminiumConduit.addItemInput(<ore:ingotAluminum>, 2);
@@ -156,7 +156,7 @@ aluminiumConduit.build();
 //Gold
 recipes.remove(<enderio:item_endergy_conduit:3>);
 goldConduit.addEnergyPerTickInput(50);
-goldConduit.addItemInput(<enderio:item_endergy_conduit:2>);
+goldConduit.addItemInput(<enderio:item_endergy_conduit:2> * 8);
 goldConduit.addItemInput(<enderio:item_material:4> * 6);
 goldConduit.addItemInput(<enderio:item_material:75>);
 goldConduit.addItemInput(<minecraft:gold_ingot> * 2);
@@ -166,7 +166,7 @@ goldConduit.build();
 //Copper
 recipes.remove(<enderio:item_endergy_conduit:4>);
 copperConduit.addEnergyPerTickInput(50);
-copperConduit.addItemInput(<enderio:item_endergy_conduit:3>);
+copperConduit.addItemInput(<enderio:item_endergy_conduit:3> * 8);
 copperConduit.addItemInput(<enderio:item_material:4> * 6);
 copperConduit.addItemInput(<enderio:item_material:75>);
 copperConduit.addItemInput(<ore:ingotCopper>, 2);
@@ -176,7 +176,7 @@ copperConduit.build();
 //Conductive
 recipes.remove(<enderio:item_power_conduit>);
 conductiveConduit.addEnergyPerTickInput(50);
-conductiveConduit.addItemInput(<enderio:item_endergy_conduit:4>);
+conductiveConduit.addItemInput(<enderio:item_endergy_conduit:4> * 8);
 conductiveConduit.addItemInput(<enderio:item_material:4> * 6);
 conductiveConduit.addItemInput(<enderio:item_material:75>);
 conductiveConduit.addItemInput(<enderio:item_alloy_ingot:4> * 2);
@@ -186,7 +186,7 @@ conductiveConduit.build();
 //Silver
 recipes.remove(<enderio:item_endergy_conduit:5>);
 silverConduit.addEnergyPerTickInput(50);
-silverConduit.addItemInput(<enderio:item_power_conduit>);
+silverConduit.addItemInput(<enderio:item_power_conduit> * 8);
 silverConduit.addItemInput(<enderio:item_material:4> * 6);
 silverConduit.addItemInput(<enderio:item_material:75>);
 silverConduit.addItemInput(<ore:ingotSilver>, 2);
@@ -196,7 +196,7 @@ silverConduit.build();
 //Electrum
 recipes.remove(<enderio:item_endergy_conduit:6>);
 electrumConduit.addEnergyPerTickInput(50);
-electrumConduit.addItemInput(<enderio:item_endergy_conduit:5>);
+electrumConduit.addItemInput(<enderio:item_endergy_conduit:5> * 8);
 electrumConduit.addItemInput(<enderio:item_material:4> * 6);
 electrumConduit.addItemInput(<enderio:item_material:75>);
 electrumConduit.addItemInput(<ore:ingotElectrum>, 2);
@@ -206,7 +206,7 @@ electrumConduit.build();
 //Enhanced
 recipes.remove(<enderio:item_power_conduit:1>);
 enhancedConduit.addEnergyPerTickInput(50);
-enhancedConduit.addItemInput(<enderio:item_endergy_conduit:6>);
+enhancedConduit.addItemInput(<enderio:item_endergy_conduit:6> * 8);
 enhancedConduit.addItemInput(<enderio:item_material:4> * 6);
 enhancedConduit.addItemInput(<enderio:item_material:75>);
 enhancedConduit.addItemInput(<enderio:item_alloy_ingot:1> * 2);
@@ -216,7 +216,7 @@ enhancedConduit.build();
 //Energetic
 recipes.remove(<enderio:item_endergy_conduit:7>);
 energeticConduit.addEnergyPerTickInput(50);
-energeticConduit.addItemInput(<enderio:item_power_conduit:1>);
+energeticConduit.addItemInput(<enderio:item_power_conduit:1> * 8);
 energeticConduit.addItemInput(<enderio:item_material:4> * 6);
 energeticConduit.addItemInput(<enderio:item_material:75>);
 energeticConduit.addItemInput(<enderio:item_alloy_endergy_ingot:5> * 2);
@@ -226,7 +226,7 @@ energeticConduit.build();
 //Ender
 recipes.remove(<enderio:item_power_conduit:2>);
 enderEnergyConduit.addEnergyPerTickInput(50);
-enderEnergyConduit.addItemInput(<enderio:item_endergy_conduit:7>);
+enderEnergyConduit.addItemInput(<enderio:item_endergy_conduit:7> * 8);
 enderEnergyConduit.addItemInput(<enderio:item_material:4> * 6);
 enderEnergyConduit.addItemInput(<enderio:item_material:75>);
 enderEnergyConduit.addItemInput(<enderio:item_alloy_ingot:2> * 2);
@@ -236,7 +236,7 @@ enderEnergyConduit.build();
 //Crystalline
 recipes.remove(<enderio:item_endergy_conduit:8>);
 crystallineConduit.addEnergyPerTickInput(50);
-crystallineConduit.addItemInput(<enderio:item_power_conduit:2>);
+crystallineConduit.addItemInput(<enderio:item_power_conduit:2> * 8);
 crystallineConduit.addItemInput(<enderio:item_material:4> * 6);
 crystallineConduit.addItemInput(<enderio:item_material:75>);
 crystallineConduit.addItemInput(<enderio:item_alloy_endergy_ingot:1> * 2);
@@ -246,7 +246,7 @@ crystallineConduit.build();
 //Crystalline Pink Slime
 recipes.remove(<enderio:item_endergy_conduit:9>);
 crystallinePinkConduit.addEnergyPerTickInput(50);
-crystallinePinkConduit.addItemInput(<enderio:item_endergy_conduit:8>);
+crystallinePinkConduit.addItemInput(<enderio:item_endergy_conduit:8> * 8);
 crystallinePinkConduit.addItemInput(<enderio:item_material:4> * 6);
 crystallinePinkConduit.addItemInput(<enderio:item_material:75>);
 crystallinePinkConduit.addItemInput(<enderio:item_alloy_endergy_ingot:4> * 2);
@@ -256,7 +256,7 @@ crystallinePinkConduit.build();
 //Melodic
 recipes.remove(<enderio:item_endergy_conduit:10>);
 melodicConduit.addEnergyPerTickInput(50);
-melodicConduit.addItemInput(<enderio:item_endergy_conduit:9>);
+melodicConduit.addItemInput(<enderio:item_endergy_conduit:9> * 8);
 melodicConduit.addItemInput(<enderio:item_material:4> * 6);
 melodicConduit.addItemInput(<enderio:item_material:75>);
 melodicConduit.addItemInput(<enderio:item_alloy_endergy_ingot:2> * 2);
@@ -266,7 +266,7 @@ melodicConduit.build();
 //Stellar
 recipes.remove(<enderio:item_endergy_conduit:11>);
 stellarConduit.addEnergyPerTickInput(50);
-stellarConduit.addItemInput(<enderio:item_endergy_conduit:10>);
+stellarConduit.addItemInput(<enderio:item_endergy_conduit:10> * 8);
 stellarConduit.addItemInput(<enderio:item_material:4> * 6);
 stellarConduit.addItemInput(<enderio:item_material:75>);
 stellarConduit.addItemInput(<enderio:item_alloy_endergy_ingot:3> * 2);
@@ -302,7 +302,7 @@ redstoneConduit.build();
 
 /* EnderIO Machine Chassis */
 recipes.remove(<enderio:item_material>);
-machineChassis.addEnergyPerTickInput(50);
+machineChassis.addEnergyPerTickInput(5000);
 machineChassis.addItemInput(<botanicadds:gaiasteel_ingot>);
 machineChassis.addItemInput(<enderio:item_material:20> * 2);
 machineChassis.addItemInput(<minecraft:iron_ingot> * 4);
@@ -333,7 +333,7 @@ steelCasing.build();
 /* Mystical Agriculture - Ingots */
 //Inferium
 recipes.remove(<mysticalagriculture:crafting:33>);
-infIngot.addEnergyPerTickInput(100);
+infIngot.addEnergyPerTickInput(1000);
 infIngot.addItemInput(<mysticalagriculture:crafting:32>);
 infIngot.addItemInput(<mysticalagriculture:crafting> * 4);
 infIngot.addFluidOutput(infLiquid * 25);
@@ -342,7 +342,7 @@ infIngot.build();
 
 //Prudentium
 recipes.remove(<mysticalagriculture:crafting:34>);
-prudIngot.addEnergyPerTickInput(100);
+prudIngot.addEnergyPerTickInput(1000);
 prudIngot.addItemInput(<mysticalagriculture:crafting:33>);
 prudIngot.addItemInput(<mysticalagriculture:crafting:1> * 4);
 prudIngot.addFluidOutput(prudLiquid * 25);
@@ -351,7 +351,7 @@ prudIngot.build();
 
 //Intermedium
 recipes.remove(<mysticalagriculture:crafting:35>);
-interIngot.addEnergyPerTickInput(100);
+interIngot.addEnergyPerTickInput(1000);
 interIngot.addItemInput(<mysticalagriculture:crafting:34>);
 interIngot.addItemInput(<mysticalagriculture:crafting:2> * 4);
 interIngot.addFluidOutput(interLiquid * 25);
@@ -360,7 +360,7 @@ interIngot.build();
 
 //Superium
 recipes.remove(<mysticalagriculture:crafting:36>);
-superIngot.addEnergyPerTickInput(100);
+superIngot.addEnergyPerTickInput(1000);
 superIngot.addItemInput(<mysticalagriculture:crafting:35>);
 superIngot.addItemInput(<mysticalagriculture:crafting:3> * 4);
 superIngot.addFluidOutput(superLiquid * 25);
@@ -369,7 +369,7 @@ superIngot.build();
 
 //Supremium
 recipes.remove(<mysticalagriculture:crafting:37>);
-supremIngot.addEnergyPerTickInput(100);
+supremIngot.addEnergyPerTickInput(1000);
 supremIngot.addItemInput(<mysticalagriculture:crafting:36>);
 supremIngot.addItemInput(<mysticalagriculture:crafting:4> * 4);
 supremIngot.addFluidOutput(supremLiquid * 25);
@@ -378,7 +378,7 @@ supremIngot.build();
 
 //Insanium
 recipes.remove(<mysticalagradditions:insanium:2>);
-insIngot.addEnergyPerTickInput(100);
+insIngot.addEnergyPerTickInput(1000);
 insIngot.addItemInput(<mysticalagriculture:crafting:37>);
 insIngot.addItemInput(<mysticalagradditions:insanium> * 4);
 insIngot.addFluidOutput(insLiquid * 25);

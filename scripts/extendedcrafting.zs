@@ -323,3 +323,33 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <extendedcrafting:compressor>, 
 	[<extendedcrafting:material:13>, <ore:ingotBlackIron>, <extendedcrafting:material:11>, <extendedcrafting:material:11>, <ore:ingotBlackIron>, <extendedcrafting:material:10>, <extendedcrafting:material:10>, <ore:ingotBlackIron>, <extendedcrafting:material:13>], 
 	[<extendedcrafting:material:13>, <extendedcrafting:material:13>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <ore:ingotBlackIron>, <extendedcrafting:material:13>, <extendedcrafting:material:13>]
 ]);
+
+//Ender Ingot
+recipes.remove(<extendedcrafting:material:36>);
+recipes.addShaped(<extendedcrafting:material:36>, [
+	[<extrautils2:ingredients:17>, <botania:manaresource:1>]
+]);
+
+//Ender Star
+mods.extendedcrafting.EnderCrafting.remove(<extendedcrafting:material:40>);
+mods.extendedcrafting.EnderCrafting.addShaped(<extendedcrafting:material:40>, [
+	[null, <botania:foresteye>, null], 
+	[<botania:foresteye>, <woot:shard:3>, <botania:foresteye>], 
+	[null, <botania:foresteye>, null]], 
+	30);
+
+//Ender Crafter
+recipes.remove(<extendedcrafting:ender_crafter>);
+recipes.addShaped(<extendedcrafting:ender_crafter>, [
+	[<extrautils2:ingredients:2>, <extrautils2:ingredients:2>, <extrautils2:ingredients:2>],
+	[<extendedcrafting:material:36>, <avaritia:double_compressed_crafting_table>, <extendedcrafting:material:36>],
+	[<extendedcrafting:material:36>, <thermalfoundation:storage_alloy:7>, <extendedcrafting:material:36>]
+]);
+
+//Ender Alternator
+recipes.remove(<extendedcrafting:ender_alternator>);
+mods.extendedcrafting.EnderCrafting.addShaped(<extendedcrafting:material:40> * 2, [
+	[null, <extrautils2:ingredients:2>, null], 
+	[null, <enderio:item_material:39>, null], 
+	[<enderio:item_material:39>, <enderio:item_material:39>, <enderio:item_material:39>]], 
+	30);

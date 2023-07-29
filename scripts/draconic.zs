@@ -20,3 +20,8 @@ recipes.addShaped(draconicCore, [
     [<minecraft:gold_ingot>, <avaritia:resource>, <minecraft:gold_ingot>],
     [<moreplates:draconium_plate>, <minecraft:gold_ingot>, <moreplates:draconium_plate>]
 ]);
+
+//Draconium
+recipes.removeByRecipeName("thermalfoundation:draconium_ingot");
+recipes.removeByRecipeName("thermalfoundation:draconium_ingot_1");
+recipes.removeByRecipeName("thermalfoundation:draconium_ingot_2");

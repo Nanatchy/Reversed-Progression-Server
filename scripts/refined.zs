@@ -92,7 +92,7 @@ laser(<tconstruct:pattern>, <refinedstorage:pattern>);
 
 //Cable
 recipes.remove(<refinedstorage:cable>);
-recipes.addShaped(<refinedstorage:cable>, [
+recipes.addShaped(<refinedstorage:cable> * 4, [
     [qeiIngot, qeiIngot, qeiIngot],
     [<ore:blockGlass>, <enderio:item_alloy_ingot:3>, <ore:blockGlass>],
     [qeiIngot, qeiIngot, qeiIngot]
@@ -241,4 +241,11 @@ recipes.remove(qeiIngot);
 recipes.addShaped(qeiIngot * 4, [
     [<extrautils2:ingredients:17>, <extrautils2:ingredients:17>],
     [<extrautils2:ingredients:17>, <actuallyadditions:item_misc:5>]
+]);
+
+//Quartz Enriched Iron - Essence
+recipes.addShaped(qeiIngot * 6,[
+    [<mysticalagriculture:quartz_enriched_iron_essence>, <mysticalagriculture:quartz_enriched_iron_essence>, <mysticalagriculture:quartz_enriched_iron_essence>],
+    [<mysticalagriculture:quartz_enriched_iron_essence>, null, <mysticalagriculture:quartz_enriched_iron_essence>],
+    [<mysticalagriculture:quartz_enriched_iron_essence>, <mysticalagriculture:quartz_enriched_iron_essence>, <mysticalagriculture:quartz_enriched_iron_essence>]
 ]);

@@ -13,7 +13,6 @@
 			},
 			id: "minecraft:lava_bucket"
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		ignore_damage: true
 	}]
 }

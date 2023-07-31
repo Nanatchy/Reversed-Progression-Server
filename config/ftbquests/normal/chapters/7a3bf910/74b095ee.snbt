@@ -11,7 +11,8 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "danknull:dank_null_6"
+			id: "danknull:dank_null_6",
+			Count: 1b
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

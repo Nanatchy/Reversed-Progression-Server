@@ -69,8 +69,8 @@ recipes.addShaped(cell5, [
 //Cell 6
 recipes.remove(cell6);
 recipes.addShaped(cell6, [
-    [<actuallyadditions:block_crystal_empowered:4>, <danknull:dank_null_panel_5>, <actuallyadditions:block_crystal_empowered:4>],
-    [<bloodarsenal:blood_infused_glowstone>, <bloodarsenal:blood_diamond:2>, <bloodarsenal:blood_infused_glowstone>],
+    [<actuallyadditions:block_crystal_empowered:4>, <dankstorage:dank_6>    , <actuallyadditions:block_crystal_empowered:4>],
+    [<bloodarsenal:blood_infused_glowstone>, <botania:storage:3>, <bloodarsenal:blood_infused_glowstone>],
     [<mysticalagriculture:nether_quartz_seeds>, cell5, <mysticalagriculture:nether_quartz_seeds>]
 ]);
 

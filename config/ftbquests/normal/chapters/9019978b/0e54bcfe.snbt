@@ -17,6 +17,6 @@
 		items: [{
 			item: "extendedcrafting:pedestal"
 		}],
-		count: 16L
+		count: 10L
 	}]
 }

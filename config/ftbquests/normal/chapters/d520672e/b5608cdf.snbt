@@ -15,7 +15,6 @@
 			tag: {
 				orb: "bloodmagic:magician"
 			}
-		}],
-		ignore_nbt: 1b
+		}]
 	}]
 }

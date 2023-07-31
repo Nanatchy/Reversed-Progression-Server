@@ -78,7 +78,7 @@ alloy(advancedComponent, [<extrautils2:ingredients:11> * 2, luminessence, basicC
 
 //Elite
 recipes.remove(eliteComponent);
-alloy(eliteComponent, [<bloodarsenal:blood_diamond:2> * 2, luminessence, advancedComponent], 15000);
+alloy(eliteComponent, [<woot:shard> * 2, luminessence, advancedComponent], 15000);
 
 //Ultimate
 recipes.remove(ultimateComponent);

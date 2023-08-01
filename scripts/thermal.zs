@@ -922,3 +922,12 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:stone> * 72, <tconstruct:soil>,
 
 //Molten Glass
 mods.thermalexpansion.Crucible.addRecipe(<liquid:glass> * 1000, <minecraft:glass>, 500);
+
+//Demon ingot
+fill(<extrautils2:ingredients:11>, <minecraft:gold_ingot>, <liquid:lava> * 100, 1000);
+
+//Silver dust
+mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:66>, <ore:ingotSilver>, 1000);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:66>, <ore:ingotSilver>);
+mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:66>, <thermalfoundation:material:130>, 1000);
+mods.enderio.SagMill.addRecipe([<thermalfoundation:material:66>], [1], <ore:ingotSilver>);

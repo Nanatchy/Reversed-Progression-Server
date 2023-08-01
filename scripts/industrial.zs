@@ -325,9 +325,9 @@ recipes.removeByRecipeName("industrialforegoing:fluid_crafter_enderio");
 //Plant Interactor
 recipes.remove(<industrialforegoing:plant_interactor>);
 recipes.addShaped(<industrialforegoing:plant_interactor>, [
-    [plastic, <minecraft:diamond_hoe>, plastic],
+    [plastic, <enderio:block_farm_station>.withTag({}), plastic],
     [<minecraft:diamond_hoe>, case, <minecraft:diamond_hoe>],
-    [<thermalfoundation:material:25>, <enderio:item_alloy_ingot:3>, <thermalfoundation:material:25>]
+    [<moreplates:insanium_gear>, <enderio:item_alloy_ingot:3>, <moreplates:insanium_gear>]
 ]);
 
 //Item Splitter

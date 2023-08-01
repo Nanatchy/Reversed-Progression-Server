@@ -345,6 +345,7 @@ recipes.addShaped(<enderio:item_capacitor_melodic>, [
 ]);
 
 //Totemic
+mods.enderio.SliceNSplice.removeRecipe(<enderio:item_capacitor_totemic>);
 recipes.remove(<enderio:item_capacitor_totemic>);
 recipes.addShaped(<enderio:item_capacitor_totemic>, [
     [null, <enderio:item_alloy_nugget:8>, <enderio:item_capacitor_melodic>],

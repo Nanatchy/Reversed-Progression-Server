@@ -33,7 +33,7 @@ recipes.remove(<extrautils2:wateringcan>);
 //Angel ring
 recipes.remove(<extrautils2:angelring>);
 recipes.addShaped(<extrautils2:angelring>, [
-    [<ore:blockGlassHardened>, <extendedcrafting:singularity:5>, <ore:blockGlassHardened>],
+    [<ore:blockGlassHardened>, <botanicadds:gaiasteel_ingot>, <ore:blockGlassHardened>],
     [<minecraft:gold_block>, <extrautils2:chickenring:1>, <minecraft:gold_block>],
     [<extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:bat"}, No_Place: 1 as byte}), <minecraft:gold_block>, <extrautils2:goldenlasso:1>.withTag({Animal: {id: "minecraft:ghast"}, No_Place: 1 as byte})]
 ]);

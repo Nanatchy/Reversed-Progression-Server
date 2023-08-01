@@ -71,7 +71,7 @@ recipes.remove(cell6);
 recipes.addShaped(cell6, [
     [<actuallyadditions:block_crystal_empowered:4>, <dankstorage:dank_6>    , <actuallyadditions:block_crystal_empowered:4>],
     [<bloodarsenal:blood_infused_glowstone>, <botania:storage:3>, <bloodarsenal:blood_infused_glowstone>],
-    [<mysticalagriculture:nether_quartz_seeds>, cell5, <mysticalagriculture:nether_quartz_seeds>]
+    [<botanicadds:elven_lapis_block>, cell5, <botanicadds:elven_lapis_block>]
 ]);
 
 /* Solar Panel */

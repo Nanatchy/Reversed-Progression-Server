@@ -1,12 +1,12 @@
 import mods.modularmachinery.RecipeBuilder;
 
-var machineframe = RecipeBuilder.newBuilder("machineframe", "high_exchange_tablet", 600);
-var deviceframe = RecipeBuilder.newBuilder("deviceframe", "high_exchange_tablet", 600);
+var machineframe = RecipeBuilder.newBuilder("machineframe", "high_exchange_tablet", 400);
+var deviceframe = RecipeBuilder.newBuilder("deviceframe", "high_exchange_tablet", 400);
 var blankPattern = RecipeBuilder.newBuilder("pattern", "pattern_creator", 200);
-var machineCase = RecipeBuilder.newBuilder("machinecase", "high_celestial_altar", 1000);
-var machineChassis = RecipeBuilder.newBuilder("machinechassis", "high_runic_altar", 800);
-var steelCasing = RecipeBuilder.newBuilder("steelcasing", "high_blood_altar", 1200);
-var machineCasing = RecipeBuilder.newBuilder("machinecasing", "high_exchange_tablet", 600);
+var machineCase = RecipeBuilder.newBuilder("machinecase", "high_celestial_altar", 5000);
+var machineChassis = RecipeBuilder.newBuilder("machinechassis", "high_runic_altar", 600);
+var steelCasing = RecipeBuilder.newBuilder("steelcasing", "high_blood_altar", 800);
+var machineCasing = RecipeBuilder.newBuilder("machinecasing", "high_exchange_tablet", 400);
 
 /* EnderIO Conduits */
 //Item
@@ -302,7 +302,7 @@ redstoneConduit.build();
 
 /* EnderIO Machine Chassis */
 recipes.remove(<enderio:item_material>);
-machineChassis.addEnergyPerTickInput(5000);
+machineChassis.addEnergyPerTickInput(50);
 machineChassis.addItemInput(<botanicadds:gaiasteel_ingot>);
 machineChassis.addItemInput(<enderio:item_material:20> * 2);
 machineChassis.addItemInput(<minecraft:iron_ingot> * 4);

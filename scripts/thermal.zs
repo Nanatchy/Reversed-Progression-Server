@@ -931,3 +931,34 @@ mods.immersiveengineering.Crusher.addRecipe(<thermalfoundation:material:66>, <or
 mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:66>, <ore:ingotSilver>);
 mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:66>, <thermalfoundation:material:130>, 1000);
 mods.enderio.SagMill.addRecipe([<thermalfoundation:material:66>], [1], <ore:ingotSilver>);
+
+/* Liquid Mana */
+//Mana Lapis
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 3000, <botanicadds:mana_lapis>, 250);
+
+//Mana Lapis Block
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 30000, <botanicadds:mana_lapis_block>, 250);
+
+//Mana Powder
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 2000, <botania:manaresource:23>, 250);
+
+//Mana Diamond
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 10000, <botania:manaresource:2>, 250);
+
+//Block of Mana Diamond
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 100000, <botania:storage:3>, 250);
+
+//Mana Pearl
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 6000, <botania:manaresource:1>, 250);
+
+//Manasteel
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 3000, <botania:manaresource>, 250);
+
+//Block of Manasteel
+mods.thermalexpansion.Crucible.addRecipe(<liquid:liquid_mana> * 30000, <botania:storage>, 250);
+
+//Mana Dust
+recipes.addShaped(<thermalfoundation:material:1028>, [
+    [<thermalfoundation:material:1024>, <thermalfoundation:material:1025>],
+    [<thermalfoundation:material:1026>, <thermalfoundation:material:1027>]
+]);

@@ -1,8 +1,11 @@
 {
 	x: 0.0d,
 	y: 0.0d,
+	text: [
+		"To create the Fusion Crafting Core, you need to insert 8 Energy Upgrades into the Pressurized Reaction Chamber, and a maximum of 2 Speed Upgrades."
+	],
 	dependencies: [
-		"69ce0146",
+		"9434d638",
 		"1fe70bf0"
 	],
 	tasks: [{

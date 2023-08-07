@@ -93,3 +93,35 @@ recipes.addShaped(<tp:watering_can>, [
 
 //Nether Star Block
 recipes.remove(<tp:netherstar_block>);
+
+/* Wither Armor */
+//Helmet
+recipes.remove(<tp:wither_helmet>);
+recipes.addShaped(<tp:wither_helmet>, [
+    [<darkutils:wither_block>, <deepmoblearning:pristine_matter_wither>, <darkutils:wither_block>],
+    [<tconstruct:materials:17>, null, <tconstruct:materials:17>]
+]);
+
+//Chestplate
+recipes.remove(<tp:wither_chestplate>);
+recipes.addShaped(<tp:wither_chestplate>, [
+    [<tconstruct:materials:17>, null, <tconstruct:materials:17>],
+    [<tconstruct:materials:17>, <deepmoblearning:pristine_matter_wither>, <tconstruct:materials:17>],
+    [<darkutils:wither_block>, <darkutils:wither_block>, <darkutils:wither_block>]
+]);
+
+//Leggings
+recipes.remove(<tp:wither_leggings>);
+recipes.addShaped(<tp:wither_leggings>, [
+    [<darkutils:wither_block>, <deepmoblearning:pristine_matter_wither>, <darkutils:wither_block>],
+    [<tconstruct:materials:17>, null, <tconstruct:materials:17>],
+    [<tconstruct:materials:17>, null, <tconstruct:materials:17>]
+]);
+
+//Boots
+recipes.remove(<tp:wither_boots>);
+recipes.addShaped(<tp:wither_boots>, [
+    [null, null, null],
+    [<deepmoblearning:pristine_matter_wither>, null, <darkutils:wither_block>],
+    [<tconstruct:materials:17>, null, <tconstruct:materials:17>]
+]);

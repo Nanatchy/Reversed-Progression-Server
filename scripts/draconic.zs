@@ -16,9 +16,17 @@ recipes.addShaped(<draconicevolution:crafting_injector>, [
 //Draconic
 recipes.remove(draconicCore);
 recipes.addShaped(draconicCore, [
-    [<moreplates:draconium_plate>, <botanicadds:gaiasteel_ingot>, <moreplates:draconium_plate>],
+    [<moreplates:draconium_plate>, <botania:manaresource:14>, <moreplates:draconium_plate>],
     [<minecraft:gold_ingot>, <avaritia:resource>, <minecraft:gold_ingot>],
     [<moreplates:draconium_plate>, <minecraft:gold_ingot>, <moreplates:draconium_plate>]
+]);
+
+//Wyvern
+recipes.remove(<draconicevolution:wyvern_core>);
+recipes.addShaped(<draconicevolution:wyvern_core>, [
+    [<draconicevolution:draconium_ingot>, <draconicevolution:draconic_core>, <draconicevolution:draconium_ingot>],
+    [<draconicevolution:draconic_core>, <botanicadds:gaiasteel_ingot>, <draconicevolution:draconic_core>],
+    [<draconicevolution:draconium_ingot>, <draconicevolution:draconic_core>, <draconicevolution:draconium_ingot>]
 ]);
 
 //Draconium

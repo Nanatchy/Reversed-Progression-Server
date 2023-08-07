@@ -206,7 +206,7 @@
         "result" : "extendedcrafting:table_basic",
         "catalyst" : "avaritia:double_compressed_crafting_table,1",
         "energy" : 500000,
-        "tier" : 3,
+        "tier" : 0,
         "ingredients" : [
             "extendedcrafting:material,1,14",
             "extendedcrafting:material,1,14",
@@ -225,7 +225,7 @@
         "result" : "extendedcrafting:table_advanced",
         "catalyst" : "avaritia:double_compressed_crafting_table,1",
         "energy" : 500000,
-        "tier" : 3,
+        "tier" : 1,
         "ingredients" : [
             "extendedcrafting:material,1,15",
             "extendedcrafting:material,1,15",
@@ -246,7 +246,7 @@
         "result" : "extendedcrafting:table_elite",
         "catalyst" : "avaritia:double_compressed_crafting_table,1",
         "energy" : 500000,
-        "tier" : 3,
+        "tier" : 2,
         "ingredients" : [
             "extendedcrafting:material,1,16",
             "extendedcrafting:material,1,16",

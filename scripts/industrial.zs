@@ -366,3 +366,44 @@ recipes.remove(<industrialforegoing:pitiful_fuel_generator>);
 /* Recipes */
 //Bedrock (Sludge Refiner)
 refiner(<minecraft:bedrock>, 2);
+
+/* @TeslaCore upgrades */
+//Base Addon
+recipes.remove(<teslacorelib:base_addon>);
+recipes.addShaped(<teslacorelib:base_addon>, [
+    [<pneumaticcraft:plastic:15>, <extrautils2:ingredients>, <pneumaticcraft:plastic:15>],
+    [<pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>, <pneumaticcraft:plastic:15>],
+    [<pneumaticcraft:plastic:15>, <extrautils2:ingredients>, <pneumaticcraft:plastic:15>]
+]);
+
+//Energy I
+recipes.remove(<teslacorelib:energy_tier1>);
+recipes.addShaped(<teslacorelib:energy_tier1>, [
+    [null, <thermalfoundation:material:294>, null],
+    [<enderio:item_alloy_ingot:3>, <teslacorelib:base_addon>, <enderio:item_alloy_ingot:3>],
+    [<enderio:item_alloy_ingot:3>, <extrautils2:ingredients:2>, <enderio:item_alloy_ingot:3>]
+]);
+
+//Energy II
+recipes.remove(<teslacorelib:energy_tier2>);
+recipes.addShaped(<teslacorelib:energy_tier2>, [
+    [null, <moreplates:empowered_diamatine_gear>, null],
+    [<actuallyadditions:item_crystal_empowered>, <teslacorelib:energy_tier1>, <actuallyadditions:item_crystal_empowered>],
+    [<actuallyadditions:item_crystal_empowered>, <actuallyadditions:block_crystal_empowered>, <actuallyadditions:item_crystal_empowered>]
+]);
+
+//Speed I
+recipes.remove(<teslacorelib:speed_tier1>);
+recipes.addShaped(<teslacorelib:speed_tier1>, [
+    [<enderio:item_alloy_ingot:3>, <thermalfoundation:material:294>, <enderio:item_alloy_ingot:3>],
+    [<extrautils2:ingredients:2>, <teslacorelib:base_addon>, <extrautils2:ingredients:2>],
+    [<enderio:item_alloy_ingot:3>, <thermalfoundation:material:294>, <enderio:item_alloy_ingot:3>]
+]);
+
+//Speed II
+recipes.remove(<teslacorelib:speed_tier2>);
+recipes.addShaped(<teslacorelib:speed_tier2>, [
+    [<actuallyadditions:item_crystal_empowered>, <moreplates:empowered_diamatine_gear>, <actuallyadditions:item_crystal_empowered>],
+    [<actuallyadditions:block_crystal_empowered>, <teslacorelib:speed_tier1>, <actuallyadditions:block_crystal_empowered>],
+    [<actuallyadditions:item_crystal_empowered>, <moreplates:empowered_diamatine_gear>, <actuallyadditions:item_crystal_empowered>]
+]);

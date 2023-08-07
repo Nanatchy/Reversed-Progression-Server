@@ -124,6 +124,7 @@ molten_whitedye                                   (contenttweaker:molten_whitedy
 molten_slime                                      (contenttweaker:molten_slime)                                                    = Molten Slime
 molten_diamond                                    (contenttweaker:molten_diamond)                                                  = Molten Diamond
 molten_mithril                                    (contenttweaker:molten_mithril)                                                  = Molten Mithril
+liquid_mana                                       (contenttweaker:liquid_mana)                                                     = Liquid Mana
 oil_soul                                          ([no block])                                                                     = Soul Crude
 oil_dwarf                                         ([no block])                                                                     = Dwarven Oil
 gas_dwarf                                         ([no block])                                                                     = Dwarven Fuel Gas

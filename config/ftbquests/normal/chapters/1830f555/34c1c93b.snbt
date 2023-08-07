@@ -51,25 +51,26 @@
 		}]
 	},
 	{
-		uid: "9fdad17c",
-		type: "item",
-		items: [{
-			item: "modularmachinery:blockoutputbus 1 3"
-		}]
-	},
-	{
-		uid: "2d8f7e6a",
-		type: "item",
-		items: [{
-			item: "modularmachinery:blockenergyinputhatch 1 3"
-		}]
-	},
-	{
 		uid: "e8a7edb4",
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockinputbus 1 1"
 		}],
-		count: 2L
+		count: 2L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08c0f4da",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "6c57f5be",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch 1 1"
+		}]
 	}]
 }

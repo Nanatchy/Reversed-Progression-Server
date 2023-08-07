@@ -91,3 +91,7 @@ moltenDiamond.register();
 //Molten Mithril
 var moltenMithril = VanillaFactory.createFluid("molten_mithril", Color.fromHex('5b8ea9'));
 moltenMithril.register();
+
+//Liquid Mana
+var liquidMana = VanillaFactory.createFluid("liquid_mana", Color.fromHex('43cfdc'));
+liquidMana.register();

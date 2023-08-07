@@ -22,14 +22,14 @@ var manaLapis = <botanicadds:mana_lapis>;
 recipes.remove(mirror);
 recipes.addShaped(mirror * 3, [
     [null, null, null],
-    [insuGlass, insuGlass, insuGlass],
-    [null, <pneumaticcraft:ingot_iron_compressed>, null]
+    [<embers:ingot_dawnstone>, <embers:ashen_brick>, <embers:ingot_dawnstone>],
+    [null, <embers:focal_lens>, null]
 ]);
 
 //Cell 1
 recipes.remove(cell1);
 recipes.addShaped(cell1, [
-    [insuGlass, insuGlass, insuGlass],
+    [<botania:manaresource:8>, <botania:rune:5>, <botania:manaresource:8>],
     [manaLapis, manaLapis, manaLapis],
     [mirror, mirror, mirror]
 ]);
@@ -37,41 +37,41 @@ recipes.addShaped(cell1, [
 //Cell 2
 recipes.remove(cell2);
 recipes.addShaped(cell2, [
-    [<deepmoblearning:polymer_clay>, manaLapis, <deepmoblearning:polymer_clay>],
-    [manaLapis, <deepmoblearning:polymer_clay>, manaLapis],
+    [<enderio:item_basic_capacitor:1>, <enderio:item_material:18>, <enderio:item_basic_capacitor:1>],
+    [<enderio:item_alloy_endergy_ingot:1>, <enderio:item_capacitor_energetic_silver>, <enderio:item_alloy_endergy_ingot:1>],
     [mirror, cell1, mirror]
 ]);
 
 //Cell 3
 recipes.remove(cell3);
 recipes.addShaped(cell3, [
-    [insuGlass, insuGlass, insuGlass],
-    [<enderio:item_material:76>, <enderio:item_material:76>, <enderio:item_material:76>],
-    [<bloodmagic:path:6>, cell2, <bloodmagic:path:6>]
+    [<astralsorcery:blockinfusedwood:6>, <astralsorcery:blockinfusedwood:6>, <astralsorcery:blockinfusedwood:6>],
+    [<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:itemcraftingcomponent:1>],
+    [<astralsorcery:itemcraftingcomponent:4>, cell2, <astralsorcery:itemcraftingcomponent:4>]
 ]);
 
 //Cell 4
 recipes.remove(cell4);
 recipes.addShaped(cell4, [
-    [<botania:quartz:2>, <mysticalagriculture:blaze_essence>, <botania:quartz:2>],
-    [<enderio:item_material:76>, <avaritia:resource>, <enderio:item_material:76>],
-    [<botania:quartztypeelf>, cell3, <botania:quartztypeelf>]
+    [<industrialforegoing:plastic>, <industrialforegoing:pink_slime>, <industrialforegoing:plastic>],
+    [<industrialforegoing:plastic>, <avaritia:resource>, <industrialforegoing:plastic>],
+    [<industrialforegoing:pink_slime_ingot>, cell3, <industrialforegoing:pink_slime_ingot>]
 ]);
 
 //Cell 5
 recipes.remove(cell5);
 recipes.addShaped(cell5, [
-    [<botania:blazeblock>, <mysticalagriculture:blaze_seeds>, <botania:blazeblock>],
-    [<mekanism:basicblock:4>, <botania:storage:3>, <mekanism:basicblock:4>],
-    [<refinedstorage:quartz_enriched_iron_block>, cell4, <refinedstorage:quartz_enriched_iron_block>]
+    [<bloodarsenal:base_item:4>, <bloodmagic:item_demon_crystal>, <bloodarsenal:base_item:4>],
+    [<bloodarsenal:base_item:4>,<bloodmagic:path:6>, <bloodarsenal:base_item:4>],
+    [<bloodmagic:decorative_brick:1>, cell4, <bloodmagic:decorative_brick:1>]
 ]);
 
 //Cell 6
 recipes.remove(cell6);
 recipes.addShaped(cell6, [
-    [<actuallyadditions:block_crystal_empowered:4>, <dankstorage:dank_6>    , <actuallyadditions:block_crystal_empowered:4>],
-    [<bloodarsenal:blood_infused_glowstone>, <botania:storage:3>, <bloodarsenal:blood_infused_glowstone>],
-    [<botanicadds:elven_lapis_block>, cell5, <botanicadds:elven_lapis_block>]
+    [<mekanism:atomicalloy>, <mekanism:energytablet>.withTag({}), <mekanism:atomicalloy>],
+    [<mekanism:atomicalloy>, <mekanism:plasticblock:2>, <mekanism:atomicalloy>],
+    [<mekanismgenerators:solarpanel>, cell5, <mekanismgenerators:solarpanel>]
 ]);
 
 /* Solar Panel */
@@ -79,15 +79,15 @@ recipes.addShaped(cell6, [
 recipes.remove(panel1);
 recipes.addShaped(panel1, [
     [mirror, mirror, mirror],
-    [<tconstruct:firewood>, <tp:redstone_ingot>, <tconstruct:firewood>],
-    [<tconstruct:firewood>, <tconstruct:firewood>, <tconstruct:firewood>]
+    [<embers:archaic_bricks>, <tp:redstone_ingot>, <embers:archaic_bricks>],
+    [<embers:block_dawnstone>, <embers:ember_cluster>, <embers:block_dawnstone>]
 ]);
 
 //Tier 2
 recipes.remove(panel2);
 recipes.addShaped(panel2, [
     [panel1, panel1, panel1],
-    [panel1, <botania:pistonrelay>, panel1],
+    [panel1, <thermalfoundation:material:1028>, panel1],
     [panel1, panel1, panel1]
 ]);
 
@@ -95,46 +95,46 @@ recipes.addShaped(panel2, [
 recipes.remove(panel3);
 recipes.addShaped(panel3 * 2, [
     [cell1, cell1, cell1],
-    [panel2, <randomthings:advancedredstonerepeater>, panel2],
-    [panel2, <minecraft:iron_block>, panel2]
+    [panel2, <botania:manaresource:7>, panel2],
+    [panel2, <botania:storage:1>, panel2]
 ]);
 
 //Tier 4
 recipes.remove(panel4);
 recipes.addShaped(panel4 * 2, [
     [cell2, cell2, cell2],
-    [panel3, <embers:clockwork_attenuator>, panel3],
-    [panel3, <pneumaticcraft:compressed_iron_block>, panel3]
+    [panel3, <enderio:item_capacitor_stellar>, panel3],
+    [panel3, <enderio:block_alloy_endergy:6>, panel3]
 ]);
 
 //Tier 5
 recipes.remove(panel5);
 recipes.addShaped(panel5 * 2, [
     [cell3, cell3, cell3],
-    [panel4, <enderio:block_holier_fog>, panel4],
-    [panel4, <enderio:block_alloy:1>, panel4]
+    [panel4, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), panel4],
+    [panel4, <astralsorcery:blockinfusedwood>, panel4]
 ]);
 
 //Tier 6
 recipes.remove(panel6);
 recipes.addShaped(panel6 * 2, [
     [cell4, cell4, cell4],
-    [panel5, <randomthings:rainbowlamp>, panel5],
-    [panel5, <actuallyadditions:block_crystal_empowered:2>, panel5]
+    [panel5, <industrialforegoing:laser_lens>, panel5],
+    [panel5, <industrialforegoing:pink_slime_ingot>, panel5]
 ]);
 
 //Tier 7
 recipes.remove(panel7);
 recipes.addShaped(panel7 * 2, [
     [cell5, cell5, cell5],
-    [panel6, <minecraft:dragon_breath>, panel6],
-    [panel6, <botania:storage:4>, panel6]
+    [panel6, <bloodarsenal:blood_diamond:2>, panel6],
+    [panel6, <bloodarsenal:slate:4>, panel6]
 ]);
 
 //Tier 8
 recipes.remove(panel8);
 recipes.addShaped(panel8 * 2, [
     [cell6, cell6, cell6],
-    [panel7, <deepmoblearning:pristine_matter_dragon>, panel7],
-    [panel7, <draconicevolution:dragon_heart>, panel7]
+    [panel7, <mekanism:atomicalloy>, panel7],
+    [panel7, <mekanism:basicblock:2>, panel7]
 ]);

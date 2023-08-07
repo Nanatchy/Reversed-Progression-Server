@@ -5,14 +5,13 @@
 		"2e6901ce"
 	],
 	tasks: [{
-		uid: "54b4e453",
+		uid: "a0703999",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "danknull:dank_null_6",
-			Count: 1b
+			id: "dankstorage:dank_7"
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

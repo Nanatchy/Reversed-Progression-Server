@@ -92,7 +92,7 @@ diamondMesh(<minecraft:sand>, <minecraft:dye:3>, 0.12);
 diamondMesh(<minecraft:sand>, <exnihilocreatio:item_ore_aluminium>, 0.25);
 diamondMesh(<minecraft:sand>, <exnihilocreatio:item_ore_tin>, 0.25);
 diamondMesh(<minecraft:sand>, <actuallyadditions:item_misc:5>, 0.05);
-diamondMesh(<minecraft:sand>, <minecraft:prismarine_shard>, 0.02);
+diamondMesh(<minecraft:sand>, <minecraft:prismarine_shard>, 0.2);
 diamondMesh(<minecraft:sand>, <exnihilocreatio:item_ore_silver>, 0.25);
 
 //Dust
@@ -111,7 +111,7 @@ diamondMesh(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.25);
 diamondMesh(<exnihilocreatio:block_dust>, <minecraft:glowstone_dust>, 0.125);
 diamondMesh(<exnihilocreatio:block_dust>, <minecraft:blaze_powder>, 0.075);
 diamondMesh(<exnihilocreatio:block_dust>, <enderio:item_material:20>, 0.018);
-diamondMesh(<exnihilocreatio:block_dust>, <mysticalagriculture:crafting:5>, 0.01);
+diamondMesh(<exnihilocreatio:block_dust>, <mysticalagriculture:crafting:5>, 0.15);
 
 //Crushed Netherrack
 flintMesh(<exnihilocreatio:block_netherrack_crushed>, <exnihilocreatio:item_ore_gold>, 0.25);

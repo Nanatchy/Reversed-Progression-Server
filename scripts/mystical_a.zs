@@ -81,16 +81,32 @@ var t6Chunk = <mysticalagradditions:insanium:4>;
 
 //Crystal
 var infCrystalFull = <matc:inferiumcrystal>;
-var infCrystalUsed = <matc:inferiumcrystal:*>;
+var infCrystalUsed = <matc:inferiumcrystal>.anyDamage();
+val oreDictInfCrystal = <ore:inferiumCrystal>;
+oreDictInfCrystal.add(<matc:inferiumcrystal>, <matc:inferiumcrystal:*>);
+
 var prudCrystalFull = <matc:prudentiumcrystal>;
-var prudCrystalUsed = <matc:prudentiumcrystal:*>;
+var prudCrystalUsed = <matc:prudentiumcrystal>.anyDamage();
+val oreDictPrudCrystal = <ore:prudentiumCrystal>;
+oreDictPrudCrystal.add(<matc:prudentiumcrystal>, <matc:prudentiumcrystal:*>);
+
 var interCrystalFull = <matc:intermediumcrystal>;
-var interCrystalUsed = <matc:intermediumcrystal:*>;
+var interCrystalUsed = <matc:intermediumcrystal>.anyDamage();
+val oreDictInterCrystal = <ore:intermediumCrystal>;
+oreDictInterCrystal.add(<matc:intermediumcrystal>, <matc:intermediumcrystal:*>);
+
 var superCrystalFull = <matc:superiumcrystal>;
-var superCrystalUsed = <matc:superiumcrystal:*>;
+var superCrystalUsed = <matc:superiumcrystal>.anyDamage();
+val oreDictSuperCrystal = <ore:superiumCrystal>;
+oreDictSuperCrystal.add(<matc:superiumcrystal>, <matc:superiumcrystal:*>);
+
 var supremCrystalFull = <matc:supremiumcrystal>;
-var supremCrystalUsed = <matc:supremiumcrystal:*>;
+var supremCrystalUsed = <matc:supremiumcrystal>.anyDamage();
+val oreDictSupremCrystal = <ore:supremiumCrystal>;
+oreDictSupremCrystal.add(<matc:supremiumcrystal>, <matc:supremiumcrystal:*>);
+
 var masterCrystal = <mysticalagriculture:master_infusion_crystal>;
+
 
 /* Molten base essence */
 mods.embers.Melter.add(<liquid:base_essence>*144, <mysticalagriculture:crafting:32>);
@@ -847,32 +863,48 @@ mods.tconstruct.Casting.addTableRecipe(infCrystalFull, <tconstruct:cast_custom:2
 
 //Prudentium
 recipes.remove(prudCrystalFull);
-alchemy(prudCrystalFull, [infCrystalUsed, prudEssence, prudIngot, prudEssence, prudIngot], {"dawnstone":(1 to 1)});
+alchemy(prudCrystalFull, [oreDictInfCrystal, prudEssence, prudIngot, prudEssence, prudIngot], {"dawnstone":(1 to 1)});
 
 //Intermedium
 recipes.remove(interCrystalFull);
-botania(interCrystalFull, [prudCrystalUsed, prudIngot, prudIngot, prudEssence, prudEssence], 5000);
+botania(interCrystalFull, [oreDictPrudCrystal, interIngot, interIngot, interEssence, interEssence], 5000);
+//botania(interCrystalFull, [prudCrystalUsed, interIngot, interIngot, interEssence, interEssence], 5000);
 
 //Superium
 recipes.remove(superCrystalFull);
-astral("reversedprogression:shaped/internal/altar/machinecase", superCrystalFull, 10000, 1000, [
+astral("reversedprogression:shaped/internal/altar/machinecase", superCrystalFull, 1000, 500, [
+    superEssence, superEssence, superEssence,
+    superEssence, oreDictInterCrystal, superEssence,
+    superEssence, superEssence, superEssence,
+    superIngot, superIngot,
+    superIngot, superIngot
+]);
+/*astral("reversedprogression:shaped/internal/altar/machinecase", superCrystalFull, 10000, 1000, [
     superEssence, superEssence, superEssence,
     superEssence, interCrystalUsed, superEssence,
     superEssence, superEssence, superEssence,
     superIngot, superIngot,
     superIngot, superIngot
-]);
+]);*/
+
 
 //Supremium
 recipes.remove(supremCrystalFull);
-blood(supremCrystalFull, [superCrystalUsed, supremIngot, supremIngot, supremIngot, supremIngot, supremEssence], 2000, 50, 0);
+blood(supremCrystalFull, [oreDictSuperCrystal, supremIngot, supremIngot, supremIngot, supremIngot, supremEssence], 2000, 50, 0);
+//blood(supremCrystalFull, [superCrystalUsed, supremIngot, supremIngot, supremIngot, supremIngot, supremEssence], 2000, 50, 0);
 
 //Master
 recipes.remove(masterCrystal);
-extended(masterCrystal, 5000000, 100, supremCrystalFull, [
+extended(masterCrystal, 500000, 5000, <matc:supremiumcrystal>, [
     creative, creative, creative, creative, creative,
     creative, insIngot, insIngot, insIngot, insIngot
 ]);
+
+extended(masterCrystal, 500000, 5000, <matc:supremiumcrystal:*>, [
+    creative, creative, creative, creative, creative,
+    creative, insIngot, insIngot, insIngot, insIngot
+]);
+
 
 /* Furnaces */
 //Inferium
@@ -1011,3 +1043,39 @@ induction(baseIngot, prosShard * 4, <embers:ingot_dawnstone>, 500);
 
 //Nether Star Block
 recipes.remove(<mysticaladaptations:netherstar_block>);
+
+/* Blocks to Ingots */
+//Inferium
+recipes.addShaped(infIngot * 9, [
+    [infIngotBlock]
+]);
+
+//Prudentium
+recipes.addShaped(prudIngot * 9, [
+    [prudIngotBlock]
+]);
+
+//Intermedium
+recipes.addShaped(interIngot * 9, [
+    [interIngotBlock]
+]);
+
+//Superium
+recipes.addShaped(superIngot * 9, [
+    [superIngotBlock]
+]);
+
+//Supremium
+recipes.addShaped(supremIngot * 9, [
+    [supremIngotBlock]
+]);
+
+//Insanium
+recipes.addShaped(insIngot * 9, [
+    [insIngotBlock]
+]);
+
+//Base
+recipes.addShaped(baseIngot * 9, [
+    [baseIngotBlock]
+]);

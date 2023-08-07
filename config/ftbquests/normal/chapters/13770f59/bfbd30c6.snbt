@@ -57,13 +57,6 @@
 		}]
 	},
 	{
-		uid: "d1226346",
-		type: "item",
-		items: [{
-			item: "modularmachinery:blockinputbus 1 6"
-		}]
-	},
-	{
 		uid: "c0f8ccb4",
 		type: "item",
 		items: [{
@@ -75,6 +68,13 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockenergyinputhatch 1 5"
+		}]
+	},
+	{
+		uid: "2fc1d2dd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
 		}]
 	}]
 }

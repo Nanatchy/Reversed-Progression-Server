@@ -197,3 +197,9 @@ recipes.addShaped(<randomthings:peacecandle>, [
     [<embers:ashen_stone>, <harvestcraft:candledeco1>, <embers:ashen_stone>],
     [<embers:ashen_stone>, <embers:ashen_stone>, <embers:ashen_stone>]
 ]);
+
+//Uncrafting Table
+recipes.remove(<twilightforest:uncrafting_table>);
+
+//Toast
+furnace.addRecipe(<harvestcraft:toastitem>, <minecraft:bread>);

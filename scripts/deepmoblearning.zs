@@ -3,22 +3,26 @@ import mods.pneumaticcraft.pressurechamber.addRecipe as chamber;
 
 //Simulation chamber
 recipes.remove(<deepmoblearning:simulation_chamber>);
-mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:simulation_chamber>, [
-	[<ore:manaPearl>, <ore:manaPearl>, <astralsorcery:itemcraftingcomponent:3>, <ore:manaPearl>, <ore:manaPearl>], 
-	[<ore:manaPearl>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <ore:manaPearl>], 
-	[<minecraft:comparator>, <deepmoblearning:polymer_clay>, <deepmoblearning:machine_casing>, <deepmoblearning:polymer_clay>, <minecraft:comparator>], 
-	[<botanicadds:elven_lapis>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <botanicadds:elven_lapis>], 
-	[<botanicadds:elven_lapis>, <botanicadds:elven_lapis>, <deepmoblearning:polymer_clay>, <botanicadds:elven_lapis>, <botanicadds:elven_lapis>]
+recipes.addShaped(<deepmoblearning:simulation_chamber>, [
+	[<botania:storage:3>, <deepmoblearning:polymer_clay>, <botania:storage:3>],
+	[<deepmoblearning:polymer_clay>, <deepmoblearning:machine_casing>, <deepmoblearning:polymer_clay>],
+	[<botanicadds:elven_lapis>, <botanicadds:elven_lapis>, <botanicadds:elven_lapis>]
 ]);
 
 //Loot fabricator
 recipes.remove(<deepmoblearning:extraction_chamber>);
-mods.extendedcrafting.TableCrafting.addShaped(2, <deepmoblearning:extraction_chamber>, [
-	[<ore:ingotElectrum>, <ore:ingotElectrum>, <industrialforegoing:artificial_dye:4>, <ore:ingotElectrum>, <ore:ingotElectrum>], 
-	[<ore:ingotElectrum>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <ore:ingotElectrum>], 
-	[<minecraft:comparator>, <deepmoblearning:polymer_clay>, <deepmoblearning:machine_casing>, <deepmoblearning:polymer_clay>, <minecraft:comparator>], 
-	[<bloodarsenal:blood_diamond:2>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <deepmoblearning:polymer_clay>, <bloodarsenal:blood_diamond:2>], 
-	[<bloodarsenal:blood_diamond:2>, <bloodarsenal:blood_diamond:2>, <deepmoblearning:polymer_clay>, <bloodarsenal:blood_diamond:2>, <bloodarsenal:blood_diamond:2>]
+recipes.addShaped(<deepmoblearning:extraction_chamber>, [
+	[<ore:blockElectrum>, <deepmoblearning:polymer_clay>, <ore:blockElectrum>],
+	[<deepmoblearning:polymer_clay>, <deepmoblearning:machine_casing>, <deepmoblearning:polymer_clay>],
+	[<bloodarsenal:blood_diamond:2>, <bloodarsenal:blood_diamond:2>, <bloodarsenal:blood_diamond:2>]
+]);
+
+//Digital Mob Agonizer
+recipes.remove(<deepmoblearningbm:digital_agonizer>);
+recipes.addShaped(<deepmoblearningbm:digital_agonizer>, [
+	[null, <bloodmagic:slate:4>, null],
+	[<bloodmagic:inscription_tool:5>, <deepmoblearning:machine_casing>, <bloodmagic:inscription_tool:5>],
+	[<bloodmagic:ritual_controller>, <bloodmagic:altar>, <bloodmagic:ritual_controller>]
 ]);
 
 //Glitch heart
@@ -56,4 +60,12 @@ recipes.addShaped(<deepmoblearning:glitch_infused_boots>, [
 	[null, null, null],
 	[<deepmoblearning:glitch_infused_ingot>, null, <deepmoblearning:glitch_infused_ingot>],
 	[<deepmoblearning:glitch_infused_ingot>, null, <botania:manasteelboots>]
+]);
+
+//Polymer Clay
+recipes.remove(<deepmoblearning:polymer_clay>);
+recipes.addShaped(<deepmoblearning:polymer_clay> * 8, [
+	[<thermalfoundation:material:161>, <enderio:item_material:76>, null],
+	[<enderio:item_material:76>, <actuallyadditions:item_crystal_empowered:1>, <enderio:item_material:76>],
+	[null, <enderio:item_material:76>, <enderio:item_alloy_ingot:4>]
 ]);

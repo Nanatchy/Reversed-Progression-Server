@@ -52,12 +52,12 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:ultimate_stew> * 4, [
 	[<ore:foodPumpkinsoup>, <ore:foodCarrotsoup>, <ore:foodPotatosoup>, <ore:foodChickennoodlesoup>, <ore:foodSpidereyesoup>, <ore:foodVegetablesoup>, <ore:foodTomatosoup>, <ore:foodCucumbersoup>, <ore:foodRicesoup>], 
 	[<ore:foodBeetsoup>, <ore:foodCreamedbroccolisoup>, <ore:foodSplitpeasoup>, <ore:foodTurnipsoup>, <ore:foodCelerysoup>, <ore:foodAsparagussoup>, <ore:foodCreamofavocadosoup>, <ore:foodCactussoup>, <ore:foodSeedsoup>], 
 	[<ore:foodGardensoup>, <ore:foodOldworldveggiesoup>, <ore:foodLambbarleysoup>, <ore:foodLeekbaconsoup>, <ore:foodPeaandhamsoup>, <ore:foodPotatoandleeksoup>, <ore:foodPizzasoup>, <ore:foodMisosoup>, <ore:foodChorusfruitsoup>], 
-	[<ore:foodApplejuice>, <ore:listAlljuice>, <ore:foodCarrotjuice>, <ore:foodStrawberryjuice>, <ore:listAlljuice>, <ore:foodBlueberryjuice>, <ore:listAlljuice>, <ore:foodPapayajuice>, <ore:foodStarfruitjuice>], 
-	[<ore:foodOrangejuice>, <ore:listAlljuice>, <ore:listAlljuice>, <ore:foodMangojuice>, <ore:foodPomegranatejuice>, <ore:foodBlackberryjuice>, <ore:listAlljuice>, <ore:listAlljuice>, <ore:foodCranberryjuice>], 
+	[<harvestcraft:applejuiceitem>, <harvestcraft:melonjuiceitem>, <harvestcraft:carrotjuiceitem>,<harvestcraft:strawberryjuiceitem>, <harvestcraft:grapejuiceitem>, <harvestcraft:blueberryjuiceitem>,<harvestcraft:cherryjuiceitem>, <harvestcraft:papayajuiceitem>, <harvestcraft:starfruitjuiceitem>], 
+	[<harvestcraft:orangejuiceitem>, <harvestcraft:peachjuiceitem>, <harvestcraft:limejuiceitem>, <harvestcraft:mangojuiceitem>, <harvestcraft:pomegranatejuiceitem>, <harvestcraft:blackberryjuiceitem>, <harvestcraft:raspberryjuiceitem>, <harvestcraft:kiwijuiceitem>, <harvestcraft:cranberryjuiceitem>], 
 	[<ore:foodGrapejelly>, <ore:foodApplejelly>, <ore:foodBlackberryjelly>, <ore:foodBlueberryjelly>, <ore:foodCherryjelly>, <ore:foodCranberryjelly>, <ore:foodKiwijelly>, <ore:foodLemonjelly>, <ore:foodLimejelly>], 
 	[<ore:foodMangojelly>, <ore:foodOrangejelly>, <ore:foodPapayajelly>, <ore:foodPeachjelly>, <ore:foodPomegranatejelly>, <ore:foodRaspberryjelly>, <ore:foodStarfruitjelly>, <ore:foodStrawberryjelly>, <ore:foodWatermelonjelly>], 
-	[<ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:foodBananayogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>], 
-	[<ore:foodLimeyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:listAllyogurt>, <ore:foodGrapeyogurt>]
+	[<harvestcraft:pineappleyogurtitem>, <harvestcraft:papayayogurtitem>, <harvestcraft:starfruityogurtitem>, <harvestcraft:pearyogurtitem>, <harvestcraft:plumyogurtitem>, <harvestcraft:bananayogurtitem>, <harvestcraft:coconutyogurtitem>, <harvestcraft:orangeyogurtitem>, <harvestcraft:peachyogurtitem>], 
+	[<harvestcraft:limeyogurtitem>, <harvestcraft:mangoyogurtitem>, <harvestcraft:pomegranateyogurtitem>, <harvestcraft:vanillayogurtitem>, <harvestcraft:blueberryyogurtitem>, <harvestcraft:lemonyogurtitem>, <harvestcraft:cherryyogurtitem>, <harvestcraft:strawberryyogurtitem>, <harvestcraft:grapeyogurtitem>]
 ]);
 
 //Cosmic Meatballs
@@ -225,13 +225,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <avaritia:infinity_bow>, [
 //Neutronium Solar Panel
 mods.extendedcrafting.TableCrafting.addShaped(0, <solarflux:solar_panel_neutronium> * 2, [
 	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <solarflux:solar_panel_8>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <solarflux:solar_panel_chaotic>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null], 
 	[<ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, null, null, <ore:nuggetCosmicNeutronium>, null, null, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>], 
 	[<ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>], 
-	[null, <solarflux:solar_panel_8>, <ore:nuggetCosmicNeutronium>, <avaritia:resource:2>, <avaritia:resource:5>, <avaritia:resource:2>, <ore:nuggetCosmicNeutronium>, <solarflux:solar_panel_8>, null], 
+	[null, <solarflux:solar_panel_chaotic>, <ore:nuggetCosmicNeutronium>, <avaritia:resource:2>, <avaritia:resource:5>, <avaritia:resource:2>, <ore:nuggetCosmicNeutronium>, <solarflux:solar_panel_chaotic>, null], 
 	[<ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, null, <avaritia:resource:2>, <avaritia:resource:2>, <avaritia:resource:2>, null, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>], 
 	[<ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, null, null, <ore:nuggetCosmicNeutronium>, null, null, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>], 
-	[null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <solarflux:solar_panel_8>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null], 
+	[null, <ore:ingotCosmicNeutronium>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <solarflux:solar_panel_chaotic>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCosmicNeutronium>, null], 
 	[null, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, null, null]
 ]);
 
@@ -253,4 +253,12 @@ recipes.remove(<avaritia:resource:1>);
 recipes.addShaped(<avaritia:resource:1> * 2, [
 	[<actuallyadditions:block_crystal_empowered:2>, <woot:shard:3>, <actuallyadditions:block_crystal_empowered:2>],
 	[<actuallyadditions:block_crystal_empowered:2>, <woot:shard:3>, <actuallyadditions:block_crystal_empowered:2>]
+]);
+
+//Diamond Lattice
+recipes.remove(<avaritia:resource>);
+recipes.addShaped(<avaritia:resource>, [
+	[<actuallyadditions:item_crystal_empowered:2>, null, <actuallyadditions:item_crystal_empowered:2>],
+	[null, <actuallyadditions:item_crystal_empowered:2>, null],
+	[<actuallyadditions:item_crystal_empowered:2>, null, <actuallyadditions:item_crystal_empowered:2>]
 ]);

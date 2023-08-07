@@ -1,12 +1,12 @@
 import mods.modularmachinery.RecipeBuilder;
 
-var machineframe = RecipeBuilder.newBuilder("machineframe", "high_exchange_tablet", 400);
-var deviceframe = RecipeBuilder.newBuilder("deviceframe", "high_exchange_tablet", 400);
+var machineframe = RecipeBuilder.newBuilder("machineframe", "high_exchange_tablet", 100);
+var deviceframe = RecipeBuilder.newBuilder("deviceframe", "high_exchange_tablet", 100);
 var blankPattern = RecipeBuilder.newBuilder("pattern", "pattern_creator", 200);
-var machineCase = RecipeBuilder.newBuilder("machinecase", "high_celestial_altar", 5000);
-var machineChassis = RecipeBuilder.newBuilder("machinechassis", "high_runic_altar", 600);
-var steelCasing = RecipeBuilder.newBuilder("steelcasing", "high_blood_altar", 800);
-var machineCasing = RecipeBuilder.newBuilder("machinecasing", "high_exchange_tablet", 400);
+var machineCase = RecipeBuilder.newBuilder("machinecase", "high_celestial_altar", 200);
+var machineChassis = RecipeBuilder.newBuilder("machinechassis", "high_runic_altar", 200);
+var steelCasing = RecipeBuilder.newBuilder("steelcasing", "high_blood_altar", 200);
+var machineCasing = RecipeBuilder.newBuilder("machinecasing", "high_exchange_tablet", 100);
 
 /* EnderIO Conduits */
 //Item
@@ -83,7 +83,7 @@ blankPattern.build();
 
 //Refined Storage Machine Casing
 recipes.remove(<refinedstorage:machine_casing>);
-machineCasing.addEnergyPerTickInput(500);
+machineCasing.addEnergyPerTickInput(1000);
 machineCasing.addItemInput(<rftools:machine_frame>);
 machineCasing.addItemInput(<refinedstorage:quartz_enriched_iron> * 8);
 machineCasing.addItemOutput(<refinedstorage:machine_casing>);
@@ -302,8 +302,9 @@ redstoneConduit.build();
 
 /* EnderIO Machine Chassis */
 recipes.remove(<enderio:item_material>);
-machineChassis.addEnergyPerTickInput(50);
+machineChassis.addEnergyPerTickInput(1000);
 machineChassis.addItemInput(<botanicadds:gaiasteel_ingot>);
+machineChassis.addFluidInput(<liquid:liquid_mana> * 20000);
 machineChassis.addItemInput(<enderio:item_material:20> * 2);
 machineChassis.addItemInput(<minecraft:iron_ingot> * 4);
 machineChassis.addItemInput(<thermalexpansion:frame>);
@@ -312,7 +313,7 @@ machineChassis.build();
 
 //Machine Case
 recipes.remove(<teslacorelib:machine_case>);
-machineCase.addEnergyPerTickInput(100);
+machineCase.addEnergyPerTickInput(1000);
 machineCase.addItemInput(<enderio:item_alloy_ingot:9> * 4);
 machineCase.addItemInput(<ore:plankTreatedWood>, 12);
 machineCase.addItemInput(<enderio:item_alloy_ingot:3> * 4);
@@ -322,7 +323,7 @@ machineCase.build();
 
 //Steel Casing
 recipes.remove(<mekanism:basicblock:8>);
-steelCasing.addEnergyPerTickInput(100);
+steelCasing.addEnergyPerTickInput(2500);
 steelCasing.addItemInput(<teslacorelib:machine_case>);
 steelCasing.addFluidInput(<liquid:lifeessence> * 5000);
 steelCasing.addItemOutput(<mekanism:basicblock:8>);

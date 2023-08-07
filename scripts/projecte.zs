@@ -358,3 +358,6 @@ recipes.remove(<projectex:collector:15>);
 
 //Final Relay
 recipes.remove(<projectex:relay:15>);
+
+//Watch of Flowing Time
+recipes.remove(<projecte:item.pe_time_watch>.withTag({}));

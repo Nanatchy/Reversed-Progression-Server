@@ -49,17 +49,17 @@
 		}]
 	},
 	{
-		uid: "fff0d3e0",
-		type: "item",
-		items: [{
-			item: "modularmachinery:blockinputbus 1 2"
-		}]
-	},
-	{
 		uid: "7695716e",
 		type: "item",
 		items: [{
 			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "44182d8a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
 		}]
 	}]
 }

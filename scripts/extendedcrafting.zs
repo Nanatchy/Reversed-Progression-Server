@@ -348,8 +348,15 @@ recipes.addShaped(<extendedcrafting:ender_crafter>, [
 
 //Ender Alternator
 recipes.remove(<extendedcrafting:ender_alternator>);
-mods.extendedcrafting.EnderCrafting.addShaped(<extendedcrafting:material:40> * 2, [
-	[null, <extrautils2:ingredients:2>, null], 
-	[null, <enderio:item_material:39>, null], 
-	[<enderio:item_material:39>, <enderio:item_material:39>, <enderio:item_material:39>]], 
-	30);
+recipes.addShaped(<extendedcrafting:ender_alternator>, [
+	[null, <botania:manaresource:1>, null],
+	[null, <extendedcrafting:material:36>, null],
+	[<extendedcrafting:material:36>, <extendedcrafting:storage:5>, <extendedcrafting:material:36>]
+]);
+
+//Ender Ingot - Block -> Ingot
+recipes.addShaped(<extendedcrafting:material:36> * 9, [
+	[<extendedcrafting:storage:5>, null, null],
+	[null, null, null],
+	[null, null, null]
+]);

@@ -189,16 +189,23 @@
             "alignment" : "bottom_left"
         }
     },
-    
+
     "other":
     {        
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "",
+            "slideshow" :{
+                "images" : [
+                    "cmmenu:textures/gui/background_01.png",
+                    "cmmenu:textures/gui/background_02.png",
+                    "cmmenu:textures/gui/background_03.png",
+                    "cmmenu:textures/gui/background_04.png",
+                    "cmmenu:textures/gui/background_05.png"
+                ],
+                "displayDuration" : 75,
+                "fadeDuration" : 40
+            }
         }
     }
 }

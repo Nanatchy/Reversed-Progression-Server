@@ -44,17 +44,17 @@
             ]
         },
         {
-            "x": -2,
+            "x": 2,
             "y": 2,
-            "z": 5,
+            "z": 1,
             "elements": [
                 "botania:livingrock@0"
             ]
         },
         {
-            "x": 2,
+            "x": -2,
             "y": 2,
-            "z": 1,
+            "z": 5,
             "elements": [
                 "botania:livingrock@0"
             ]
@@ -76,17 +76,17 @@
             ]
         },
         {
-            "x": -1,
+            "x": 3,
             "y": 2,
-            "z": 5,
+            "z": 1,
             "elements": [
                 "botania:livingrock@0"
             ]
         },
         {
-            "x": 3,
+            "x": -1,
             "y": 2,
-            "z": 1,
+            "z": 5,
             "elements": [
                 "botania:livingrock@0"
             ]
@@ -300,14 +300,6 @@
             ]
         },
         {
-            "x": -3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "botania:livingrock@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 2,
             "z": 0,
@@ -316,7 +308,7 @@
             ]
         },
         {
-            "x": -2,
+            "x": -3,
             "y": 2,
             "z": 4,
             "elements": [
@@ -333,16 +325,16 @@
         },
         {
             "x": -2,
-            "y": 0,
-            "z": 3,
+            "y": 2,
+            "z": 4,
             "elements": [
                 "botania:livingrock@0"
             ]
         },
         {
-            "x": 3,
-            "y": 2,
-            "z": 0,
+            "x": -2,
+            "y": 0,
+            "z": 3,
             "elements": [
                 "botania:livingrock@0"
             ]
@@ -351,6 +343,14 @@
             "x": -1,
             "y": 2,
             "z": 4,
+            "elements": [
+                "botania:livingrock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
             "elements": [
                 "botania:livingrock@0"
             ]
@@ -536,7 +536,7 @@
             "y": 1,
             "z": 3,
             "elements": [
-                "botania:storage@3"
+                "modularmachinery:blockfluidinputhatch"
             ]
         },
         {
@@ -620,17 +620,17 @@
             ]
         },
         {
-            "x": 3,
+            "x": -2,
             "y": 2,
-            "z": -1,
+            "z": 3,
             "elements": [
                 "botania:livingrock@0"
             ]
         },
         {
-            "x": -2,
+            "x": 3,
             "y": 2,
-            "z": 3,
+            "z": -1,
             "elements": [
                 "botania:livingrock@0"
             ]
@@ -716,17 +716,17 @@
             ]
         },
         {
-            "x": -1,
+            "x": 2,
             "y": 2,
-            "z": -1,
+            "z": 3,
             "elements": [
                 "botania:livingrock@0"
             ]
         },
         {
-            "x": 2,
+            "x": -1,
             "y": 2,
-            "z": 3,
+            "z": -1,
             "elements": [
                 "botania:livingrock@0"
             ]

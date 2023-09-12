@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"If you want more fun, you can complete those challenges!"
+	],
+	dependencies: [
+		"b923427a"
+	],
+	tasks: [{
+		uid: "a9eb24a4",
+		type: "checkmark",
+		title: "Here's some Challenges!"
+	}]
+}

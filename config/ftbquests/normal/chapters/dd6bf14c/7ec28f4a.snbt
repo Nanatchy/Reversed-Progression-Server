@@ -1,0 +1,21 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	dependencies: [
+		"3f596f6a"
+	],
+	tasks: [{
+		uid: "78cfd077",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:gaiasteel_seeds"
+		}]
+	},
+	{
+		uid: "c3f28192",
+		type: "item",
+		items: [{
+			item: "botanicadds:gaiasteel_block"
+		}]
+	}]
+}

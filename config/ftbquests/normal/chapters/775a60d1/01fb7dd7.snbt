@@ -1,0 +1,24 @@
+{
+	title: "Are you a voodooist ?",
+	x: -1.0d,
+	y: -2.5d,
+	description: "From Skyfots",
+	text: [
+		"I don't know if it's forbidden, but I'd pretend I hadn't seen it."
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "0f2804ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tombstone:voodoo_poppet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Want some fuel ?",
+	x: 1.5d,
+	y: 1.5d,
+	description: "From Junglebos",
+	text: [
+		"I don't know what it's for, but you'll need 1,024 buckets, thanks!"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "ec4adc27",
+		type: "fluid",
+		fluid: "liquidfusionfuel",
+		amount: 1024
+	}]
+}

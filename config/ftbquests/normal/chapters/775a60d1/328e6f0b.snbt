@@ -1,0 +1,20 @@
+{
+	title: "Hexakosioihexekontahexaphobia",
+	x: -1.5d,
+	y: 0.0d,
+	description: "From Lysjeh",
+	text: [
+		"Yep, there is such a term. "
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "c30ffab6",
+		type: "item",
+		items: [{
+			item: "harvestcraft:turtlerawitem"
+		}],
+		count: 666L
+	}]
+}

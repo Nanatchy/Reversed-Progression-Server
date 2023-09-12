@@ -4,6 +4,7 @@ import mods.embers.Alchemy.add as alchemy;
 import mods.botania.PureDaisy.addRecipe as daisy;
 import mods.extendedcrafting.CompressionCrafting.addRecipe as compression;
 import mods.botania.ManaInfusion.addInfusion as pool;
+import mods.botania.RuneAltar.addRecipe as botania;
 
 //Variables
 var rock = <botania:livingrock>;
@@ -40,6 +41,9 @@ recipes.removeByRecipeName("botanicadds:mana_tesseract_bind");
 //Gaia Spirit
 compression(<botania:manaresource:5> * 2, <mysticalagradditions:stuff:69>, 10, <botanicadds:gaiasteel_ingot>, 500000, 1000);
 
+//Gaiasteel
+compression(<botanicadds:gaiasteel_ingot>, <mysticalcreations:gaiasteel_essence>, 32, <extendedcrafting:material:13>, 500000, 10000);
+
 //Mana String
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:16>);
 pool(<botania:manaresource:16>, <mysticalagriculture:crafting:23>, 250);
@@ -70,3 +74,6 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <thermalfoundation
 //Manasteel block
 mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
 mods.botania.ManaInfusion.addInfusion(<botania:storage>, <thermalfoundation:storage_alloy>, 5400);
+
+//Overgrowth seed
+botania(<botania:overgrowthseed>, [<botania:rune>, <botania:rune:1>, <botania:rune:2>, <botania:rune:3>, <botania:rune:4>, <botania:rune:5>, <botania:rune:6>, <botania:rune:7>, <botania:rune:8>], 50000);

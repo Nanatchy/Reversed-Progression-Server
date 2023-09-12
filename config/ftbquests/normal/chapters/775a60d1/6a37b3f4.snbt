@@ -1,0 +1,24 @@
+{
+	title: "From the end",
+	icon: "avaritia:resource 1 6",
+	x: -1.0d,
+	y: 2.5d,
+	description: "From FlavG_",
+	text: [
+		"If you drop an Infinity Ingot into Primal Mana, an amazing thing will happen!"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "935c803f",
+		type: "checkmark"
+	},
+	{
+		uid: "36943aa2",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}]
+}

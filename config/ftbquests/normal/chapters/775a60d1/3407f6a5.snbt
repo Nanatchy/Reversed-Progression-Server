@@ -1,0 +1,24 @@
+{
+	title: "That's some energy storage!",
+	x: 0.0d,
+	y: 1.5d,
+	description: "From Gregsoul",
+	text: [
+		"I think you can store at least 1 RF with so many Induction Cell ? But maybe I'm wrong!"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "bad7c6be",
+		type: "item",
+		items: [{
+			id: "mekanism:basicblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 3s
+		}],
+		count: 100L
+	}]
+}

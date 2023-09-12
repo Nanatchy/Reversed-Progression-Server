@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"3f596f6a"
+	],
+	tasks: [{
+		uid: "84788f9c",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:chaotic_seeds"
+		}]
+	},
+	{
+		uid: "5e22589a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 3"
+		}]
+	}]
+}

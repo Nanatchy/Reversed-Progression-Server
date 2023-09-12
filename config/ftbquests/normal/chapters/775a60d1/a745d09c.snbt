@@ -1,0 +1,69 @@
+{
+	title: "Cheesy situation",
+	x: 1.0d,
+	y: -2.5d,
+	description: "From Valx",
+	text: [
+		"It's not Rats!",
+		"",
+		"(It's a Cache full of cheese from HarvestCraft)"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "0c25d249",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6113229952205348883L,
+					AS_Amulet_HolderMost: 7563829739945347922L
+				}
+			},
+			id: "thermalexpansion:cache",
+			tag: {
+				RSControl: 0b,
+				Item: {
+					id: 8848s,
+					Count: 20000,
+					Damage: 0s
+				},
+				Creative: 0b,
+				BlockEntityTag: {
+					EnableOut: 0b,
+					RS: {
+						Mode: 0b,
+						Level: 0b,
+						Power: 0b
+					},
+					Owner: "[None]",
+					Facing: 4b,
+					Access: 0b,
+					Lock: 1b,
+					OwnerUUID: "1ef1a6f0-87bc-4e78-0a0b-c6824eb787ea",
+					Item: {
+						id: "harvestcraft:cheeseitem",
+						Count: 1b,
+						Damage: 0s
+					},
+					StoredCount: 20000,
+					Active: 0b,
+					Creative: 0b,
+					EnableIn: 0b,
+					Version: "5.5.7",
+					Level: 0b,
+					EncHolding: 0s,
+					id: "thermalexpansion:storage_cache"
+				},
+				display: {
+					Lore: [
+						"(+NBT)"
+					]
+				},
+				Level: 0b,
+				Lock: 1b
+			}
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "A bloody challenge!",
+	x: 1.0d,
+	y: 2.5d,
+	description: "From Hegary",
+	text: [
+		"So many witches have died for it."
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "732dc9c4",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 4"
+		}],
+		count: 10000L
+	}]
+}

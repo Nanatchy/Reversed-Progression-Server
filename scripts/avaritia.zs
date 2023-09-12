@@ -20,7 +20,7 @@ recipes.remove(<avaritia:singularity:14>);
 
 //Neutron Collector
 recipes.remove(<avaritia:neutron_collector>);
-mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:neutron_collector>, [
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:neutron_collector> * 2, [
 	[<ore:blockEvilMetal>, <ore:blockEvilMetal>, <botania:quartztypemana>, <botania:quartztypemana>, <botania:quartztypemana>, <botania:quartztypemana>, <botania:quartztypemana>, <ore:blockEvilMetal>, <ore:blockEvilMetal>], 
 	[<ore:blockEvilMetal>, null, <botania:quartztypemana>, <botania:quartztypemana>, <botania:quartztypemana>, <botania:quartztypemana>, <botania:quartztypemana>, null, <ore:blockEvilMetal>], 
 	[<ore:blockEvilMetal>, null, null, <ore:blockRedstoneAlloy>, <ore:blockRedstoneAlloy>, <ore:blockRedstoneAlloy>, null, null, <ore:blockEvilMetal>], 

@@ -95,3 +95,8 @@ moltenMithril.register();
 //Liquid Mana
 var liquidMana = VanillaFactory.createFluid("liquid_mana", Color.fromHex('43cfdc'));
 liquidMana.register();
+
+//Rainbow Dye
+/*var rainbowDye = VanillaFactory.createFluid("rainbow_dye", Color.fromHex('FE0303'));
+rainbowDye.stillLocation = ('contenttweaker:blocks/fluids/rainbow_dye');
+rainbowDye.register();*/

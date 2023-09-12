@@ -1,0 +1,20 @@
+{
+	title: "Some pressure",
+	x: 0.0d,
+	y: -3.0d,
+	description: "From DrimoZ",
+	text: [
+		"All that pressure that could have been used for something else."
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "d774f1b7",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 35"
+		}],
+		count: 888L
+	}]
+}

@@ -17,15 +17,15 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -45,
-            "posY" : -30,
+            "posX" : -150,
+            "posY" : -20,
             "width" : 90,
             "height" : 20,
             "imageHeight" : 10,
             "alignment" : "center",
-            "normalTextColor" : 349027,
-            "hoverTextColor" : 11405124,
-            "texture":"cmmenu:textures/menu/reversed_button.png",
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 8573639,
+            "texture":"cmmenu:textures/menu/Reversed_opaque.png",
             "shadow" : false,
             "action" : 
             {
@@ -37,16 +37,16 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -45,
-            "posY" : 0,
+            "posX" : -50,
+            "posY" : -20,
             "width" : 90,
             "height" : 20,
             "imageHeight" : 10,
             "alignment" : "center",
-            "normalTextColor" : 349027,
-            "hoverTextColor" : 11405124,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 8573639,
             "shadow" : false,
-            "texture":"cmmenu:textures/menu/reversed_button.png",
+            "texture":"cmmenu:textures/menu/Reversed_opaque.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -57,16 +57,16 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -45,
-            "posY" : 30,
+            "posX" : -150,
+            "posY" : 10,
             "width" : 90,
             "height" : 20,
             "imageHeight" : 10,
             "alignment" : "center",
-            "normalTextColor" : 349027,
-            "hoverTextColor" : 11405124,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 8573639,
             "shadow" : false,
-            "texture":"cmmenu:textures/menu/reversed_button.png",
+            "texture":"cmmenu:textures/menu/Reversed_opaque.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -77,16 +77,16 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -45,
-            "posY" : 60,
+            "posX" : 50,
+            "posY" : -20,
             "width" : 90,
             "height" : 20,
             "imageHeight" : 10,
             "alignment" : "center",
-            "normalTextColor" : 349027,
-            "hoverTextColor" : 11405124,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 8573639,
             "shadow" : false,
-            "texture":"cmmenu:textures/menu/reversed_button.png",
+            "texture":"cmmenu:textures/menu/Reversed_opaque.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -97,16 +97,16 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : -45,
-            "posY" : 90,
+            "posX" : -50,
+            "posY" : 10,
             "width" : 90,
             "height" : 20,
             "imageHeight" : 10,
             "alignment" : "center",
-            "normalTextColor" : 349027,
-            "hoverTextColor" : 11405124,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 8573639,
             "shadow" : false,
-            "texture":"cmmenu:textures/menu/reversed_button.png",
+            "texture":"cmmenu:textures/menu/Reversed_opaque.png",
             "action" : 
             {
                 "type" : "quit"
@@ -116,16 +116,16 @@
         "discord":
         {
             "text" : "Discord",
-            "posX" : 150,
-            "posY" : 127,
+            "posX" : 50,
+            "posY" : 10,
             "width" : 90,
             "height" : 20,
             "imageHeight" : 10,
             "alignment" : "center",
-            "normalTextColor" : 349027,
-            "hoverTextColor" : 11405124,
+            "normalTextColor" : 16777215,
+            "hoverTextColor" : 8573639,
             "shadow" : false,
-            "texture":"cmmenu:textures/menu/reversed_button.png",
+            "texture":"cmmenu:textures/menu/Reversed_opaque.png",
             "action" : 
             {
                 "type" : "openLink",
@@ -156,7 +156,6 @@
             "height" : 20,
             "imageHeight" : 10,
             "tooltip" : "Refreshing GUI",
-            "texture" : "cmmenu:textures/menu/reversed_button.png",
             "action" : 
             {
                 "type" : "refresh"
@@ -201,7 +200,9 @@
                     "cmmenu:textures/gui/background_02.png",
                     "cmmenu:textures/gui/background_03.png",
                     "cmmenu:textures/gui/background_04.png",
-                    "cmmenu:textures/gui/background_05.png"
+                    "cmmenu:textures/gui/background_05.png",
+                    "cmmenu:textures/gui/background_06.png",
+                    "cmmenu:textures/gui/background_07.png"
                 ],
                 "displayDuration" : 75,
                 "fadeDuration" : 40

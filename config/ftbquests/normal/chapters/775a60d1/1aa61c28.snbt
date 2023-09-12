@@ -1,0 +1,24 @@
+{
+	title: "Do you have that many friends?",
+	x: -1.5d,
+	y: -1.5d,
+	description: "From Patate",
+	text: [
+		"I hope you have enough room on your island to invite so many people!"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "7282633e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:bed"
+		}],
+		count: 1000L,
+		ignore_nbt: 1b
+	}]
+}

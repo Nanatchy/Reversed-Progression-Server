@@ -108,6 +108,24 @@
     },
 
 
+    {
+        "mode" : "ADD",
+        "result" : "mysticalcreations:gaiasteel_seeds",
+        "catalyst" : "mysticalagradditions:insanium,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "botanicadds:gaiasteel_block",
+            "botanicadds:gaiasteel_block",
+            "botanicadds:gaiasteel_block",
+            "botanicadds:gaiasteel_block",
+            "botanicadds:gaiasteel_block",
+            "botanicadds:gaiasteel_block",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
 
     {
         "mode" : "ADD",
@@ -434,6 +452,62 @@
             "projectex:collector,1,12",
             "projectex:collector,1,13",
             "projectex:collector,1,14"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "projecte:item.pe_tome",
+        "catalyst" : "avaritia:resource,1,6",
+        "energy" : 100000000,
+        "tier" : 3,
+        "ingredients" : [
+            "projectex:final_star",
+            "projectex:compressed_collector,1,15",
+            "projectex:relay,1,15",
+            "projectex:power_flower,1,15"
+        ]
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "mysticalcreations:chaotic_seeds",
+        "catalyst" : "mysticalagradditions:insanium,1,1",
+        "energy" : 50000,
+        "tier" : 3,
+        "ingredients" : [
+            "draconicevolution:chaos_shard",
+            "draconicevolution:chaos_shard",
+            "draconicevolution:chaos_shard",
+            "draconicevolution:chaos_shard",
+            "draconicevolution:chaos_shard",
+            "draconicevolution:chaos_shard",
+            "mysticalagradditions:insanium,1,2",
+            "mysticalagradditions:insanium,1,2"
+        ]
+    },
+
+    {
+        "mode" : "REMOVE",
+        "result" : "solarflux:solar_panel_chaotic,4",
+        "catalyst" : "draconicevolution:chaotic_core"
+    },
+
+    {
+        "mode" : "ADD",
+        "result" : "solarflux:solar_panel_chaotic,2",
+        "catalyst" : "draconicevolution:chaotic_core",
+        "energy" : 256000000,
+        "tier" : 3,
+        "ingredients" : [
+            "solarflux:solar_panel_draconic",
+            "solarflux:solar_panel_draconic",
+            "solarflux:solar_panel_draconic",
+            "solarflux:solar_panel_draconic",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core"
         ]
     }
 ]

@@ -305,3 +305,11 @@ recipes.remove(<excompressum:compressed_block:2>);
 
 //ExCompressum Compressed Sand
 recipes.remove(<excompressum:compressed_block:3>);
+
+/* ExCompressum Heavy Sieves */
+recipes.remove(<excompressum:heavy_sieve>);
+recipes.remove(<excompressum:heavy_sieve:1>);
+recipes.remove(<excompressum:heavy_sieve:2>);
+recipes.remove(<excompressum:heavy_sieve:3>);
+recipes.remove(<excompressum:heavy_sieve:4>);
+recipes.remove(<excompressum:heavy_sieve:5>);

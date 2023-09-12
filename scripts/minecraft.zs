@@ -1,3 +1,5 @@
+import mods.inworldcrafting.FluidToItem.transform as fluid2item;
+
 //Sandstone to Cobble
 recipes.removeByRecipeName("simplerecipes:cobblestone_sandstone");
 
@@ -203,3 +205,7 @@ recipes.remove(<twilightforest:uncrafting_table>);
 
 //Toast
 furnace.addRecipe(<harvestcraft:toastitem>, <minecraft:bread>);
+
+//Stone Pebble
+<contenttweaker:pebble>.displayName = "You want to restart ?";
+fluid2item(<contenttweaker:pebble>, <liquid:mana>, [<avaritia:resource:6>]);

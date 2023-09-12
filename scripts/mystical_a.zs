@@ -249,6 +249,8 @@ botania(<mysticalagriculture:cow_seeds>, [<mysticalagriculture:chunk:9>, <mystic
 recipes.remove(<mysticalagriculture:mystical_flower_seeds>);
 botania(<mysticalagriculture:mystical_flower_seeds>, [<mysticalagriculture:crafting:10>, <mysticalagriculture:crafting:10>, <mysticalagriculture:crafting:10>, <mysticalagriculture:crafting:10>, t2CraftSeed, manaIngot], 2000);
 
+//Cake seed
+botania(<mysticalcreations:cake_seeds>, [<harvestcraft:carrotcakeitem>, <harvestcraft:cheesecakeitem>, <harvestcraft:cherrycheesecakeitem>, <harvestcraft:chocolatesprinklecakeitem>, t2CraftSeed, manaIngot], 2000);
 
 
 /* Seeds Tier 3 */
@@ -699,6 +701,8 @@ blood(<mysticalagriculture:fiery_ingot_seeds>, [t4CraftSeed, <ore:ingotFiery>, <
 recipes.remove(<mysticalagriculture:compressed_iron_seeds>);
 blood(<mysticalagriculture:compressed_iron_seeds>, [t4CraftSeed, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>, <ore:ingotIronCompressed>, superIngot], 2000, 50, 0);
 
+//Witch seed
+blood(<mysticalcreations:witch_seeds>, [t4CraftSeed, <mysticalcreations:witch_chunk>, <mysticalcreations:witch_chunk>, <mysticalcreations:witch_chunk>, <mysticalcreations:witch_chunk>, superIngot], 2000, 50, 0);
 
 
 /* Seeds Tier 5 */
@@ -958,7 +962,7 @@ recipes.addShaped(<mysticaladaptations:insanium_furnace>, [
 //Ultimate
 recipes.remove(<mysticalagriculture:ultimate_furnace>);
 recipes.addShaped(<mysticalagriculture:ultimate_furnace>, [
-    [<mysticalagriculture:wither_skeleton_essence>, <projectex:colossal_star_omega>.withTag({}), <mysticalagriculture:wither_skeleton_essence>],
+    [<mysticalagriculture:wither_skeleton_essence>, <projecte:item.pe_klein_star:5>.withTag({}), <mysticalagriculture:wither_skeleton_essence>],
     [insIngotBlock, <mysticaladaptations:insanium_furnace>, insIngotBlock],
     [<mysticalagriculture:wither_skeleton_essence>, insIngotBlock, <mysticalagriculture:wither_skeleton_essence>]
 ]);
@@ -1030,7 +1034,7 @@ recipes.addShaped(<mysticalagriculture:ultimate_reprocessor>, [
 ]);
 
 //Creative Essence
-recipes.addShaped(<mysticalagradditions:stuff:69> * 2, [
+recipes.addShaped(<mysticalagradditions:stuff:69> * 8, [
     [<mysticalagriculture:storage>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:2>],
     [<minecraft:bedrock>, <minecraft:bedrock>, <minecraft:bedrock>],
     [<mysticalagradditions:storage>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>]
@@ -1078,4 +1082,41 @@ recipes.addShaped(insIngot * 9, [
 //Base
 recipes.addShaped(baseIngot * 9, [
     [baseIngotBlock]
+]);
+
+/* Other essences */
+//Cake
+recipes.addShaped(<minecraft:cake>, [
+    [<mysticalcreations:cake_essence>, <mysticalcreations:cake_essence>, <mysticalcreations:cake_essence>],
+    [<mysticalcreations:cake_essence>, null, <mysticalcreations:cake_essence>],
+    [<mysticalcreations:cake_essence>, <mysticalcreations:cake_essence>, <mysticalcreations:cake_essence>]
+]);
+
+//Witch
+//Glass Bottle
+recipes.addShaped(<minecraft:glass_bottle> * 2, [
+    [<mysticalcreations:witch_essence>, <mysticalcreations:witch_essence>, <mysticalcreations:witch_essence>],
+    [null, null, null],
+    [null, null, null]
+]);
+
+//Redstone
+recipes.addShaped(<minecraft:redstone> * 6, [
+    [null, null, null],
+    [<mysticalcreations:witch_essence>, <mysticalcreations:witch_essence>, <mysticalcreations:witch_essence>],
+    [null, null, null]
+]);
+
+//Glowstone
+recipes.addShaped(<minecraft:glowstone_dust> * 6, [
+    [null, null, null],
+    [null, null, null],
+    [<mysticalcreations:witch_essence>, <mysticalcreations:witch_essence>, <mysticalcreations:witch_essence>]
+]);
+
+//Sugar
+recipes.addShaped(<minecraft:sugar> * 8, [
+    [null, null, <mysticalcreations:witch_essence>],
+    [null, <mysticalcreations:witch_essence>, null],
+    [<mysticalcreations:witch_essence>, null, null]
 ]);

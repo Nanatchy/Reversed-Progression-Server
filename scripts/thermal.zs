@@ -962,3 +962,6 @@ recipes.addShaped(<thermalfoundation:material:1028>, [
     [<thermalfoundation:material:1024>, <thermalfoundation:material:1025>],
     [<thermalfoundation:material:1026>, <thermalfoundation:material:1027>]
 ]);
+
+//Primal Mana
+mods.thermalexpansion.Crucible.addRecipe(<liquid:mana> * 10, <thermalfoundation:material:1028>, 10000);

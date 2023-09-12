@@ -78,7 +78,7 @@
     },
     {
       "item": "draconicevolution:chaos_shard|1",
-      "emc": 100000000000000
+      "emc": 0
     },
     {
       "item": "thermalfoundation:storage_alloy|0",
@@ -107,6 +107,18 @@
     {
       "item": "projecte:condenser_mk2|0",
       "emc": 1500000000
+    },
+    {
+      "item": "draconicevolution:chaos_shard|0",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:chaos_shard|3",
+      "emc": 0
+    },
+    {
+      "item": "draconicevolution:chaos_shard|2",
+      "emc": 0
     }
   ]
 }

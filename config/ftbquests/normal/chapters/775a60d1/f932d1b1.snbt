@@ -1,0 +1,19 @@
+{
+	title: "What an appetite!",
+	x: 1.5d,
+	y: 0.0d,
+	description: "From TonTon_AsoX",
+	text: [
+		"The challenge is not to have the book, it's (simply) to complete it by eating all the possible foods. That's just 1,198 different foods!"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "7dd49fd3",
+		type: "item",
+		items: [{
+			item: "solcarrot:food_book"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "All those Gaia Spirits!",
+	x: -1.5d,
+	y: 1.5d,
+	description: "From Atom",
+	text: [
+		"I hope you've prepared enough Terrasteel!"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "c0127e68",
+		type: "kill",
+		entity: "botania:doppleganger",
+		value: 50L
+	}]
+}

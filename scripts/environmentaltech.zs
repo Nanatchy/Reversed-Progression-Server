@@ -142,7 +142,7 @@ recipes.addShaped(<environmentaltech:void_ore_miner_cont_1>, [
 recipes.remove(<environmentaltech:void_ore_miner_cont_2>);
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_2>, [
     [<ore:blockErodium>, <actuallyadditions:block_crystal:2>, <ore:blockErodium>],
-    [<botania:storage:2>, <environmentaltech:void_ore_miner_cont_1>.withTag({}), <botania:storage:2>],
+    [<botania:storage:2>, <environmentaltech:void_ore_miner_cont_1>, <botania:storage:2>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -150,7 +150,7 @@ recipes.addShaped(<environmentaltech:void_ore_miner_cont_2>, [
 recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_3>, [
     [<ore:blockKyronite>, <actuallyadditions:block_crystal:2>, <ore:blockKyronite>],
-    [<botania:storage:2>, <environmentaltech:void_ore_miner_cont_2>.withTag({}), <botania:storage:2>],
+    [<botania:storage:2>, <environmentaltech:void_ore_miner_cont_2>, <botania:storage:2>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -158,7 +158,7 @@ recipes.addShaped(<environmentaltech:void_ore_miner_cont_3>, [
 recipes.remove(<environmentaltech:void_ore_miner_cont_4>);
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_4>, [
     [<ore:blockPladium>, <actuallyadditions:block_crystal_empowered:2>, <ore:blockPladium>],
-    [<botania:storage:1>, <environmentaltech:void_ore_miner_cont_3>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_ore_miner_cont_3>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -166,7 +166,7 @@ recipes.addShaped(<environmentaltech:void_ore_miner_cont_4>, [
 recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_5>, [
     [<ore:blockIonite>, <actuallyadditions:block_crystal_empowered:2>, <ore:blockIonite>],
-    [<botania:storage:1>, <environmentaltech:void_ore_miner_cont_4>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_ore_miner_cont_4>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -174,7 +174,7 @@ recipes.addShaped(<environmentaltech:void_ore_miner_cont_5>, [
 recipes.remove(<environmentaltech:void_ore_miner_cont_6>);
 recipes.addShaped(<environmentaltech:void_ore_miner_cont_6>, [
     [<ore:blockAethium>, <actuallyadditions:block_crystal_empowered:2>, <ore:blockAethium>],
-    [<botania:storage:1>, <environmentaltech:void_ore_miner_cont_5>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_ore_miner_cont_5>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -191,7 +191,7 @@ recipes.addShaped(<environmentaltech:void_res_miner_cont_1>, [
 recipes.remove(<environmentaltech:void_res_miner_cont_2>);
 recipes.addShaped(<environmentaltech:void_res_miner_cont_2>, [
     [<ore:blockErodium>, <mekanism:basicblock:2>, <ore:blockErodium>],
-    [<botania:storage:2>, <environmentaltech:void_res_miner_cont_1>.withTag({}), <botania:storage:2>],
+    [<botania:storage:2>, <environmentaltech:void_res_miner_cont_1>, <botania:storage:2>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -199,7 +199,7 @@ recipes.addShaped(<environmentaltech:void_res_miner_cont_2>, [
 recipes.remove(<environmentaltech:void_res_miner_cont_3>);
 recipes.addShaped(<environmentaltech:void_res_miner_cont_3>, [
     [<ore:blockKyronite>, <mekanism:basicblock:2>, <ore:blockKyronite>],
-    [<botania:storage:2>, <environmentaltech:void_res_miner_cont_2>.withTag({}), <botania:storage:2>],
+    [<botania:storage:2>, <environmentaltech:void_res_miner_cont_2>, <botania:storage:2>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -207,7 +207,7 @@ recipes.addShaped(<environmentaltech:void_res_miner_cont_3>, [
 recipes.remove(<environmentaltech:void_res_miner_cont_4>);
 recipes.addShaped(<environmentaltech:void_res_miner_cont_4>, [
     [<ore:blockPladium>, <mekanism:basicblock:2>, <ore:blockPladium>],
-    [<botania:storage:1>, <environmentaltech:void_res_miner_cont_3>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_res_miner_cont_3>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -215,7 +215,7 @@ recipes.addShaped(<environmentaltech:void_res_miner_cont_4>, [
 recipes.remove(<environmentaltech:void_res_miner_cont_5>);
 recipes.addShaped(<environmentaltech:void_res_miner_cont_5>, [
     [<ore:blockIonite>, <mekanism:basicblock:2>, <ore:blockIonite>],
-    [<botania:storage:1>, <environmentaltech:void_res_miner_cont_4>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_res_miner_cont_4>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -223,7 +223,7 @@ recipes.addShaped(<environmentaltech:void_res_miner_cont_5>, [
 recipes.remove(<environmentaltech:void_res_miner_cont_6>);
 recipes.addShaped(<environmentaltech:void_res_miner_cont_6>, [
     [<ore:blockAethium>, <mekanism:basicblock:2>, <ore:blockAethium>],
-    [<botania:storage:1>, <environmentaltech:void_res_miner_cont_5>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_res_miner_cont_5>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -240,7 +240,7 @@ recipes.addShaped(<environmentaltech:void_botanic_miner_cont_1>, [
 recipes.remove(<environmentaltech:void_botanic_miner_cont_2>);
 recipes.addShaped(<environmentaltech:void_botanic_miner_cont_2>, [
     [<ore:blockErodium>, <botania:specialflower>.withTag({type: "puredaisy"}), <ore:blockErodium>],
-    [<botania:storage:2>, <environmentaltech:void_botanic_miner_cont_1>.withTag({}), <botania:storage:2>],
+    [<botania:storage:2>, <environmentaltech:void_botanic_miner_cont_1>, <botania:storage:2>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -248,7 +248,7 @@ recipes.addShaped(<environmentaltech:void_botanic_miner_cont_2>, [
 recipes.remove(<environmentaltech:void_botanic_miner_cont_3>);
 recipes.addShaped(<environmentaltech:void_botanic_miner_cont_3>, [
     [<ore:blockKyronite>, <botania:specialflower>.withTag({type: "puredaisy"}), <ore:blockKyronite>],
-    [<botania:storage:2>, <environmentaltech:void_botanic_miner_cont_2>.withTag({}), <botania:storage:2>],
+    [<botania:storage:2>, <environmentaltech:void_botanic_miner_cont_2>, <botania:storage:2>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -256,7 +256,7 @@ recipes.addShaped(<environmentaltech:void_botanic_miner_cont_3>, [
 recipes.remove(<environmentaltech:void_botanic_miner_cont_4>);
 recipes.addShaped(<environmentaltech:void_botanic_miner_cont_4>, [
     [<ore:blockPladium>, <botania:specialflower>.withTag({type: "puredaisy"}), <ore:blockPladium>],
-    [<botania:storage:1>, <environmentaltech:void_botanic_miner_cont_3>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_botanic_miner_cont_3>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -264,7 +264,7 @@ recipes.addShaped(<environmentaltech:void_botanic_miner_cont_4>, [
 recipes.remove(<environmentaltech:void_botanic_miner_cont_5>);
 recipes.addShaped(<environmentaltech:void_botanic_miner_cont_5>, [
     [<ore:blockIonite>, <botania:specialflower>.withTag({type: "puredaisy"}), <ore:blockIonite>],
-    [<botania:storage:1>, <environmentaltech:void_botanic_miner_cont_4>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_botanic_miner_cont_4>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 
@@ -272,7 +272,7 @@ recipes.addShaped(<environmentaltech:void_botanic_miner_cont_5>, [
 recipes.remove(<environmentaltech:void_botanic_miner_cont_6>);
 recipes.addShaped(<environmentaltech:void_botanic_miner_cont_6>, [
     [<ore:blockAethium>, <botania:specialflower>.withTag({type: "puredaisy"}), <ore:blockAethium>],
-    [<botania:storage:1>, <environmentaltech:void_botanic_miner_cont_5>.withTag({}), <botania:storage:1>],
+    [<botania:storage:1>, <environmentaltech:void_botanic_miner_cont_5>, <botania:storage:1>],
     [<environmentaltech:interconnect>, <ore:etLaserLens>, <environmentaltech:interconnect>]
 ]);
 

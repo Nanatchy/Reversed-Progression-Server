@@ -1,0 +1,21 @@
+{
+	title: "Why?",
+	x: 0.0d,
+	y: -1.5d,
+	description: "From Nyakuzo_Nanatchy",
+	text: [
+		"Yep, it's a challenge."
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "5aa226c5",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks"
+		}],
+		count: 4000L,
+		consume_items: false
+	}]
+}

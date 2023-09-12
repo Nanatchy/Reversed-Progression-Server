@@ -34,7 +34,7 @@
 		items: [{
 			item: "botania:storage 1 3"
 		}],
-		count: 9L
+		count: 8L
 	},
 	{
 		uid: "87b0d058",

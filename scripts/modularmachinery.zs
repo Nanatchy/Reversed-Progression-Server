@@ -304,7 +304,7 @@ redstoneConduit.build();
 recipes.remove(<enderio:item_material>);
 machineChassis.addEnergyPerTickInput(1000);
 machineChassis.addItemInput(<botanicadds:gaiasteel_ingot>);
-machineChassis.addFluidInput(<liquid:liquid_mana> * 20000);
+machineChassis.addFluidInput(<liquid:liquid_mana> * 1000);
 machineChassis.addItemInput(<enderio:item_material:20> * 2);
 machineChassis.addItemInput(<minecraft:iron_ingot> * 4);
 machineChassis.addItemInput(<thermalexpansion:frame>);

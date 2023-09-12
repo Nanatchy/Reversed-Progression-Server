@@ -53,7 +53,7 @@ recipes.addShaped(<tp:emerald_cobblegen_block>, [
 recipes.remove(<tp:dragon_helmet>);
 recipes.addShaped(<tp:dragon_helmet>, [
     [null, null, null],
-    [<tp:dragon_scale>, <extendedcrafting:material:40>, <tp:dragon_scale>],
+    [<extendedcrafting:material:40>, <deepmoblearning:pristine_matter_dragon>, <extendedcrafting:material:40>],
     [<tp:dragon_scale>, null, <tp:dragon_scale>]
 ]);
 
@@ -61,14 +61,14 @@ recipes.addShaped(<tp:dragon_helmet>, [
 recipes.remove(<tp:dragon_chestplate>);
 recipes.addShaped(<tp:dragon_chestplate>, [
     [<tp:dragon_scale>, null, <tp:dragon_scale>],
-    [<tp:dragon_scale>, <extendedcrafting:material:40>, <tp:dragon_scale>],
-    [<tp:dragon_scale>, <tp:dragon_scale>, <tp:dragon_scale>]
+    [<tp:dragon_scale>, <deepmoblearning:pristine_matter_dragon>, <tp:dragon_scale>],
+    [<extendedcrafting:material:40>, <extendedcrafting:material:40>, <extendedcrafting:material:40>]
 ]);
 
 //Leggings
 recipes.remove(<tp:dragon_leggings>);
 recipes.addShaped(<tp:dragon_leggings>, [
-    [<tp:dragon_scale>, <extendedcrafting:material:40>, <tp:dragon_scale>],
+    [<extendedcrafting:material:40>, <deepmoblearning:pristine_matter_dragon>, <extendedcrafting:material:40>],
     [<tp:dragon_scale>, null, <tp:dragon_scale>],
     [<tp:dragon_scale>, null, <tp:dragon_scale>]
 ]);
@@ -77,7 +77,7 @@ recipes.addShaped(<tp:dragon_leggings>, [
 recipes.remove(<tp:dragon_boots>);
 recipes.addShaped(<tp:dragon_boots>, [
     [null, null, null],
-    [<extendedcrafting:material:40>, null, <extendedcrafting:material:40>],
+    [<deepmoblearning:pristine_matter_dragon>, null, <extendedcrafting:material:40>],
     [<tp:dragon_scale>, null, <tp:dragon_scale>]
 ]);
 

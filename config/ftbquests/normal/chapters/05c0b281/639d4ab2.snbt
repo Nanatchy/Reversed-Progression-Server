@@ -1,0 +1,14 @@
+{
+	x: 10.5d,
+	y: 0.5d,
+	dependencies: [
+		"88b37816"
+	],
+	tasks: [{
+		uid: "885997e0",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:witch_seeds"
+		}]
+	}]
+}

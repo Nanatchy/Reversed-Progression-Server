@@ -1,0 +1,14 @@
+{
+	x: 11.5d,
+	y: 0.0d,
+	dependencies: [
+		"fe4b2ebb"
+	],
+	tasks: [{
+		uid: "31b1d17f",
+		type: "item",
+		items: [{
+			item: "mysticalcreations:cake_seeds"
+		}]
+	}]
+}

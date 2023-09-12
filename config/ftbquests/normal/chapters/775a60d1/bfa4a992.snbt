@@ -1,0 +1,24 @@
+{
+	icon: "extrautils2:rainbowgenerator",
+	x: 1.5d,
+	y: -1.5d,
+	description: "From the Beast of Gévaudan",
+	text: [
+		"Successfully automate the rainbow generator"
+	],
+	dependencies: [
+		"1a4e9f95"
+	],
+	tasks: [{
+		uid: "db64c084",
+		type: "checkmark",
+		title: "What a Rainbow!"
+	},
+	{
+		uid: "4523ee5a",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolid 1 8"
+		}]
+	}]
+}

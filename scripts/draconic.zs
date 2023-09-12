@@ -1,3 +1,6 @@
+/* Import */
+import mods.extendedcrafting.CompressionCrafting.addRecipe as compression;
+
 /* Var */
 var basicCrafting = <draconicevolution:crafting_injector>;
 var draconicCore = <draconicevolution:draconic_core>;
@@ -33,3 +36,6 @@ recipes.addShaped(<draconicevolution:wyvern_core>, [
 recipes.removeByRecipeName("thermalfoundation:draconium_ingot");
 recipes.removeByRecipeName("thermalfoundation:draconium_ingot_1");
 recipes.removeByRecipeName("thermalfoundation:draconium_ingot_2");
+
+//Chaotic
+compression(<draconicevolution:chaos_shard:3>, <mysticalcreations:chaotic_essence>, 16, <extendedcrafting:material:13>, 500000, 10000);

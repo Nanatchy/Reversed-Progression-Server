@@ -153,6 +153,14 @@ mods.jei.JEI.removeAndHide(<twilightforest:twilight_oak_door>); //TwilightForest
 mods.jei.JEI.removeAndHide(<twilightforest:canopy_door>); //TwilightForest
 mods.jei.JEI.removeAndHide(<twilightforest:mangrove_door>); //TwilightForest
 mods.jei.JEI.removeAndHide(<twilightforest:dark_door>); //TwilightForest
+mods.jei.JEI.removeAndHide(<projecte:item.pe_time_watch>); //ProjectE Watch of Flowing Time
+
+mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve>); //ExCompressum Heavy Sieve
+mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:1>); //ExCompressum Heavy Sieve
+mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:2>); //ExCompressum Heavy Sieve
+mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:3>); //ExCompressum Heavy Sieve
+mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:4>); //ExCompressum Heavy Sieve
+mods.jei.JEI.removeAndHide(<excompressum:heavy_sieve:5>); //ExCompressum Heavy Sieve
 
 //Terrasteel
 mods.jei.JEI.addDescription(<botania:manaresource:4>,"Crafted on Terrestrial Agglomeration Plate, with Manasteel Ingot, Mana Diamond and Mana Pearl.");
